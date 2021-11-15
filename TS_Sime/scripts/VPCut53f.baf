@@ -1,0 +1,30 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("VPSime")
+		CreateCreatureObjectEffect("VAMPAMB","SPFLESHS","VPSime")
+		SetGlobal("VP_SimeVampire","GLOBAL",1)
+		Wait(1)
+		CreateVisualEffectObject("SPDISPMA",Myself)
+		DestroyItem("VPWFig")
+		DropInventory()
+		SetLeavePartyDialogFile()
+		ChangeAIScript("VAMPAMB",OVERRIDE)
+		ChangeAIScript("",DEFAULT)
+		DialogInterrupt(FALSE)
+		LeaveParty()
+		EndCutSceneMode()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("bodhiamb")
+		DialogInterrupt(FALSE)
+		CreateCreatureObject("VAMPIM01",Myself,0,0,0) // Vampire
+		CreateCreatureObject("VAMPIM01",Myself,0,0,0) // Vampire
+		CreateCreatureObject("VAMPIM01",Myself,0,0,0) // Vampire
+		CreateCreatureObject("VAMPIM01",Myself,0,0,0) // Vampire
+END

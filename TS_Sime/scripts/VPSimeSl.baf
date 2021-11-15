@@ -1,0 +1,18 @@
+IF
+	NumTimesTalkedTo(0)
+	!See([PC])
+THEN
+	RESPONSE #100
+		RandomWalk()
+END
+
+IF
+	NumTimesTalkedTo(0)
+	See([PC])
+THEN
+	RESPONSE #100
+		FaceObject(Player1)
+		StartDialogueNoSet(Player1)
+END
+
+

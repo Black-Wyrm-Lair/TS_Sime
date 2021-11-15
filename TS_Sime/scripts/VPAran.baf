@@ -1,0 +1,26 @@
+IF
+	Global("VP_Sime_Aran","GLOBAL",1)
+	NumTimesTalkedTo(0)
+	See("VPSime")
+THEN
+	RESPONSE #100
+		Dialogue("VPSime")
+END
+
+IF
+	Global("VP_Sime_Aran","GLOBAL",1)
+	NumTimesTalkedTo(0)
+	!See("VPSime")
+THEN
+	RESPONSE #100
+		MoveToObject("VPSime")
+		StartDialogueNoSet("VPSime")
+END
+
+IF
+	Global("VP_AranLeaves","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_AranLeaves","GLOBAL",2)
+		ReallyForceSpell(Myself,DRYAD_TELEPORT)
+END

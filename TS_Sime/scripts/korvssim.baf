@@ -1,0 +1,43 @@
+IF
+	See("VPSime")
+	!Dead("VPSime")
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	OR(2)
+		Dead("VPSime")
+		!Detect("VPSime")
+	CombatCounter(0)
+	!Allegiance(Myself,ENEMY)
+	Global("SimeKorganFight","GLOBAL",1)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("SimeKorganFight","GLOBAL",2)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	OR(2)
+		Dead("VPSime")
+		!Detect("VPSime")
+	CombatCounter(0)
+	Global("SimeKorganFight","GLOBAL",1)
+	!See([PC])
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+

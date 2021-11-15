@@ -1,0 +1,111 @@
+// Flirt 2
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+    !See([ENEMY])
+	RealGlobalTimerExpired("VP_SimeFlirtTimer","GLOBAL")
+	Global("VP_SimeFlirt","GLOBAL",4)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)	
+END
+
+// Romance
+
+IF
+    InParty(Myself)
+	See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+	RealGlobalTimerExpired("VP_SimeRomanceTimer","GLOBAL")
+	OR(2)
+		Global("VP_SimeRomanceActive","GLOBAL",1)
+		Global("VP_SimeRomanceActive","GLOBAL",2)
+	Global("VPSimeRomanceStart","GLOBAL",1)
+	CombatCounter(0)
+	!See([ENEMY])
+	OR(5)
+		Global("VP_SimeLoveTalk","GLOBAL",3)
+		Global("VP_SimeLoveTalk","GLOBAL",13)
+		Global("VP_SimeLoveTalk","GLOBAL",15)
+		Global("VP_SimeLoveTalk","GLOBAL",27)
+		Global("VP_SimeLoveTalk","GLOBAL",33)
+THEN
+	RESPONSE #100
+		IncrementGlobal("VP_SimeLoveTalk","GLOBAL",1)
+		PlaySong(0)
+		PlaySound("VPSIMELS")
+		StartDialogueNoSet(Player1)
+END
+
+IF
+    InParty(Myself)
+	See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+	RealGlobalTimerExpired("VP_SimeRomanceTimer","GLOBAL")
+	OR(2)
+		Global("VP_SimeRomanceActive","GLOBAL",1)
+		Global("VP_SimeRomanceActive","GLOBAL",2)
+	Global("VPSimeRomanceStart","GLOBAL",1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	Global("VP_SimeLoveTalk","GLOBAL",21)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_SimeLoveTalk","GLOBAL",22)
+		PlaySong(0)
+		PlaySound("VPSIMELS")
+		StartDialogueNoSet(Player1)
+END
+
+IF
+    InParty(Myself)
+	See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+	RealGlobalTimerExpired("VP_SimeRomanceTimer","GLOBAL")
+	OR(2)
+		Global("VP_SimeRomanceActive","GLOBAL",1)
+		Global("VP_SimeRomanceActive","GLOBAL",2)
+	Global("VPSimeRomanceStart","GLOBAL",1)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("VP_Sime_DreamIsland","GLOBAL",0)
+	Global("VP_SimeLoveTalk","GLOBAL",35)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_SimeLoveTalk","GLOBAL",36)
+		PlaySong(0)
+		PlaySound("VPSIMELS")
+		StartDialogueNoSet(Player1)
+END
+
+// Viconia Romance Stopper
+
+IF
+	InParty(Myself)
+	InParty("Viconia")
+	See(Player1)	
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck("Viconia",CD_STATE_NOTVALID)
+	!Dead("Viconia")
+	!AreaCheck("AR1300")
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("VPSimeRomanceActive","GLOBAL",2)
+	Global("VP_Sime_vs_Viconia","GLOBAL",0)
+	OR(2)
+		Global("ViconiaRomanceActive","GLOBAL",1)
+		Global("ViconiaRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Sime_vs_Viconia","GLOBAL",1)
+		StartDialogueNoSet("Viconia")
+END

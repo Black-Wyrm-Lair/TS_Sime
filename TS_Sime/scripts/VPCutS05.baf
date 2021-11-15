@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("VPSime")
+		SmallWait(5)
+		CreateCreatureObjectDoor("VPSol","VPSime",0,0,0)
+		CreateCreatureObjectDoor("VPSola","VPSime",0,0,0)
+		CreateCreatureObjectDoor("VPSolauf","VPSime",0,0,0)
+		Wait(6)
+		CutSceneId("VPSol")
+		ActionOverride("VPSol",MoveToObjectNoInterrupt("VPSime"))
+		EndCutSceneMode()
+END

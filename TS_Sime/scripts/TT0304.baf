@@ -1,0 +1,25 @@
+IF
+	Global("VP_Sime_Dragon","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Sime_Dragon","GLOBAL",2)
+		CreateCreature("VPChrDra",[852.709],0)
+		CreateCreature("VPMaid1",[1019.249],0)
+		CreateCreature("VPMaid2",[1190.835],1)
+		CreateCreature("VPMaid3",[782.1227],0)
+		CreateCreature("VPMaid4",[856.1200],2)
+		CreateCreature("VPMaid5",[935.1254],0)
+END
+
+IF
+	Global("SPRITE_IS_DEADVPChrDra","GLOBAL",1)
+	Global("VP_Sime_Dragon","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Sime_Dragon","GLOBAL",3)
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("VPCutS04")
+END
+
+

@@ -1,0 +1,33 @@
+IF
+	See("VPSime")
+	Global("VP_Sol_Speak_Sime","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet("VPSime")
+END
+
+IF
+	AttackedBy([PC],DEFAULT)
+THEN
+	RESPONSE #100
+		ForceSpell([PC],VAMPIRE_DOMINATION)
+		AttackReevaluate(NearestEnemyOf(Myself),75)
+END
+
+IF
+	See([PC])
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ForceSpell([PC],VAMPIRE_DOMINATION)
+		AttackReevaluate(NearestEnemyOf(Myself),75)
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_GAS_FORM_CHANGE)
+END
+
+

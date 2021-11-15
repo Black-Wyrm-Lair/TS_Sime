@@ -1,0 +1,7 @@
+IF
+	Global("VP_SimeVampire","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_SimeVampire","GLOBAL",2)
+		CreateCreature("VPSimeVa",[1473.332],2)
+END

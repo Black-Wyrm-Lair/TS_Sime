@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		StorePartyLocations()
+		Wait(1)
+		FadeToColor([20.0],0)
+		DayNight(NOON)
+		LeaveAreaLUAPanic("TT0010","",[1014.264],6)
+		LeaveAreaLUA("TT0010","",[1014.264],6)
+		MultiPlayerSync()
+		MoveViewPoint([1014.264],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		CreateCreature("VPSimeDr",[264.356],12)
+		EndCutSceneMode()
+END

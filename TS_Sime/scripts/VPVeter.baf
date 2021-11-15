@@ -1,0 +1,71 @@
+// Combat blocks
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),4)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),4)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  HPPercentLT("VPSime",50)
+  !Dead("VPSime")
+  InParty(Myself)
+  !CombatCounter(0)
+  See(LastAttackerOf("VPSime"))
+  OR(2)
+    See("VPSime")
+    InParty("VPSime")
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    ProtectObject("VPSime",3)
+END
+
+IF
+  Die()
+  Global("VP_Veter","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("VP_NoVeter","GLOBAL",ONE_DAY)
+    SetGlobal("VP_Veter","GLOBAL",2)
+    SetGlobal("VP_VeterRest","GLOBAL",1)
+    DestroySelf()
+END
+
+IF
+  HPGT(Myself,0)
+  HPLT(Myself,20)
+  Global("VP_Veter","GLOBAL",1)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("VP_NoVeter","GLOBAL",10)
+    SetGlobal("VP_Veter","GLOBAL",2)
+    DestroySelf()
+END
+
+IF
+  Dead("VPSime")
+  InPartyAllowDead("VPSime")
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Veter","GLOBAL",3)
+    DestroyItem("VPWFig")
+    DestroySelf()
+END
