@@ -42,7 +42,19 @@ COPY ~TS_Sime/portraits~ ~override~
 COPY ~TS_Sime/eff~ ~override~
 COPY ~TS_Sime/bam~ ~override~
 
-LAF HANDLE_AUDIO END
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~TS_Sime/audio/ss_new~
+    oggdec_path = ~TS_Sime/audio~
+    sox_path = ~TS_Sime/audio~
+END
+
+LAF HANDLE_AUDIO
+STR_VAR
+    audio_path = ~TS_Sime/audio/music~
+    oggdec_path = ~TS_Sime/audio~
+    sox_path = ~TS_Sime/audio~
+END
 
 ///////////////////////////
 //Dialogue
@@ -489,3 +501,24 @@ SAY NAME2 ~Sola~
 COPY ~TS_Sime/cre/vpsolauf.cre~ ~override/vpsolauf.cre~
 SAY NAME1 ~Solauf~
 SAY NAME2 ~Solauf~
+
+///////////////////////////////
+//Legacy Voicelines
+//////////////////////////////
+
+BEGIN ~Legacy Voiceover~
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~TS_Sime/audio/vo_legacy~
+    oggdec_path = ~TS_Sime/audio~
+    sox_path = ~TS_Sime/audio~
+END
+
+///////////////////////////////
+//Alternate portrait
+//////////////////////////////
+
+BEGIN ~Alternate Portrait (Enkida)~
+
+COPY ~TS_Sime/altportraits~ ~override~
