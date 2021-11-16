@@ -14,5 +14,3 @@ THEN
 		FaceObject(Player1)
 		StartDialogueNoSet(Player1)
 END
-
-

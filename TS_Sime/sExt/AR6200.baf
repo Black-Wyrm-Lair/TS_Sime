@@ -1,6 +1,6 @@
 IF
 	Global("StartEndBios","AR6200",1)
-	InParty("VPSime")
+	InParty("vpsime")
 	OR(2)
 		!Global("SimeRomanceActive","GLOBAL",2)
 		Global("PlayerChoseEssence","GLOBAL",1)
@@ -8,22 +8,21 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeBio","GLOBAL",1)
-		TextScreen("VPSIMED1")
+		TextScreen("vpsimenr")
 		SmallWait(1)
 		Continue()
 END
 
 IF
 	Global("StartEndBios","AR6200",1)
-	InParty("VPSime")
-	Gender(Player1,MALE)
+	InParty("vpsime")
 	Global("PlayerChoseEssence","GLOBAL",0)
 	Global("SimeRomanceActive","GLOBAL",2)
 	Global("VP_SimeBio","GLOBAL",0)
 THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeBio","GLOBAL",1)
-		TextScreen("VPSIMED3")
+		TextScreen("vpsimer")
 		SmallWait(1)
 		Continue()
 END

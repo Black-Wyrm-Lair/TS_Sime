@@ -13,6 +13,6 @@ THEN
 		MoveViewPoint([1014.264],INSTANT)
 		Wait(1)
 		FadeFromColor([20.0],0)
-		CreateCreature("VPSimeDr",[264.356],12)
+		CreateCreature("vpsimedr",[264.356],12)
 		EndCutSceneMode()
 END

@@ -1,13 +1,13 @@
 IF
 	Global("CleanseVampire","AR1401",2)
 	Global("VP_SimeVampire","GLOBAL",3)
-	Name("VPSime",Myself)
+	Name("vpsime",Myself)
 	AreaCheck("AR1401")
 THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeVampire","GLOBAL",4)
 		DialogInterrupt(TRUE)
-		ChangeAIScript("VPSime",OVERRIDE)
+		ChangeAIScript("vpsime",OVERRIDE)
 END
 
 IF

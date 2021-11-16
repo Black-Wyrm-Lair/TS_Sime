@@ -3,5 +3,5 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("VP_CreateSime","GLOBAL",1)
-		CreateCreature("VPSime",[4642.2000],0)
+		CreateCreature("vpsime",[4642.2000],0)
 END

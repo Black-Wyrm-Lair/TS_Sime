@@ -11,7 +11,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeVampire","GLOBAL",3)
-		DestroyItem("VPWFig")
+		DestroyItem("vpwfig")
 		DropInventory()
 		DestroySelf()
 END

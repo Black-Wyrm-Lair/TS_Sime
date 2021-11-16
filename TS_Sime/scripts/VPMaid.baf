@@ -4,5 +4,3 @@ THEN
 	RESPONSE #100
 		RunAwayFromNoInterrupt([PC],150)
 END
-
-

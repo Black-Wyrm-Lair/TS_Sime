@@ -1,9 +1,16 @@
 IF
-	See("VPSime")
+	See("vpsime")
 	Global("VP_Sol_Speak_Sime","GLOBAL",0)
 THEN
 	RESPONSE #100
-		StartDialogueNoSet("VPSime")
+		StartDialogueNoSet("vpsime")
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_GAS_FORM_CHANGE)
 END
 
 IF
@@ -22,12 +29,3 @@ THEN
 		ForceSpell([PC],VAMPIRE_DOMINATION)
 		AttackReevaluate(NearestEnemyOf(Myself),75)
 END
-
-IF
-	Die()
-THEN
-	RESPONSE #100
-		ReallyForceSpellDead(Myself,VAMPIRE_GAS_FORM_CHANGE)
-END
-
-

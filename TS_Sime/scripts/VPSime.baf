@@ -110,8 +110,8 @@ IF
 	OR(2)
 		Global("VP_SimeRomanceActive","GLOBAL",1)
 		Global("VP_SimeRomanceActive","GLOBAL",2)
-	!InPartyAllowDead("VPSime")
-	Dead("VPSime")
+	!InPartyAllowDead(Myself)
+	Dead("vpsime")
 THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeRomanceActive","GLOBAL",3)
@@ -120,8 +120,8 @@ END
 IF
 	Global("VP_SimeRomanceActive","GLOBAL",1)
 	Global("SimeRomanceOut","GLOBAL",0)
-	!InPartyAllowDead("VPSime")
-	!Dead("VPSime")
+	!InPartyAllowDead(Myself)
+	!Dead("vpsime")
 THEN
 	RESPONSE #100
 		SetGlobal("SimeRomanceOut","GLOBAL",1)
@@ -132,8 +132,8 @@ IF
 	Global("VP_SimeRomanceActive","GLOBAL",1)
 	Global("SimeRomanceOut","GLOBAL",1)
 	GlobalTimerExpired("SimeOutOfParty","GLOBAL")
-	!InPartyAllowDead("VPSime")
-	!Dead("VPSime")
+	!InPartyAllowDead(Myself)
+	!Dead("vpsime")
 THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeRomanceActive","GLOBAL",3)
@@ -143,7 +143,7 @@ IF
 	Global("VP_SimeRomanceActive","GLOBAL",1)
 	Global("SimeRomanceOut","GLOBAL",1)
 	!GlobalTimerExpired("SimeOutOfParty","GLOBAL")
-	InPartyAllowDead("VPSime")
+	InPartyAllowDead(Myself)
 THEN
 	RESPONSE #100
 		SetGlobal("SimeRomanceOut","GLOBAL",0)
@@ -226,13 +226,13 @@ THEN
 		SetGlobal("VP_SimeSolas","GLOBAL",1)
 		ClearAllActions()
 		StartCutSceneMode()
-		StartCutScene("VPCutS05")
+		StartCutScene("vpcuts05")
 END
 
 IF
-	Global("SPRITE_IS_DEADVPSol","GLOBAL",1)
-	Global("SPRITE_IS_DEADVPSola","GLOBAL",1)
-	Global("SPRITE_IS_DEADVPSolauf","GLOBAL",1)
+	Global("SPRITE_IS_DEADvpsol","GLOBAL",1)
+	Global("SPRITE_IS_DEADvpsola","GLOBAL",1)
+	Global("SPRITE_IS_DEADvpsolauf","GLOBAL",1)
 	Global("VP_SimeDefeatedSols","GLOBAL",0)
 THEN
 	RESPONSE #100
@@ -313,7 +313,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -355,7 +355,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -399,7 +399,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -460,7 +460,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -530,7 +530,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -572,7 +572,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		Dialogue(Player1)
 END
 
@@ -616,7 +616,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)	
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		Dialogue(Player1)
 END
 
@@ -655,7 +655,7 @@ IF
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -694,7 +694,7 @@ IF
 	CombatCounter(0)
 	!See([ENEMY])
 	AreaType(OUTDOOR)
-//	GlobalGT("Chapter","GLOBAL",5)
+	GlobalGT("Chapter","GLOBAL",5)
 	Global("VP_SimeLoveTalk","GLOBAL",37)
 THEN
 	RESPONSE #100
@@ -714,12 +714,12 @@ IF
 	CombatCounter(0)
 	!See([ENEMY])
 	AreaType(OUTDOOR)
-//	GlobalGT("Chapter","GLOBAL",5)
+	GlobalGT("Chapter","GLOBAL",5)
 	Global("VP_SimeLoveTalk","GLOBAL",38)
 THEN
 	RESPONSE #100
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -961,7 +961,7 @@ END
 // Veter related blocks
 // 1. Check for presence of the figurine - "VP_Veter" = 1
 IF
-  PartyHasItem("Wolf")
+  PartyHasItem("vpwfig")
   !Global("VP_Veter","GLOBAL",1)
 THEN
   RESPONSE #100
@@ -971,9 +971,9 @@ END
 
 // 2. Veter returns to Sime
 IF
-  !PartyHasItem("Wolf")
+  !PartyHasItem("vpwfig")
   InParty(Myself)
-  !Dead("VPSime")
+  !Dead("vpsime")
   CombatCounter(0)
   !See([ENEMY])
   OR(2)
@@ -984,17 +984,17 @@ THEN
   RESPONSE #100
     SetGlobal("VP_Veter","GLOBAL",1)
     SetGlobal("VP_VeterRest","GLOBAL",0)
-    GiveItemCreate("Wolf","VPSime",0,0,0)
+    GiveItemCreate("vpwfig",Myself,0,0,0)
 END
 
 // 3. Sime was resurrected
 
 IF
-  !PartyHasItem("Wolf")
+  !PartyHasItem("vpwfig")
   InParty(Myself)
-  !Dead("VPSime")
+  !Dead("vpsime")
   CombatCounter(0)
-  !InMyArea("Veter")
+  !InMyArea("vpveter")
   !Global("VP_Veter","GLOBAL",2)
   OR(2)
   	Global("VP_Return_Veter","GLOBAL",1)
@@ -1004,5 +1004,5 @@ THEN
   	SetGlobal("VP_Return_Veter","GLOBAL",2)
   	SetGlobal("VP_Veter","GLOBAL",1)
 	SetGlobal("VP_VeterRest","GLOBAL",0)
-    GiveItemCreate("Wolf","VPSime",0,0,0)
+    GiveItemCreate("vpwfig",Myself,0,0,0)
 END

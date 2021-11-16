@@ -23,19 +23,19 @@ THEN
 END
 
 IF
-  HPPercentLT("VPSime",50)
-  !Dead("VPSime")
+  HPPercentLT("vpsime",50)
+  !Dead("vpsime")
   InParty(Myself)
   !CombatCounter(0)
-  See(LastAttackerOf("VPSime"))
+  See(LastAttackerOf("vpsime"))
   OR(2)
-    See("VPSime")
-    InParty("VPSime")
+    See("vpsime")
+    InParty("vpsime")
 THEN
   RESPONSE #100
     EquipMostDamagingMelee()
     ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
-    ProtectObject("VPSime",3)
+    ProtectObject("vpsime",3)
 END
 
 IF
@@ -61,11 +61,11 @@ THEN
 END
 
 IF
-  Dead("VPSime")
-  InPartyAllowDead("VPSime")
+  Dead("vpsime")
+  InPartyAllowDead("vpsime")
 THEN
   RESPONSE #100
     SetGlobal("VP_Veter","GLOBAL",3)
-    DestroyItem("VPWFig")
+    DestroyItem("vpwfig")
     DestroySelf()
 END

@@ -14,6 +14,6 @@ THEN
 		MoveViewPoint([380.2090],INSTANT)
 		FadeFromColor([20.0],0)
 		Wait(1)
-		CreateCreature("VPSimeSl",[400.2100],1)
+		CreateCreature("vpsimesl",[400.2100],1)
 		EndCutSceneMode()
 END

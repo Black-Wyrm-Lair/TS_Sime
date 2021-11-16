@@ -2,13 +2,13 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneId("VPSime")
+		CutSceneId("vpsime")
 		SmallWait(5)
-		CreateCreatureObjectDoor("VPSol","VPSime",0,0,0)
-		CreateCreatureObjectDoor("VPSola","VPSime",0,0,0)
-		CreateCreatureObjectDoor("VPSolauf","VPSime",0,0,0)
+		CreateCreatureObjectDoor("vpsol","VPSime",0,0,0)
+		CreateCreatureObjectDoor("vpsola","VPSime",0,0,0)
+		CreateCreatureObjectDoor("vpsolauf","VPSime",0,0,0)
 		Wait(6)
-		CutSceneId("VPSol")
-		ActionOverride("VPSol",MoveToObjectNoInterrupt("VPSime"))
+		CutSceneId("vpsol")
+		ActionOverride("vpsol",MoveToObjectNoInterrupt("vpsime"))
 		EndCutSceneMode()
 END

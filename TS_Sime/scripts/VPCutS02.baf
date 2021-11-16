@@ -11,5 +11,3 @@ THEN
 		EndCutSceneMode()
 		RestorePartyLocations()
 END
-
-

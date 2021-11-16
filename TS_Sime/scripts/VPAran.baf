@@ -1,20 +1,20 @@
 IF
 	Global("VP_Sime_Aran","GLOBAL",1)
 	NumTimesTalkedTo(0)
-	See("VPSime")
+	See("vpsime")
 THEN
 	RESPONSE #100
-		Dialogue("VPSime")
+		Dialogue("vpsime")
 END
 
 IF
 	Global("VP_Sime_Aran","GLOBAL",1)
 	NumTimesTalkedTo(0)
-	!See("VPSime")
+	!See("vpsime")
 THEN
 	RESPONSE #100
-		MoveToObject("VPSime")
-		StartDialogueNoSet("VPSime")
+		MoveToObject("vpsime")
+		StartDialogueNoSet("vpsime")
 END
 
 IF

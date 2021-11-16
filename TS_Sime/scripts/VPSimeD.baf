@@ -38,7 +38,7 @@ THEN
 	RESPONSE #100
 		IncrementGlobal("VP_SimeLoveTalk","GLOBAL",1)
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -60,7 +60,7 @@ THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeLoveTalk","GLOBAL",22)
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
@@ -82,7 +82,7 @@ THEN
 	RESPONSE #100
 		SetGlobal("VP_SimeLoveTalk","GLOBAL",36)
 		PlaySong(0)
-		PlaySound("VPSIMELS")
+		PlaySound("vpsimels")
 		StartDialogueNoSet(Player1)
 END
 
