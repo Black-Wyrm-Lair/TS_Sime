@@ -694,7 +694,7 @@ IF
 	CombatCounter(0)
 	!See([ENEMY])
 	AreaType(OUTDOOR)
-	GlobalGT("Chapter","GLOBAL",5)
+	GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
 	Global("VP_SimeLoveTalk","GLOBAL",37)
 THEN
 	RESPONSE #100
@@ -714,7 +714,7 @@ IF
 	CombatCounter(0)
 	!See([ENEMY])
 	AreaType(OUTDOOR)
-	GlobalGT("Chapter","GLOBAL",5)
+	GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
 	Global("VP_SimeLoveTalk","GLOBAL",38)
 THEN
 	RESPONSE #100

@@ -1,0 +1,1125 @@
+@0    = ~You follow in the hopes of retrieving something dear to you. I say that the longer you keep this up, the more you will lose.~
+@1    = ~Consider the thief’s daughter by your side. It is so disappointing to lose something, which you were only starting to dream of...~
+@2    = ~Stay away from <PRO_HIMHER>, vampire! You and your murderous bastard of a brother had taken too many lives as is. I will not allow you to harm <CHARNAME>...~
+@3    = ~You misunderstand me completely, Sime. I am going to leave him his pathetic life. But yours I shall have, Linvails’ daughter. Follow me further <CHARNAME>, and you will lose more than you can imagine. Starting now!~
+@4    = ~The Final Battle with Bodhi.
+
+Bodhi appeared in an ambush shortly before I reached her haven, warning me that she was aware of my pursuit and stealing from me my love, my dear Sime. Before she vanished and unleashed more of her undead creations upon me, Bodhi warned me that if I continue I will lose even more than I thought possible. I cannot give up on the Rhynn Lanthorn... but now the life and immortal soul of the one I love is at stake, as well!  I should get going, no matter how hurt I am; I should get going...~
+@5    = ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~
+@6    = ~I lost a loved on in a battle with his sister, Bodhi.  I seek a means of curing her.~
+@7    = ~Elhan! I've the half vampire body of Sime here because of you! You'll tell me now!~
+@8    = ~A loved one was taken by a vampire. What can I expect when I find them?~
+@9    = ~Someone I care about has fallen to a vampire. Is there any way to save them?~
+@10   = ~You place too much confidence in sentiment.  The theft of Sime will not save you.~
+@11   = ~You have taken too much already!  You will return both Imoen's soul and Sime!~
+@12   = ~And you have delivered on that promise. Return Sime and perhaps I will be merciful.~
+@13   = ~I would have hunted you for your theft of Sime alone. She is very important to me.~
+@14   = ~She is lost to you, <CHARNAME>. Sime has been quite receptive to my wiles. I doubt your fumbling could have inspired the loyalty I have taken with a bite and a gaze.~
+@15   = ~As you desire Mistress. (*Sime tries to walk towards you, hissing some threat, but stops short in her steps.*)~
+@16   = ~I cannot hurt <CHARNAME> Mistress. I cannot... I will take anybody's life but not his. Please, Mistress, forgive me my disobedience... punish me if you will, destroy me, but I will not harm him. I love him.~
+@17   = ~Love... I should have sealed my doors tighter against that perpetrator. I have no times for follies, stupid bitch. Punishment you want - then you should get it.~
+@18   = ~Oh, beautiful daughter of Aran Linvail! Never you spared a tender word for me in life. I praise my order to deliver you to the Mistress. I was promised that in undeath you shall be mine, Sime Linvail.~
+@19   = ~Love him, Sime... His bite is deadly and sweet as almonds. Nothing is more tender than death...~
+@20   = ~Bodhi gives power, true power to those who serve her. Your father is doomed. Come with us, Sime. Join us in undeath... And bring the Bhaalchild along. 
+
+We will have beds of fleeting odors,
+Couches deep as memorials,
+And strange flowers on the stairs
+To blossom for us under skies more beautiful.~
+@21   = ~Following each other 'til the last warmth came,
+From our two hearts, two vast torches will pour
+The reflection of their double flames
+On our two spirits, these twin mirrors.~
+@22   = ~One evening made of pink and mystical blue,
+We will exchange a single flash from afar,
+Like a long sob, charged with adieux; 
+
+This evening is tonight, my dear Sime... Accept the death from me and we shall live forever, powerful and passionate.~
+@23   = ~I did not forget the last lines as you did. They are: 
+
+And later a Solar, the gates ajar,
+Will joyously restore to life the ores,
+The dead flames and the tarnished mirrors 
+
+No restoration will you find and never will your spirit know rest after you have been destroyed. You say you are powerful? That we shall see! For the glory of life and light I shall strike you down!~ [SIMESO02]
+@24   = ~It seems that I am an unfortunate companion, <CHARNAME>. This is not the first time I am attacked by those who wish to harm my father. With the Guild war growing ever more cruel maybe you would prefer not to be affiliated with Linvail’s daughter?~
+@25   = ~It was not the first time? Sime, you should have told me that before! I have enough enemies as is! I think you are right. Let’s part.~
+@26   = ~Nonsense, Sime! The more the merrier! Let them all come and they will get their punishment from me.~
+@27   = ~I rather fancy protecting you... If you do not mind that is...~
+@28   = ~It’s up to you really. Stay if you wish or go if you think that you are better off on your own.~
+@29   = ~Stay with us, Sime. You are a valuable companion and I am not afraid of an extra skirmish. Besides, I am already Bodhi’s sworn enemy.~
+@30   = ~So be it.~
+@31   = ~I am not sure I like your attitude, but if you wish to continue to travel with me I shall stay by your side.~
+@32   = ~I do not mind at all... I am flattered.~
+@33   = ~I’d go then. I would not want to be responsible for your death or for the death of our companions. Should you need me, I will probably stay with father for a time.~
+@34   = ~We shall fight our enemies together then!~
+@35   = ~A particular congratulations to you, captain. It was fortunate you distracted those other ships we saw in the distance. Your signals in the night; were they some type of warning?~
+@36   = ~Again, my compliments. It did seem that they truly believed your signal meant there would be trouble if they attacked.~
+@37   = ~You would have killed me, if I had let you. You would have left me to rot in this place.~
+@38   = ~I fear this will not be the last time this happens. I can’t control it.~
+@39   = ~I tried to warn you, but I couldn’t speak. I am sorry. I should distance myself from you.~
+@40   = ~It wasn’t my fault. Whine if you want, but I’m the one really in trouble here.~
+@41   = ~I’m not sure you should try to control it. We must distance you from it, not embrace it. We will make due, despite the danger.~
+@42   = ~No, you should not be alone during this. We will get through, I am sure. We just have to keep going, no matter what comes.~
+@43   = ~You are not the only one affected by this! It is so hard to see you...~
+@44   = ~<CHARNAME>, please, let’s just keep moving. We’ll get through, I’m sure of it. Really.~
+@45   = ~What was it? This monster, this beast! Was it really you, my sweet lover? Is there no spirit warm and kind enough in this world to protect you?~ [SIME21_1]
+@46   = ~The shadow has passed and I pray that it will never happen again. ~
+@47   = ~Cut it out! Look at yourself: you are pale and tremble like a leaf in the wind. I am not an  innocent victim, you idiot! Power is coming to me. I do not know how to control it yet, but soon enough I will.~
+@48   = ~Sime, gods are of no help, do not call for them. Help me chase down Irenicus and rip MY soul out of his body and I shall be whole again.~
+@49   = ~Protect me? Protect me against whom or what? From myself? I am a Bhaalspawn and I assumed the form of my father’s avatar. It is only natural, do not you think? (*You laugh bitterly.*)~
+@50   = ~<CHARNAME>... It hurts me to see you misshapen. But most of all it pains me to see the light in your eyes to change to insatiable hunger of a killer. Nobody should have to go through torture like this and you in particular. I wait impatiently for the day when that evil mage pays for his crimes against you.~
+@51   = ~That day will come soon, I swear. And when it comes I will be glad to have a trusted companion like you by my side.~
+@52   = ~Irenicus has committed many crimes. He has killed and tortured many. I will have to make him pay for all of them when at last we confront him.~
+@53   = ~Sime, I can see that you are upset, but please, calm down.~
+@54   = ~By the first day and the last day of Toril, by the torment of Abyss and by the triumph of light over darkness, by the multitude of Planes, by your breath on my cheek, by my bliss and by my torture, by my love for you, I swear that I shall not abandon your fight till we have won.~
+@55   = ~I am calm, <CHARNAME>, I am deadly calm. And so I will be the day we catch up with Irenicus.~
+@56   = ~Then the Evil got its grip on you... Fight it if you can, oh, please, I beg you! It pains me to see the light in your eyes to change to insatiable hunger of a killer! Fight it, <CHARNAME>.~
+@57   = ~That’s what I am here for, <CHARNAME>. By the first day and the last day of Toril, by the torment of Abyss and by the triumph of light over darkness, by the multitude of Planes, by your breath on my cheek, by my bliss and by my torture, by my love for you, I swear that I shall not abandon your fight till we have won.~
+@58   = ~Come here and let me hold you for a moment. I know it’s just an illusion but I feel like I am protecting you from all the evils of the world.~
+@59   = ~I am glad YOU are feeling better.~
+@60   = ~Now that you have mentioned that, I do have the feeling of being protected... It is so strange. You are only one woman...~
+@61   = ~(*Whisper*) Are you mad? What would the others think?~
+@62   = ~There is no need to snap at me. If you feel uncomfortable with me loving you, you should have said so earlier.~
+@63   = ~One woman, yes, but I am your woman and I would not let some dead god or a crazed mage to take you away from me. Let them all come, I am ready to give them a fight... (*Laughs and strokes your hair*)... We will get through this, <CHARNAME>, do not worry.~
+@64   = ~Do you really care?~
+@65   = ~No, let them talk!~
+@66   = ~Yes! (*You free yourself from her arms*)~
+@67   = ~Imoen, what’s the matter?~
+@68   = ~Now, that’s better. By the first day and the last day of Toril, by the torment of Abyss and by the triumph of light over darkness, by the multitude of Planes, by your breath on my cheek, by my bliss and by my torture, by my love for you, I swear that I shall not abandon your fight till we have won.~
+@69   = ~I see... I will not embarrass you with my unwanted attention any more, I swear.~
+@70   = ~Awww... So sweet. Nope, of course he does not! And it is cool to see big <PRO_BROTHERSISTER> is blushing.~
+@71   = ~Imoen! Have the decency to look away!~
+@72   = ~(*Giggles*) What! And miss all the hot stuff? No way in Nine Hells! I have spent too long watching a crack on my ceiling as entertainment!~
+@73   = ~Imoen, a certain degree of shyness becomes a maiden.~
+@74   = ~And who's to say I am a maiden? Hey, I am almost as old as <CHARNAME> is, and I did not have Gorion on my back, so once I...~
+@75   = ~(*Close your ears with your palms*)... LA-LA-LA! I am not listening! LA-LA-LA!~
+@76   = ~Go on, Imoen, I am extremely interested to know which old stuffy mage or dusty librarian you graced with your favors.~
+@77   = ~IMOEN!~
+@78   = ~(*Laughs and makes faces*)~
+@79   = ~Imoen, let us make a deal: I will listen to your story tonight, and we will leave <CHARNAME> out of it.~
+@80   = ~(*Pouts*) 'Twas no stuffy mage! 'Twas that awesome looking traveller who came through Candlekeep on that stormy night... It was a pitch-black. The thunder was shuttering the skies, the moon was showing her face from behind the clouds specifically to make the world even scarier, and the wind was blowing with the force unknown before.~
+@81   = ~Imoen, I believe you. But let us make a deal: I will listen to your story tonight, and we will leave <CHARNAME> out of it, he seems to be turning greenish for some reason. You know how men are...~
+@82   = ~(*Pouts*) Imoen! I know I am Imoen. You NEVER give me a chance to tell ANYTHING!~
+@83   = ~Are you well? I am growing very worried about you, you know. I should not like to lose you in this evil place.~
+@84   = ~Sime, I would get back if I were you. I think it’s happening again!~
+@85   = ~Get back, Sime, if you value your life.~
+@86   = ~Leave me be! You endanger yourself just standing there!~
+@87   = ~Sime is before you, the woman you had not come to know very well, though she was a loyal companion.~
+@88   = ~Sime, I know little of you, but Irenicus is no enemy of yours. You do not have to fight my battle...~
+@89   = ~You know how powerful Irenicus is, Sime. The fight is going to be deadly. If you wish, you may take your leave now.~
+@90   = ~Sime, that’s not the best time to chat, but I need to know that you readily and willingly partaking in the fight with Irenicus.~
+@91   = ~Irenicus had willfully damaged the Tree of Life. Thus he became an enemy of everyone with elven blood in their veins. I will fight him with you.~
+@92   = ~Give me one good reason why a ranger should run away from a battle with an evil wizard who endangered the whole world in his madness? You are silent? Good. I stand ready to fight.~
+@93   = ~You are right, we do not have time to chat. Just give me a signal to attack.~
+@94   = ~Sime... You look at the maiden’s eyes and you see what you have hoped and scared to see: the determination to follow you to the end of the world and beyond it. It is obvious that you might keep Sime out of this battle, if you, say, tied her up and gagged her. Still, you want to give her a chance to reconsider.~
+@95   = ~Sime, Irenicus is no enemy of yours. You do not have to fight my battles.~
+@96   = ~You know how powerful Irenicus is, Sime. The fight is going to be deadly. I am afraid that you might get hurt or die... I would rather... Do you think you might wait here?~
+@97   = ~Irenicus had willfully damaged the Tree of Life. Thus he became an enemy of everyone with Elven blood in their veins. Irenicus had hurt and tormented a man I love. How many more reasons do you want me to give you? I am ready to fight, <CHARNAME> and this battle is mine, as well as yours.~
+@98   = ~No. Let’s not waste words. I am ready to fight, <CHARNAME> and this battle is mine, as well as yours.~
+@99   = ~I am partaking readily and willingly. You are right, we do not have time to chat. Just give me a signal to attack.~
+@100  = ~I often said to myself when it was getting rough - it could be worst, it could be Nine Hells... But now I am afraid we are in Nine Hells. (*Shrugs*)~
+@101  = ~<CHARNAME>, you once had asked me about my connection with Shadow Thieves...~ [SIMEPC06]
+@102  = ~Yes, I am quite curious...~
+@103  = ~Sime, it’s really, really, really bad time to bring this stuff up. Let’s talk about that later.~
+@104  = ~Aran Linvail is my... father, <CHARNAME>. ~ [SIMEPC07]
+@105  = ~What?~
+@106  = ~Your father? That’s quite a twist!~
+@107  = ~I suspected it all along, my dear. You look alike. But go on, please.~
+@108  = ~Yes... I do not remember my mother. Aran does not speak of her often. Theirs was a difficult relationship. Aran was young and during a reckless party he boasted that he could rob a mysterious elven temple of Selune. A lieutenant of the Shadow Thieves Guild promised him admission to the Guild, if he would bring Seluna’s necklace, a powerful and priceless relic... Aran took challenge seriously and robbing the temple became his obsession. After months of careful planning he managed to get into the temple...~ [SIMEPC08]
+@109  = ~A brilliant carrier move...~
+@110  = ~Wow, that Aran was quite a man!~
+@111  = ~Sime, I do not want to listen to this story, it sickens me to know that someone can rob a temple of Selune.~
+@112  = ~Well, yes... Apparently the information he gathered was faulty and instead of making it into the temple’s main hall he broke into one of the cleric’s private chambers. He plunged down from the window right at my mother’s feet. Aran looked so scared and silly that she laughed and took pity on the would be thief. And he... he was enchanted by her beauty and instead of running away he stayed with her that night.~
+@113  = ~Ahem, Sime, why are you telling me that? And anyway, how Aran then got into the Guild and became Shadow Master.~
+@114  = ~Sime, please, spare me that romantic nonsense.~
+@115  = ~If that’s true, how did Aran become Shadow Master?~
+@116  = ~In truth - I do not know... He might have done something else... or faked the necklace. My father is quite resourceful. ~
+@117  = ~If you wish.~
+@118  = ~Got it! No romantic nonsense in <CHARNAME>’s company!~
+@119  = ~I am glad to hear that! I also thought that it was one of the most outrageous of my father’s notions. On the other hand that lead to my birth, so I guess I cannot complain too much.~
+@120  = ~The night is so beautiful...  But it’s on nights like this when I miss my mother the most...~
+@121  = ~You never told me what happened to your mother. Where is she?~
+@122  = ~Sime, would you mind keeping your grievances to yourself? I am trying to get some rest here.~
+@123  = ~It’s very sad. My parents could not see each other often, because he had to stay in the city, trying to move up in the Guild and my mother would have none of it... So they met in secret. Shortly after I was born, bandits killed my mother when she was travelling to one of their hideouts...~
+@124  = ~I am sorry to hear that, Sime.~
+@125  = ~Look I’m crying already. May be you can tell me the rest another time?~
+@126  = ~I get the message. Sorry, I had mistaken you for someone with a heart.~
+@127  = ~I wish I had at least one small memory of her. But I do not. Aran was a wonderful father however. He meant everything to me when I was a child. But like my mother, I could not accept his ways. However, his days will come to an end soon. I am trying to spend as much time with him as I can. And that’s why I was by his side, when you come to the Guild. My parent’s problems... should be boring to you.~
+@128  = ~Sime, I know how difficult it is to keep everything in. Please, talk to me whenever you feel like it.~
+@129  = ~No, actually it was very entertaining!~
+@130  = ~Sime, I am afraid, yes, it was terribly boring and I struggled to keep awake. I hope you got it out of your system now.~
+@131  = ~ Thank you, <CHARNAME>... and you always have my ear.~
+@132  = ~Oh! You like the stories and songs of the doomed love? I might have one or two more for you then.~
+@133  = ~I did. Thank you for taking the pain and listening.~
+@134  = ~I know who you are, m’<PRO_LADYLORD>. Or rather what you are. If that was a secret, then it was not guarded carefully. Tell me, <CHARNAME>, was it your intention to let the world know that you are Bhaal’s child or it was a mishap?~ [SIME1_1]
+@135  = ~I do not know, Sime. After I defeated Sarevok, my heritage became common knowledge. The rumours in this land spread faster than wildfire. I wonder sometimes what do they pay messengers for?~
+@136  = ~Bad mishap, Sime. I wish I could keep my Gorion’s ward mantle for longer, but it was stripped away from me. By the way, Sime, if you’d stop calling me "m’<PRO_LADYLORD>" that might greatly improve the intimacy of our friendship.~
+@137  = ~Of course that was my intention! Would you be a demigod, would you hide it?~
+@138  = ~(*Laughs*) For staying in the inns and getting drunk, while the good folk do their jobs, m’<PRO_LADYLORD>. Indeed, the gossip travels faster than a bird flies and I fail to understand how. May be it is magic?~
+@139  = ~Scrying devices you mean? I am afraid that even as we speak some wizened man has nothing better to do than to pry on me.~
+@140  = ~Magic or not it is annoying as Nine Hells!~
+@141  = ~Sime, I do not mean to be disrespectful, but this talk and your attitude upset me.~
+@142  = ~You think so? (*laughs*) Then let’s give them something to look at my <PRO_LADYLORD>!
+
+(*Before you can answer, Sime gives you a deep, long kiss*).~ [SIME1_2]
+@143  = ~There could be more than one wizard watching, caring soul. Care to repeat the performance to keep them all interested? By the way, Sime, do stop calling me "m’<PRO_LADYLORD>" already! <CHARNAME> will do.~
+@144  = ~Awww... Good, but not enough. We shall give it another try one day. That’s if you would drop that "m’<PRO_LADYLORD>" when talking to me. <CHARNAME> will do.~
+@145  = ~<CHARNAME>, just <CHARNAME>. But for the gods sake, woman, control yourself!~
+@146  = ~Sime, I assume that was a joke. But I will not let you off so easily next time. One more escapade like that - and you are out of this group!~
+@147  = ~<CHARNAME>? I think I rather like your name. Try it again? Why not? You are a good kisser, even when caught unaware.~
+@148  = ~Fear not, <CHARNAME>, I am in full control of what I am doing.~
+@149  = ~My <PRO_LADYLORD>, I was only wishing to cheer you. If you prefer to revel in your grim thoughts, suit yourself.~
+@150  = ~Then I shall call you by your name. <CHARNAME>... I like the sound of it. So, <CHARNAME> you would prefer to be incognito?~
+@151  = ~Yes, Sime. Way too often people expect a heroic feat or a mad <PRO_MANWOMAN>man’s act or who knows what else of me, just because I am a Bhaalspawn.~
+@152  = ~I guess. But really, it is none of your business.~
+@153  = ~It is not that bad actually. Half of the people run away from me, another half want me to do something, and all that based on the same fact: "because you are a Bhaalspawn". I guess it is funny in a way.~
+@154  = ~I understand. Or at least I can see why you are aggravated. I cannot stop the fools from gaping at you, but I can promise that I shall think of you as a person, not as something menacing and unusual.~
+@155  = ~(*Shrugs*) If you say so.~
+@156  = ~Funny? You are gifted with a happy character if you find it funny. I cannot stop the fools from gaping at you, but I can promise that I shall think of you as a person, not as something menacing and unusual.~
+@157  = ~I do not know. I am a half-elf, half-human and I’ve never hid any part of my heritage, like some half-bloods do. May be if I was a demigod, I would not keep it a secret either.~
+@158  = ~My point exactly. I cannot change who I am and I am not ashamed of my heritage. After all it was my mother, who had peculiar taste in men, not I. And Sime, do call me <CHARNAME>. "My <PRO_LADYLORD>" unnerves me.~
+@159  = ~Sime, let’s not make a big deal out of it.~
+@160  = ~I would not wish anyone to face the choices I face. I cope, Sime, but it is not easy to carry the burden of my accursed heritage. The crowd’s fascination does not help things. Half of the people run away from me, another half want me to do something, and all that based on the same fact: "because you are a Bhaalspawn". Pray Sime, pray hard every night NOT to wake up next morn a demigod and a famous persona in the Realms as it happened to me.~
+@161  = ~Then I shall call you by your name. <CHARNAME>... I like the sound of it. I think we have something in common: my mother had very unusual tastes where men were concerned it seems. But at least she picked a local murderer and a thief, not the Lord of Murder.~
+@162  = ~We shall not then.~
+@163  = ~(*Laughs*) Your warning is belated, m’<PRO_LADYLORD>. I am now Sime Linvail, the one who travels in the company of Bhaalspawn! ~
+@164  = ~Sime, I really do not have time for a small talk.~
+@165  = ~But I warned you! And Sime, do call me <CHARNAME>. "My <PRO_LADYLORD>" unnerves me.~
+@166  = ~What have I done! I doomed you! And since we have such an intimate connection as a common curse, would you consider calling me <CHARNAME>?~
+@167  = ~Thank you for the warning, <CHARNAME>. I think I rather like your name.~
+@168  = ~<CHARNAME>? I think I rather like your name. I shall use it often.~
+@169  = ~I heard you moaning in your sleep another night. It might be that I am intruding, <CHARNAME>, but do you have nightmares?~ [SIME2_1]
+@170  = ~You are impossible Sime. What I dream of should not concern you.~
+@171  = ~Yes, Sime. Ever since Gorion died and I was forced to fight for my dear life. I am used to nightmares, Sime, do not worry.~
+@172  = ~I do not have any bloody nightmares. I was not moaning. It must have been wind or a lovesick cat you have heard.~
+@173  = ~If you do not mind, I would rather not to discuss it further. Sime, I took you along to fight my battles and I am not interested in discussing my private life with you.~
+@174  = ~I am a healer, remember? I might be able to help you. You look troubled and you have ill dreams. Even now I can see pain in your eyes. May be a sleeping draught...~
+@175  = ~No, Sime, no sleeping draught will get rid of my dreams. Ever since Gorion died and I was forced to fight for my dear life I have had those visions. I am used to nightmares by now, do not worry.~
+@176  = ~Thank you for the thought, but no, I do not need a potion. I will cope.~
+@177  = ~I know you mean well, but I do not require any help. The nightmares are painful, but they bring me power once in a while.~
+@178  = ~Sleeping draught? How about a taste of sweet maiden’s lips for a potion?~
+@179  = ~You sound so sure,<CHARNAME>. So be it. But you need only ask for my help, should you change your mind.~
+@180  = ~Oh, you are one of those who would go through the worst torture to gain even the smallest grain of knowledge or power? Suit yourself then. But you need only ask for my help, should you change your mind.~
+@181  = ~My kisses are known to wake a <PRO_MANWOMAN> up, not to put <PRO_HIMHER> to sleep. ~
+@182  = ~It is awful. I can see that the nightmares wear you down and there is pain in your eyes. May be a sleeping draught...~ [SIME2_3]
+@183  = ~No, Sime, a sleeping draught will not save me from my dreams.~
+@184  = ~(*Smiles*) Of course. A lovesick cat it was. Should you meet that poor animal, do let me know. I might have a potion or two to help the unfortunate beast to sleep better.~ [SIME2_4]
+@185  = ~And that is precisely what I am doing: fighting your battles. Fear cuts deeper than swords, they say. Even now I can see pain in your eyes caused by the ill dreams. I am a healer and a good healer mends souls as often as mending bodies. I can give you a sleeping draught or I can talk to you.  Whichever will bring you peace of mind.~
+@186  = ~I said: I do not want to discuss my private life with you.~
+@187  = ~Have it your own way then, you stubborn lout. You will not hear another word from me, but a battle cry.~
+@188  = ~Do not call me a wise owl, <CHARNAME>. I have had my share of mistakes and silly escapades. Sometimes I think that I am alive only by the will of the gods who guard all fools.~ [SIME3_1]
+@189  = ~You have done something stupid? I am sorry, Sime, but I will need proof to believe you. Come tell me about at least one thing you have done wrong.~
+@190  = ~Sure. We all did. But you appear to be a very rational person at present. Care to trade a tale of your apparently crazy youth?~
+@191  = ~Whatever you say. Sime, we do not have time for arguments. Be a good girl, stop hanging at my every word and turning everything into a discussion!~
+@192  = ~I will oblige your curiosity. I ran away from the safe home where Aran placed me to when I was young. I wanted no less than to become a famous bard. The grand plan was to collect the folk songs of the Barbarians of the Icewind Dale. I reasoned that I could sustain myself by singing and dancing as I will be making my way up North.~
+@193  = ~Sounds like a daring enterprise. And I agree, an unwise one. Was your expedition somehow related to Aran?~
+@194  = ~But that’s a brilliant idea! I have never heard Barbarian sagas in the South. Why did not you go through with your plan?~
+@195  = ~I am convinced, Sime. That was a rather silly escapade.~
+@196  = ~Of course it was related to Aran. In those days everything I did was in some way connected to my father. I ran away after I finally understood who my father is.~
+@197  = ~Did he find you then?~
+@198  = ~What happened next, Sime?~
+@199  = ~(*Yawn*) Yes, sure thing.~
+@200  = ~I learned later that my father sent in secret a couple of thugs to watch over me and to give me a coin or two if the things became too rough. Aran knew that interfering directly or arguing with me was useless. He hoped, that I would return back of my own volition and that may be life on the streets would make me less judgmental. He did not foresee that Darriel would walk into a tavern where I was trying to sing for a meal...~
+@201  = ~Darriel of Tangelwood, the mentor you have mentioned?~
+@202  = ~Your father has no divination talent then?~
+@203  = ~Yes, him. Darriel is not among the living any more, <CHARNAME>... I would rather not continue the story now. A sad storyteller would not lift your spirit, and I wish to see you smiling.~
+@204  = ~Do not you try to be smart with me! You know well enough that my father’s talents are of different sort than needed for the Arcane Arts devotee. You need not remind me of his true calling.~
+@205  = ~I did not mean to bore you to tears, <CHARNAME>. I shall be quiet from now on.~
+@206  = ~Brilliant? <CHARNAME>, you either have a dark sense of humour or you have heard nothing at all about the barbarians of Icewind Dale! I prefer to think the latter. Know that what waited for me, then a young girl incapable to defend herself, were slavery, torture, rape and in best case quick death.~
+@207  = ~It was a stupid joke, Sime, I am sorry.~
+@208  = ~Oh, I did not know that. Indeed it is for the best that you did not go. But what happened instead?~
+@209  = ~(*Shrug*) Whatever...~
+@210  = ~It was. But all is well that ends well.~
+@211  = ~I think that talking to a wooden statue is a better than talking to you! At least it is silent. You ARE Bhaal’s blood, cold and unfeeling, I know now.~
+@212  = ~Since we talked last time, I started thinking of Darriel often. You even remind me of him. May be not in looks but in the way you’re talking so surely, fight with such valour and you both know mercy and have talent to understand others.~ [SIME4_1]
+@213  = ~Your words are pleasant enough, Sime, but I feel ill at ease when you compare me to your dead lover.~
+@214  = ~I gather that Darriel commanded your respect and admiration. (*aside*) Makes me wonder what else he won.~
+@215  = ~Woman quit your whining. I am not your Darriel reborn from the dead.~
+@216  = ~There is none like me, Sime. I am Bhaal’s heir and you ought to sense my greatness far surpassing anything a mere mortal can master. Do not dare to compare me with some snooty Elf, wench!~
+@217  = ~Strange, I am almost sure that I can hear jealousy in your voice. Everything Darriel was to me. He was a biter foe when he carried me away and I thought he was my father’s hireling. He was a chance comrade and an imprisoned, when I wanted nothing but to escape. He became a friend and a mentor when I discovered the true calling of my heart. But he was never my lover.~ [SIME4_2]
+@218  = ~Do not reply if you do not want to, but I cannot help but ask why? Another woman? Too much ranging to do, no time for gentle talk? His romantic interests lay elsewhere?~
+@219  = ~Oh.~
+@220  = ~I am sorry if I have unintentionally stirred painful memories.~
+@221  = ~And now he is dead. How tragic. If you do not mind, Sime I have better things to do than talking to you about some rotting corpse.~
+@222  = ~I think that such curiosity befits a cat or a bored woman, rather than a <PRO_MANWOMAN> grown. But to answer your question, I guess I am a coward of a sort and I was scared of the love and trust I had in him, so I pushed him away. However, was not it for the best? I miss my friend badly, how much worse would it hurt was he my lover?~
+@223  = ~No worse I think. You will call to your lost friends in your dreams, and you will be tricked for a moment and extend your hands and wake up only to the empty room, the locked doors and the bitter taste of loss.~
+@224  = ~I did not think that you were one to be afraid to love. Even if it hurts sometimes.~
+@225  = ~I grow bored, Sime. Let’s get going.~
+@226  = ~Of course, you are right. But no man have I loved like I loved my father, and I was so bitterly disappointed. Since then I have a trapped door on the bottom of my heart and I will not allow any man to enter it. That’s why not Darriel.~
+@227  = ~I am not afraid to fall in love <CHARNAME> and I loved many. But no man have I loved like I loved my father, and I was so bitterly disappointed. Since then I have a trapped door on the bottom of my heart and I will not allow any man to enter it. That’s why not Darriel.~
+@228  = ~As you wish. I can see that you have little interest in me, so I’ll spare you from now on.~
+@229  = ~I guess I am a coward of a sort and I was scared have the love and trust I had in him, so I pushed him away. However was not it for the best? I miss my friend badly, how much worse would it hurt was he my lover?~
+@230  = ~No, I am actually grateful to you. It feels easier somehow after I said it. No man have I loved like I loved my father, and I was so bitterly disappointed. Since then I have a trapped door on the bottom of my heart and I will not allow any man to enter it. That’s why not Darriel.~
+@231  = ~No, you are not. Strange, I am almost sure that I can hear jealousy in your voice. Everything Darriel was to me. He was a biter foe when he carried me away and I thought he was my father’s hireling. He was a chance comrade and an imprisoned, when I wanted nothing but to escape. He became a friend and mentor while I discovered the true calling of my heart. But he was never my lover.~
+@232  = ~And now he is dead. How tragic! If you do not mind, Sime, I have better things to do than talking to you about some rotting corpse.~
+@233  = ~May be the god’s part of your soul is well fitting what Bhaal had hoped for, but I find that the mortal part of your soul is wanting.~
+@234  = ~I am troubled by one thought lately, <CHARNAME>. My father, he allowed me to follow you without a protest. I was almost certain that he was actually glad, when I took my leave. Why?~
+@235  = ~Sime, I met your father once, I cannot judge his actions. But why should he protest? Do I strike you as a man whom you cannot trust to travel in a company of maidens?~
+@236  = ~Sime, there is a guild war out there, remember? May be he thinks you are safer by my side?~
+@237  = ~He did not protest your earlier departures, did he?~
+@238  = ~You think it is a part of some sinister plan of his? May be I should have accepted Bodhi’s offer.~
+@239  = ~I have a great solution to the problem: you go back to your father and we all will have fewer things to worry about.~
+@240  = ~No, <CHARNAME>, you are a decent sort and no maiden would feel endangered in your company. You are even pleasant to look upon and sound like a reasonable man. Still, my father always argued against my ranging.~
+@241  = ~You think that I am a good-looking fellow, flatterer? I am not sure, but I think I might guess his reason. There is a guild war out there, remember? May be he thinks you are safer by my side?~
+@242  = ~My chivalrous warrior, bold and pure, I am sure that he took it into account. Nowhere I am safer than with you and your valorous friends. Still, my father always argued against my ranging.~
+@243  = ~You worry yourself needlessly, my Lady. Now, let’s continue on.~
+@244  = ~Even if there is some dark design behind Aran’s actions, calm yourself. We shall avoid any trap he might be setting.~
+@245  = ~You are a member of my brave party, Sime, and in my heart I place you among my most cherished friends.  Together we shall strike for righteousness! Stay close to me and worry not about Aran’s plots.~
+@246  = ~I guess, you are right. I must be thinking too suspiciously of my father. After all, Aran has never tried to use me in his designs before. Why should he now? I am sorry for wasting your time with my doubts. It is just I would not want to hurt you in any way. The one who is warned is safe, they say.~
+@247  = ~Your words have cheered me up. I must be thinking too low of my father. After all, Aran has never tried to use me in his designs before. Why should he now? I am sorry for wasting your time with my doubts. It is just I would not want to hurt you in any way. The one who is warned is safe, they say.~
+@248  = ~You are very kind. It is just I would not want to hurt you in any way. The one who is warned is safe, they say. And you know what, <CHARNAME>? I would gladly stay very near you.~
+@249  = ~No, you should not have. My father is a dark man, but he has a code of honour of a sort and he is a living being. The rival guild mistress has neither of those qualities. Aran might have some sort of hidden design or he may not. But she is your enemy for sure, an enemy to anybody of flesh and blood. She is hatred incarnate. Fear her, <CHARNAME>.~
+@250  = ~Speaking of Bodhi. Here is a reason for you. There is a guild war out there, remember? May be Aran thinks that you are safer by my side?~
+@251  = ~My noble <PRO_BROTHERSISTER>, I am sure that he took it into account. I am among valiant friends when I travel with you. Still, my father always argued against my ranging.~
+@252  = ~You worry yourself needlessly, Sime. Now, let’s continue on.~
+@253  = ~Even if there is some dark design behind Aran’s actions, calm yourself. We shall avoid any trap he might be setting. Besides, I do not think Aran will use his own daughter as a tool in his games.~
+@254  = ~Sime, whatever it is, you and I will be able to deal with it in time. I trust you and I know you to be my kindred spirit and a valorous warrior. May be Aran had finally seen that you can take care of yourself and others and that’s why he did not argue? Stay close to me, my friend and worry not about Aran’s plots.~
+@255  = ~<CHARNAME>, I am sure that he took it into account. I am among valiant friends when I travel with you. Still, my father always argued against my ranging.~
+@256  = ~You are one of my friends, Sime. I know you for a valorous warrior. May be Aran had finally seen that you can take care of yourself and others and that’s why he did not argue? In any case, stay close to me, Sime, and worry not about Aran’s plots.~
+@257  = ~If you think that it is a solution, then so be it.~
+@258  = ~Yes, my father always argued against my ranging.~
+@259  = ~I am not sure, but I think I might guess his reason. There is a guild war out there, remember? May be he thinks you are safer by my side? ~
+@260  = ~I am not sure, but I think I might guess his reason. There is a guild war out there, remember? May be he thinks you are safer by my side?~
+@261  = ~(*Sime stands still for a moment, facing the wind, her locks flying wild around her face. Then she smiles and turns to you.*)
+
+Do you like my new hairdo? I have the best hairdresser in the world.~ [SIME6_1]
+@262  = ~Sime, all I see is you, facing gusts of wind. Not that you do not look pretty, with your hair flying, but what sort of hairdo is that?~
+@263  = ~Wind will be your hairdresser then?~
+@264  = ~Ah? What?~
+@265  = ~Why do I get a disturbing feeling that the next thing you will ask me will be if you look fat in your armor?~
+@266  = ~Northern wind hairdo - the style I prefer to any else.~
+@267  = ~I like your style, Sime. I always wanted to meet a woman who looks lovely without an effort.~
+@268  = ~Now if you would only cut your hair, make some of those little curls whatever they call them, and put some make up on, then I’d say you improved your appearance. Letting the wind to make a mess of your hair will not do anything for your looks.~
+@269  = ~I think you have just presented me with a challenge. I should take some time and help you to brush up you skills in gallant talk.~
+@270  = ~You have my permission to tutor me in gallant matters, Madam.~
+@271  = ~Sime, I am eloquent enough with ladies who are of interest to me. You are not one of them. Sorry, but at some point I had to be plain, since you do not understand more subtle hints.~
+@272  = ~That will be not needed, Sime.~
+@273  = ~I see it as a challenge. I am going to prove you that I have fine knowledge of the science of tender passion and its linguistic applications.~
+@274  = ~I will take this task very close to my heart, <CHARNAME>.~
+@275  = ~Honesty is one of your finest qualities, <CHARNAME>. Do not worry, I will leave you alone.~
+@276  = ~Oh, I see. I think, I get the hint.~
+@277  = ~I will be waiting for a demonstration... impatiently.~
+@278  = ~I am afraid we have different idea on beauty.~
+@279  = ~I will not, do not worry.~
+@280  = ~(*Laughs*) I noticed that you were watching me and I fished for a compliment from you, silly.~
+@281  = ~Oh, a compliment? The Lady’s desire will be granted then. I like your style, Sime. I always wanted to meet a woman who looks lovely without an effort.~
+@282  = ~Sorry, Sime the rough lips of this warrior are unaccustomed to saying gallant nonsense. ~
+@283  = ~It is a pleasing thing to get some rest at last. The day was long and the battles were many, but it is done, the fire is warm, and no danger is near. Come, sit by me and I shall sooth your hurts and heal your wounds.~
+@284  = ~I feel quite well, Sime. The day’s work is done, but did not we decide to exercise in courtly speech? Shall I start my lesson now?~
+@285  = ~My wounds are all healed, Sime... do you know what I appreciate about a fire the most... It is the way it softens features and makes our hearts gentler. About our lesson in gallant talk my Lady - is there a better time for it?~
+@286  = ~Sime, all I need is a good night’s sleep. Just leave me where I am.~
+@287  = ~There will never be better time. So lead the way, <CHARNAME>.~
+@288  = ~To prove to my Lady that I am skilled in gentle matters I shall sing a song of love and let’s see if the Lady can continue. Will you play this little game with me, Sime?~
+@289  = ~On the second thought it is too taxing. I mean to talk and whatever. Can I just kiss you and buy you a dozen of crimson rodelias if we happen to pass by a flower shop?~
+@290  = ~On the second thought it is too taxing. I mean to talk and whatever. Can I just kiss your hand and buy you a dozen of crimson rodelias if we happen to pass by a flower shop?~
+@291  = ~I am an old soldier and I rarely speak the words of love, but I shall sing a song about it and let’s see if you can continue. Will you play this little game with me, Sime?~
+@292  = ~Rest then, <CHARNAME>. And do not overexert yourself by looking for flowers.~
+@293  = ~I was starting to wonder when I would hear at last anything more gentle than a battle song from you, <CHARNAME>. You seem to avoid what feeds so many others of your calling. I like the game, <CHARNAME>, it will lighten our hearts and will ease our minds.~
+@294  = ~The fountains mingle with the river
+And the rivers with the ocean, 
+The winds of heaven mix for ever
+With a sweet emotion...          ~
+@295  = ~Ahem... Love, love me do,
+You know I love you...~
+@296  = ~I love a maiden young as spring,
+Her eyes bloom as flowers green
+Her hair sways as golden wheat
+Her lips are rubies sweet as sin.~
+@297  = ~Nothing in the world is single,
+All things by a law divine
+In one another’s being mingle-
+Why not I with thine?
+
+What a lovely song. What will you try next?~
+@298  = ~I love a maiden young as spring
+Her eyes bloom as flowers green
+Her hair sways as golden wheat
+Her lips are rubies sweet as sin.~
+@299  = ~Nothing. I think I am too tired to continue the game.~
+@300  = ~I’ll always be true,
+So please, love me do!
+
+What a lovely song. What will you try next?~
+@301  = ~I do not know this song, <CHARNAME>. But I would like to hear the rest of it.~
+@302  = ~Of course you do not know it! I tricked you, I wrote it myself today. Here is the rest:
+                                 
+To you alone I shall tell
+That Lady wears silver bell,
+You won’t see it when she passes 
+But you will hear when she laughs.~
+@303  = ~I guess you lost then, Sime. Do I get a prize?~
+@304  = ~Never mind, I think I am too tired to continue the game.~
+@305  = ~Oh, but it is wonderful. Makes me wonder though who the Lady in question might be.~
+@306  = ~I think I shall kiss you as a reward. For
+
+...the sunlight clasps the earth,
+And the moonbeams kiss the sea-
+What are all these kissings worth,
+If thou kiss not me?~
+@307  = ~Already? I thought we just started. Well, it was amusing and I must admit that you sounded very sweet. Good night, <CHARNAME>.~
+@308  = ~Sleep tight then.~
+@309  = ~At least you are honest.~
+@310  = ~You are my soul mate then? But sometimes loneliness of the woods is too much for a person to bare. Trust me, I know. One needs friends even if he chooses solitude.~
+@311  = ~I know, Sime. I am glad to have trusted companions with me. I would imagine some would come by to trade a tale or two into my humble abode far away.~
+@312  = ~Solitude is fine with me, I never feel lonely. And I am so tired of you talking! ~
+@313  = ~I know, that I would.~
+@314  = ~I have no such place. I envy the feeling you have for Candlekeep. Do you think I might visit one day with you there?~
+@315  = ~You would not like Candlekeep, Sime. It’s full of old scholars and the life centers around the library...~
+@316  = ~Why not? But it is difficult to gain an entry. You have to pay 10,000 gold pieces or carry a book of particular value. It is really a strange rule, but it is effective in keeping almost everyone out and in expanding the library.~
+@317  = ~I like libraries. I visited once an Edificant library with Darriel and another time we went through Silverymoon. I love the feeling of ages and peoples of old watching you from the shelves. I think I rather fancy the idea to visit Candlekeep.~
+@318  = ~If you’d live there maybe you can help me to get over the city wall or something. I do not own much.~
+@319  = ~I am not sure. I avoid interfering with the business of gods, yet I would not like the taint to change you into a merciless killing machine. I’ve become a ranger against my father’s will. It must be a much harder battle for you.~
+@320  = ~I fear it myself Sime and I watch my heart carefully. I will not let Bhaal take over. ~
+@321  = ~What’s your problem, ranger? I am Bhaal’s spawn and I am not as shy of the callings of my blood.~
+@322  = ~You are being too grim. I do not notice any evil influences in me. Surely men point their fingers and call me names, and maniacs like Irenicus hunt me, and I have nightmares sometimes... Oops, I guess there is something evil around me, but I shall be all right.~
+@323  = ~I am surely glad to hear that.~
+@324  = ~Indeed, my advice was useless then.~
+@325  = ~I think I worried needlessly. You are far too cheerful to be overtaken by the God of Murder.~
+@326  = ~(*You hear her quiet voice, and suddenly you listen more carefully and you can distinguish her words.*).
+
+Forest Maiden, tonight a thousand of young acolytes will ask for you to cast your glance their way, a hundred of priests dressed in ritual robes will pray to you, a dozen of sturdy rangers will whisper your name among their many toils in hope for your blessing. And among many words that reach your ears tonight, I, Sime Linvail ask you to listen to my plea. Forest Maiden, my prayer is not for me, but for a <PRO_MANWOMAN> of valor, a <PRO_MANWOMAN> tormented. <PRO_HESHE> is cursed often for no other fault than <PRO_HISHER> blood, <PRO_HESHE> has endured many trials, and I fear will face many more before <PRO_HESHE> is through. Bless <PRO_HIMHER>, Mielikki and give <PRO_HIMHER> some hope.~
+@327  = ~Sime? Were you prayers... for me?~
+@328  = ~(*Stay silent*)~
+@329  = ~Sime, what do you think you are doing?~
+@330  = ~You are awake? (*Laughs*) A stupid question, really. Of course you are. I was praying for you. You... do not mind, do you?~
+@331  = ~I do not, but it is not really necessary. My god watches over me, Sime.~
+@332  = ~No, of course not. Thank you, Sime. I did not know you cared so much for me.~
+@333  = ~Sime, do not you understand? I am not tormented, I am not cursed! I am who I am, a child of Bhaal, and I am ready to face my destiny. I do not need your prayers or your pity!~
+@334  = ~My kind Lady. Thank you.~
+@335  = ~I know that, <CHARNAME>. But I fear for you sometimes.~
+@336  = ~Do you fear for me or do you fear of me?~
+@337  = ~Do not fear for me, Sime. I am not tormented, I am not cursed! I am who I am, a child of Bhaal, and I am ready to face my destiny. I do not need your prayers or your pity!~
+@338  = ~You know, that’s getting too weird. Let me say you a "good night" and let’s forget the whole thing.~
+@339  = ~I never feared you.~
+@340  = ~Some will say you should.~
+@341  = ~I am glad to hear that, Sime. It is pleasant for a change. With all those rumors floating around Athkatla, I guess that I am mentioned more often in a curse than in a prayer.~
+@342  = ~They can say all they want, those others. Sometimes I wish to cast a silence spell when I hear old crows trading dark stories about you. But I am no crow, I know you and I trust my heart. I am not afraid of you, <CHARNAME>.~
+@343  = ~Good night then.~
+@344  = ~You cannot forbid me to feel. I did not know that the fact that someone is concerned about your wellbeing would upset you so. But have it your own way.~
+@345  = ~I do care for you, <CHARNAME>. And I fear for you sometimes.~
+@346  = ~<CHARNAME>, do not thank me. I did nothing out of the ordinary. I am a priest and it is my duty to pray for those I care for and I fear for.~
+@347  = ~(*Sime comes near you and brushes hair aside from your forehead gently*)~
+@348  = ~(*Catch her hand and squeeze her fingers*) Sime? Were you prayers... for me?~
+@349  = ~Sime, that’s enough! You are acting like a mother hen! I do not need your prayers or your pity!~
+@350  = ~(*Sime walks away*) ~
+@351  = ~It is strange how things that are so simple suddenly become more complex. When I was young, the Guild members were men visiting my father, often giving me a passing glance, sometimes joking with me.~ [SIME11_1]
+@352  = ~Yet now I know that some of them are vicious assassins, others are petty thieves, and the rest are so wicked and lie so often that I do not have a clue how they acquire the coins filling their pockets. I happened to run across some of my father’s associates when ranging. It was not pleasant.~
+@353  = ~And now you are travelling with one. That is what you are trying to say? You knew it when you joined in with me. What has changed?~
+@354  = ~Oh, Sime, my poor noble-hearted Sime! I know how you feel. It is not easy to say sometimes, what is a good or is an evil thing to do.~
+@355  = ~Sime, you do what you must do, no matter if it pleases you or not. You are a ranger, a keeper of law and order, and defender of the weak.~
+@356  = ~Of course, of course. Simple things are complex, complex things are simple. Can we go now?~
+@357  = ~What has changed? I have been thinking a lot about you lately. You are... you are different from greedy and merciless assassins, and you do not take the last possessions from the poor. You are furtive, cavalier yet cautious, and your avaricious personality determined your past. But somehow, you are yet unspoiled by the rogue’s ways.~
+@358  = ~I am a rogue, Sime, and probably will always be a rogue.~
+@359  = ~You are trying to... embellish me?~
+@360  = ~May be I am a vagabond, but a charming one. You like me no matter what do not you?~
+@361  = ~Enough of this rubbish, Sime. Let’s go.~
+@362  = ~I know. If there is no hope for you to engage into a more honorable activity, promise me at least that you will not forsake this odd code of honor you now have.~
+@363  = ~This world is not made for keeping promises, Sime. It changes at every turn of the hourglass. I’d rather not bind myself with empty words.~
+@364  = ~I will not change, Sime. I promise. With all this talk about my colleagues, who are so prone to make things theirs... Tell me, Sime, did anyone attempt to steal your heart?~
+@365  = ~You are right, words are empty. It is time for us to deal with something more material.~
+@366  = ~Oh, an attempt was made recently, I think.~
+@367  = ~But do not look for the culprit among the members of the Guild. Look closer... (*Quietly*). You will find <PRO_HIMHER> in the looking glass.~
+@368  = ~I do not. I know that there is no hope for you to engage into a more honorable activity. Promise me at least that you will not forsake this odd code of honor you now have.~
+@369  = ~I will not change, Sime. I promise. With all this talk about my colleagues, who are so prone to make things theirs? Tell me, Sime, did anyone attempt to steal your heart?~
+@370  = ~I like you the way you are now, yes. I know that there is no hope for you to engage into a more honorable activity. Promise me at least that you will not forsake this odd code of honor you now have.~
+@371  = ~Oh, so my opinion is rubbish? How very sweet of you to let me know that. I will make sure that you are not bothered by it anymore.~
+@372  = ~You are right, <CHARNAME>. I often do not know if coming to the Guild to see my father is good or bad for me. I think it is a good thing though. I love my father and love can never be a bad thing, can it?~
+@373  = ~I am no expert on love. Do ask someone else, please. Actually, it will be nice if you direct all of your questions to someone else.~
+@374  = ~Love can never be a bad thing, Sime. With all this talk about Shadow Thieves, who are so prone to make things theirs, I have meant to ask a question of you for some time... Is it just because of Aran that you visit the Guild? Or did some charming rogue steal your heart?~
+@375  = ~If I were you, I would not come see Aran. But you are the only one who can decide something like that. With all this talk about Shadow Thieves, who are so prone to make things theirs, I have meant to ask question of you for some time... Is it just because of Aran that you visit the Guild? Or did some charming rogue steal your heart?~
+@376  = ~I will in the future.~
+@377  = ~It comforts me that you think so. As for your question, an attempt was made recently, I think.~
+@378  = ~I lack your straightforwardness, I am afraid. As for your question, an attempt was made recently, I think.~
+@379  = ~I am true to my vows to Mielikki. However, I would prefer that it not be my own father and his associates from whom I need to defend people.~
+@380  = ~May be you should go away from Amn one day and leave the past behind? With some decent man may be? Or... forgive me if I am being too intrusive, but I wonder if it is just because of Aran that you visit the Guild? Or did some charming rogue steal your heart?~
+@381  = ~Duty is sacred and vows cannot be broken. I am glad we talked about it. If you ever feel like you are about to falter, do seek me out, Sime. Or another loyal friend. But tell me, Sime, is your father your only connection to the Guild? Or did some charming rogue steal your heart and cause you all this pain? Because if one did, I am going to take his head off his shoulders.~
+@382  = ~Aran is not the best father by far, but you could have gotten worse. Just think, as far as fathers are concerned, compared to me, you definitely lucked out.  Oh, you have finally smiled? With all this talk about Shadow Thieves, who are so prone to make things theirs, I have meant to ask a question of you for some time... Is it just because of Aran that you visit the Guild? Or did some charming rogue steal your heart?~
+@383  = ~I tried so many times, <CHARNAME>. Did not I tell you of my travels? I am tired of running. As for your question, an attempt was made recently, I think.~
+@384  = ~I will be sure to seek you out, <CHARNAME>. As for your question, an attempt was made recently, I think.~
+@385  = ~If you can make a joke about your father, then indeed, I should probably learn from you and take it less seriously. After all, I am not my father. As for your question, an attempt was made recently, I think.~
+@386  = ~Sure, let us go. I am ranting far too much.~
+@387  = ~I cannot believe it! Come, <CHARNAME>, look at this! I have never seen it grow in these parts and never does it bloom at this time of the year. It is a small miracle, this flower.~ [SIME12_1]
+@388  = ~Why, I think it is Suna’s Bloom. Is not it? I have not seen one before.~
+@389  = ~Hmm, what do we have here? I believe that it’s commonly called "Suna’s Blessing" or Solanum Carolinense Eunwoe in Elvish. Dwarves call it a Lay Flower and Forest Gnomes in Tethyr know it under the name of Auglim Leaf. The Halfing name would be... would be...~
+@390  = ~A nice enough purple flower it is, Sime. But a miracle?~
+@391  = ~Ahem, what is all this noise about? A couple leaves and few purple buds on a stem? Women!~
+@392  = ~Sime, has anyone told you before that you have an impossible voice? I, for my part, do not wish to hear it more often than absolutely necessary.~
+@393  = ~It is a very rare plant. I am surprised you know of it. Do you know why it is called Suna’s Bloom?~
+@394  = ~I have heard tales, Sime. Is it true that a freshly picked flower of Suna’s Bloom will make one more attractive to the opposite sex?~
+@395  = ~So, why it is called Suna’s Bloom? Sounds rather intriguing.~
+@396  = ~I have a feeling that you will tell me whether I want to know or not. Speak, Sime, I am all ears.~
+@397  = ~I am not sure I want to know. Suna is not a deity I am prone to worship.~
+@398  = ~So the scrolls say. We can see if it is true or not. Here, let me pick it and attach it to your cloak. Then I can tell you the effect.~
+@399  = ~If it is as rare a flower as you say, it is better to leave it growing, Sime. I reckon I am attractive enough without it.~
+@400  = ~Among our gloomy days full of spilt blood and endless battles, this flower reminds me of the lighter, gentler side of life. I will wear the Bloom, not to appear more attractive, but to honor Love.~
+@401  = ~Let’s see if the scrolls lie.~
+@402  = ~That sounds like an interesting idea. But the finder is the keeper. Sime shall wear the bloom and I shall see how much more attractive she can become.~
+@403  = ~My Lady, among our gloomy days full of spilt blood and endless battles, this flower reminds me of the lighter, gentler side of life. And so do you, Sime Linvail. Please, humor me and wear the bloom.~
+@404  = ~You are as wise as you are handsome, <CHARNAME>. Let the flower grow unharmed.~
+@405  = ~Here, the flower is on your cloak. Now I shall announce my judgement.~
+@406  = ~So what do you think, my gentle judge? ~
+@407  = ~Sime, if the effect is too strong, I will take it off. Speak to me!~
+@408  = ~Eh, how is it?~
+@409  = ~You always appeared handsome in my eyes, but the scrolls do not lie, <CHARNAME>. You look incredible: there is a glow about your face and your orbs shine; the troubles are wiped from your forehead and even your voice sounds sweeter to me. I am certainly glad the enchantment does not last long.~
+@410  = ~Why do not you want the enchantment to last, Sime?~
+@411  = ~I think I will take the flower off then. I feel odd.~
+@412  = ~I’ll let you guess that one on your own.~
+@413  = ~It is too late. The spell is on you and it cannot be reversed. Do not worry, in few short hours you will be your old self again. And I promise to guard you against any unwanted attention.~
+@414  = ~If you wish. Watch me very closely, <CHARNAME>. I put the flower on... So?~
+@415  = ~Words rarely fail me. But so they do every time I look at you. You are beautiful, Sime, with or without the Suna’s Bloom.~
+@416  = ~You look incredible: there is a glow about your face and your orbs shine; the troubles are wiped from your forehead and even your voice sounds sweeter to me.~
+@417  = ~(*Shrug*) Yeah, some changes are evident. I guess the scrolls speak truly. We shall go now.~
+@418  = ~Such gentle words, My Lord, are to be rewarded by a grateful maiden. (*She kisses you gently and runs away giggling*)~
+@419  = ~Good to know that we can trust our scholars. (*Laughs*). Oh, I see you are growing impatient. I am coming!~
+@420  = ~The scrolls say that a freshly picked flower of Suna’s Bloom will make one attractive to the opposite sex. We can see if it is true or not. Here, let me pick it and attach to your cloak. Then I can tell you the effect.~
+@421  = ~You do not respect Love? Then you are a fool and a servant of Death.~
+@422  = ~Do not try to remember: there is no name in Halfling speech for this one. It is a very rare plant. I am surprised you know of it. Do you know why it is called Suna’s Bloom?~
+@423  = ~It is a very rare plant. And it is called Suna’s Bloom for a reason.~
+@424  = ~You will not.~
+@425  = ~I am lonely and sad tonight. Faerun feels enormous and cold. See how that little star twinkles and strives to shine, and barely can in this chilly air? So does my heart. It aches because of you. Will you keep me company and warm me up, <CHARNAME>?~
+@426  = ~You are cold? Here, I’ll wrap my cloak around you, it is lined with fur and it is very warm. Sit down closer to the fire and I will get it going in no time. ~
+@427  = ~I can offer you the comfort of my arms and warmth of my bedroll if you wish, Sime.~
+@428  = ~Are you trying to say that you... love me? ~
+@429  = ~I am afraid I cannot Sime. I am sorry, but I am involved with someone else.~
+@430  = ~I am afraid I cannot Sime. I can offer no spark to set your heart aflame this cold evening... I am sorry...~
+@431  = ~That is not exactly what I meant, but damn, it is pleasant to have someone to take care of me. You are such a wonderful person!  <CHARNAME>, I am attracted to you and it was not your cloak I hoped to have wrapped around my shoulders, but your arms.~
+@432  = ~I can offer you the comfort of my arms and warmth of my bedroll if you wish.~
+@433  = ~Are you trying to say that you... love me?~
+@434  = ~I understood you perfectly, Sime. I hope you will understand me. I am involved with someone else.~
+@435  = ~I understood you perfectly, Sime. I hope you will understand me... I am sorry... I can offer no spark to set your heart aflame this cold evening.~
+@436  = ~Then move and let me lay by your side and shower you with kisses, my sweet lover.~
+@437  = ~But of course I love you tonight! I fell asleep a moment ago and was dreaming of kissing you when I woke up. I like when my dreams come true in that regard. Is that not enough talk for you, <CHARNAME>? Won’t you hold me and kiss me already?~
+@438  = ~Of course I will. A stone would melt from that devilish look in your eyes, let alone a lover’s heart. Come here, beautiful. ~
+@439  = ~Tonight? What about on the morrow?~
+@440  = ~ Actually I was going to discuss the origin of magic in Faerun, the nature of Weave and the descent of Dragons with you... Oh, what in Nine Hells I am talking about? Come here this very moment, enchantress, and let’s make the heavens shake.~
+@441  = ~You know, it is very sweet of you to offer but I am just too tired. May be another time...~
+@442  = ~Now, those are the words I wish to hear! Let me lay by your side and shower you with kisses, my sweet lover.~
+@443  = ~Tomorrow will be another day, <CHARNAME>. We will die or we will live. May be we will love each other again, may be not. Why worry about it? We are together now, that is all that matters.~
+@444  = ~You are right, dear Sime. But I would prefer that you still love me on the morrow.~
+@445  = ~Why get involved with a thought that will be over in a day or two? I am disappointed that you treat me like this. I hoped that there was something special going on between us.~
+@446  = ~Yes, I feel it as well, that we live, as each day is our last one. And I want to love a maiden on my last day that is for sure. ~
+@447  = ~I cannot promise you a life-long commitment, a house full of books, flowers, and little ones with me as your wife, <CHARNAME>. But I can give you a night of passion, which you will remember till the evening dawn of your life. Take it or leave it.~
+@448  = ~Of course I will take it. A stone would melt from that devilish look in your eyes, let alone a lover’s heart. Come here, beautiful.~
+@449  = ~No, Sime, what you are offering is not enough.~
+@450  = ~Then I shall return into my cold bed alone. Only in the tales of heroes-of-old does one get three chances, <CHARNAME>. With Sime it is only one and you missed it. Sleep tight.~
+@451  = ~I cannot promise you a life-long commitment, a house full of books and flowers, <CHARNAME>. But I can give you a night of passion, which you will remember till the evening dawn of your life. Take it or leave it.~
+@452  = ~Let me lay by your side and shower you with kisses, my sweet lover.~
+@453  = ~Only in the tales of old does a hero get three chances, <CHARNAME>. With Sime it is only one and you missed it. Sleep tight.~
+@454  = ~I wish you every happiness then. ~
+@455  = ~Wake up, m’<PRO_LADYLORD>, the dawn is spreading over the sky! And the woman of the yester eve is up already and her eyes spell trouble for you. Wake up, m’<PRO_LADYLORD>, the world is holding its breath in anticipation of your decisions. Shall we live or shall we not? Shall we love or shan’t we? ~
+@456  = ~No-yet still steadfast, still unchangeable,
+Pillow’d upon my fair love’s ripening breast,
+To feel for ever its soft fall and swell,
+Awake for ever in a sweet unrest,
+Still, still to hear her tender-taken breath,
+And so live ever-or else swoon to death.~
+@457  = ~You know, Sime, the last time a maiden awoke me yelling, it was Imoen and I was caged in Irenicus’ Dungeon, after being broken and tortured for months. Spare me bad memories and by all Gods of the Realms, do lower your voice!~
+@458  = ~I would be up already were not you sitting upon my chest.~
+@459  = ~Hmm, I take it you liked the pleasures we partook of last evening?~
+@460  = ~The play between the sheets is play between the sheets, Sime. It was fine, but now we must get moving.~
+@461  = ~Sime, my sweet Sime, if I were a god I would make this night last forever. But since I am only a measly demi-god I must put my feelings in words: it was awesome, wonderful, and unforgettable.  Kiss me another time to give me small consolation; for I must now take my hands off your body and let you hide it from me under your armor.~
+@462  = ~Sime, my sweet Sime, if I were a goddess I would make this night last forever. But since I am only a measly demi-goddess I must put my feelings in words: it was awesome, wonderful, and unforgettable.  Kiss me another time to give me small consolation; for I must now take my hands off your body and let you hide it from me under your armor.~
+@463  = ~Sime, I must tell you... It does not feel right. We shall not continue this.~
+@464  = ~My point exactly, <CHARNAME>. Now, MOVE!~
+@465  = ~I love you even if you are merely a demi-god. But do get up.~
+@466  = ~Fair enough. Take my heart or loose it, <CHARNAME>, as you desire.~
+@467  = ~I hope the analogy does not go any further than my loud voice? Or was last eve torturous for you? ~
+@468  = ~Such a grouch you are in the morning! Pray tell, is it usual for you to grumble after a night of passion, or you are so exclusively with me? Do I love in a way that puts you in a bad spirit?~
+@469  = ~I love you even if you are merely a demi-goddess. But do get up.~
+@470  = ~<CHARNAME>, I want to make sure that we understand each other. You know what is my credo in love? Do not trust, do not fear, and do not ask.~ [SIME14_1]
+@471  = ~Ahem, is it about the last night? I mean it was swell and all, but try not to make a big deal out of it.~
+@472  = ~I never fear, be it in battle or in love. But I do not think I should take without asking and I wish to be able to trust.~
+@473  = ~Why, Sime? Are you so afraid to get hurt?~
+@474  = ~In the mad world we are living in, it is a sensible rule. I understand you, Sime.~
+@475  = ~Well, I see that you have the attitude I desire, even if it was not put in the most gentle of words.~
+@476  = ~Only madmen know no fear, <CHARNAME>. Bravery is in overcoming it, not in denying it.~
+@477  = ~I am mad. Mad about you. And I am mad at you too, because you are trying to rob our relationship of any meaning.~
+@478  = ~Then you shall learn to overcome your fear in the matters of love. Are you so much afraid of being hurt, that you would forbid yourself to trust a <PRO_MANWOMAN>, Sime Linvail?~
+@479  = ~I do not want to argue with you, Sime. I would not want to hurt you. It will be as you wish.~
+@480  = ~I am not robbing you, I am trying to protect you, <CHARNAME>.~
+@481  = ~Love and trust are not the things I need to be protected from. I have too little of them in my life as is.~
+@482  = ~You are not trying to protect me, Sime. You are trying to build walls around your own heart. Are you so much afraid of being hurt, that you forbid yourself to trust a <PRO_MANWOMAN>, Sime Linvail?~
+@483  = ~I just do not want love to be an obligation! I do not want our love to turn against us or to become a necessity. Look at my parents: they loved each other against all odds and look what it brought them? My mother is dead and my father wasting himself on whores. I... I am getting very upset and I do not like it. I am sorry to have started this conversation.~
+@484  = ~Yes, I am afraid. Look at my parents: they loved each other against all odds and look what it brought them? My mother is dead and my father wasting himself on whores. His love did not protect her from afar. Love me while I am close to you, not when I am away; love me while I am in a good health not when I am frail; and you will always be free, and should you go, I will remember you with a warm smile, not with a scowl. And I expect the same from you.~
+@485  = ~You are a strange woman, Sime. I am not quite sure what do you want exactly or why do you want it, but be it as you wish. I do not care to argue with you, Sime. I would not want to hurt you. ~
+@486  = ~For me, love always carries an element of devotion. I will not participate in this weird arrangement.~
+@487  = ~I hope one day you will feel like I do. I hope you will understand we were meant to be together and that we are true soul mates. I hope you will trust me completely and you will love me without any fear or remorse and you will forget feeling you need to reserve a way out.~
+@488  = ~You are ever so gentle, my love. Sometimes, it makes me wonder if I can play by my own rules with you.~
+@489  = ~As I said - you are free to go at any time. Let it be now then.~
+@490  = ~Sometimes I wonder, how could you endure all these trials, and keep your soul so young and gentle. You are truly a noble <PRO_MANWOMAN>. Just remember, it was not me who gave you that hope.~
+@491  = ~I am glad. I hope that we both are sincere right now and we both know what we want. I... would not want to hurt you in any way, <CHARNAME>.~
+@492  = ~We both do, do not we? No obligations, no questions asked, and we walk free should the time come. This is the only way to avoid hurting each other. ~
+@493  = ~Sime, I do not know. The heart can change but why worry about it now, while everything is so good?~
+@494  = ~I would not want to hurt you either, Sime. It will be as you wish.~
+@495  = ~You are right. Let’s continue on our journey. Passion shall rule our nights, but not our day life.~
+@496  = ~You know what I was doing last night? I was counting stars and giving them different names. I even considered calling one after you. Guess which one?~
+@497  = ~Mystra’s star? Though, it’s my preference to think about you while watching it: it is so bright, beautiful, and mysterious.~
+@498  = ~I think Mystra’s star is the obvious choice.~
+@499  = ~Ieryn - the star of the North? I know it is sacred to Selunites and you have a deep spiritual connection with your mother. May be you were speaking of me to her while watching the night sky and Ieryn came to your mind?~
+@500  = ~Shaundral? An erratic star who shines brightest before disaster? Like me, whose coming was foretold in Alaundo’s prophesies?~
+@501  = ~King’s Coin? The star of the rulers for Men and the Kingslayer to Elves? Do you think I am destined for greatness or great failure?~
+@502  = ~I do not know, Sime. Why do not you tell me?~
+@503  = ~Mystra’s star? I love its blue soft light. May be if I had to select one star to name after you I would have chosen it. But you know, when I was looking at the sky yesterday, I suddenly realized that every star reminds me of you.~
+@504  = ~Then I thought that everything which is fair and dear to my heart is somehow connected to you. You are in my frosted breath in the early morning, and in the tune I whistle when I wake. You are my sun and stars... I am afraid you are becoming my world.~
+@505  = ~What about your own credo, Sime? The "do not fear" part? You have nothing to be afraid of by my side, me included. Neither you should be afraid of your love for me. I know one day I will harvest those simple words from your lips, undressed and unadorned. I yearn for that day.~
+@506  = ~Too many fancy words, Sime. Do give me a more material declaration of your feelings for me. The night grows long and we do need some sleep afterwards.~
+@507  = ~Now you have me wondering what star I shall name for you. I guess I will stay up all night poring over that task. I wonder why the poor and rich alike in these parts stock their bookshelves with endless copies of the "History of the North"? It must have been on sale or something. I’d rather fancy to see a "Star Lore" book somewhere...~
+@508  = ~And I am yearning for a bedroll right now. Care to join me there? You have not embraced me for far too long, my lazy lover.~
+@509  = ~(*Laughs*)... It can be as long or as short as you wish, <CHARNAME>. But I remember that on occasion you are prepared to forsake your sleep. So, what are you waiting for? Care to join me? You for have not embraced me for far too long, and I do not fancy lazy lovers.~
+@510  = ~By Mielikki, I have created a monster! If you wish to begin your very own star lore book right now, I can help you I suppose. Alternatively, you may join me in my bedroll. I would like to bring to your attention that you have not embraced me for far too long and that I do not fancy lazy lovers.~
+@511  = ~Why, because you are a wizard? I could have chosen it, I guess. But you know, when I was looking at the sky yesterday, I suddenly realized that every star reminds me of you.~
+@512  = ~The most constant star of the sky? The one who guides my steps when I am lost? I could have chosen it, I guess. But you know, when I was looking at the sky yesterday, I suddenly realized that every star reminds me of you.~
+@513  = ~Some might say that it is indeed a fitting star for you, <CHARNAME>. But I do not see its ominous light reflected in your eyes. You know, when I was looking at the sky yesterday, I suddenly realized that every star reminds me of you.~
+@514  = ~You are dramatic as ever. Whatever your destiny, I hope you won’t know a great fall. I am too afraid of the darker fame of Kingslayer among the Elves to give it to you. However, when I was looking at the sky yesterday, I suddenly realized that every star reminds me of you.~
+@515  = ~You are a wise one, <CHARNAME>, for it was a tricky question. When I was looking at the sky yesterday, I suddenly realized that every star reminds me of you.~
+@516  = ~Future? Why do you suddenly want to know about the future? The only certain thing is that we all will die, sooner or later. Though yours might be a different story. You know, I pity seers, the ones who are burdened with knowing what is to come.~ [SIME17_1]
+@517  = ~Sime, I was not talking about the future of Faerun! I was talking about you. What will you do when my quests are over?~
+@518  = ~Future is one of your phobias as well?~
+@519  = ~Why would you pity seers? Theirs is a rare gift and the great ones of the world seek their advice and wisdom.~
+@520  = ~(*Laughs*)... So you foresee the end of your quests, <CHARNAME>? I do not believe you! Your job is never done, my hero. There will always be a city to save from foes or a maiden to rescue from the clutches of a dragon. And so long as you choose the honorable way, and we do not grow bored of each other’s company, I shall walk by your side.~
+@521  = ~You are anything but boring, Sime. So fear not me leaving you.~
+@522  = ~Oh, yeah. I love that sort of stuff. Dragons and foes, beware! <CHARNAME> and Sime are coming to get you!~
+@523  = ~Do not you find that righteous path you are so eager to stay upon a little bit slow and boring? What if we deviate a bit for a while? Kill a couple of fluffy kittens and sweet old ladies? For variety’s sake?~
+@524  = ~Do not you know a mortal’s
+Short-living love?
+A fateful excitement of blood, 
+But as the days pass blood cools.
+Who will resist parting,
+temptation of a new beauty,
+fatigue and boredom and
+despotism of a new dream?~
+@525  = ~Escape me?
+Never-
+Beloved!
+While I am I, and you are you,
+So long as the world contains us both,
+Me the loving and you the loth,
+While the one eludes, must the other pursue.~
+@526  = ~If I say me, you will only laugh, right?~
+@527  = ~Mere mortal - may be. But I am a demi-god, for all it’s worth. Mayhap I love differently, Sime.~
+@528  = ~I went to the bird merchant
+And I bought birds
+For you, my love
+I went to the flower shop
+And I bought flowers 
+For you, my love
+I went to the smithy
+And I bought chains
+Heavy chains
+For you my love
+And then I went to the slave market
+And I was looking for you,
+But I could not find you there
+My love.~
+@529  = ~Do not bother to look for me at the slave market, <CHARNAME>. Nothing lasts forever and that is a good thing. It is all the sweeter that way.~
+@530  = ~I will not laugh, but I will smile.~
+@531  = ~Let me hope not. I want the love of a mortal person, the one of flesh and blood, not divine favor. It is the Forest Lady I pray to, not you.~
+@532  = ~And none shall withstand our combined wrath. Speaking of which - it is past time we rejoin the others and press onward.~
+@533  = ~If that will ever be your choice, I will leave your side, <CHARNAME>. If our paths should cross again afterwards, we shall join in battle as bitter foes.~
+@534  = ~I am not afraid of anything that comes my way. I can handle it or I will die. But what I would not want is to know my future in advance. I’d be so bored!~
+@535  = ~Boredom? That is what you are afraid of? Then you have found a great antidote: my life, and the lives of those who travel with me, is anything but boring. Stick with me and we are going to have loads of fun. There will always be a city to save from foes or a maiden to rescue from the clutches of a dragon.~
+@536  = ~Why? Do not you want to be forewarned?~
+@537  = ~I do believe you in that! Your job is never done, my hero. And so long as you choose the honorable way, and we do not grow bored of each other’s company, I shall walk by your side.~
+@538  = ~You are anything but boring, yourself, Sime. So, fear not me leaving you as well.~
+@539  = ~Dragons and foes, beware! <CHARNAME> and Sime are coming to get you!~
+@540  = ~Forewarned? Guaranteed from making mistakes? No, <CHARNAME>, I do not want my days to be presented in front of me by some fortune teller. I love surprise and I love making decisions on my own. I thought you were the same sort of person.~
+@541  = ~I was. Then I spent a year roaming the Sword Coast and being chased by every rogue in existence. In those days, I wish I had possessed some idea of what I am and what is my destiny.~
+@542  = ~Oh, I have bloody forewarning, Sime. Made by Alaundo himself, not some cheap charlatan. Do not you remember: "the Lord of Murder shall perish..." and that entire circus?~
+@543  = ~My destiny was foretold, Sime. And I feel that I know what is going to happen in the end.~
+@544  = ~And how much more secure would you feel knowing that you are Lord of the Murder son and that it is your half-brother who is after you? Tell me is that your goal in life, to make Alaundo’s prophecy to come true?~
+@545  = ~No, of course not. I live by the advice of my own heart. But the prophecy... the prophecy explains many things to me about the way I feel and I act. I would be worse off, if I did not know what I am.~
+@546  = ~Yes. My destiny is clear and I shall take what I was promised.~
+@547  = ~Sime, please, let us just drop this talk? Or I will damage my jaw yawning.~
+@548  = ~And that is the only way to live! I am glad to hear you say that. But I think we should rejoin the others and press onward now.~
+@549  = ~(*Quietly*) Was not that how Sarevok felt? ~
+@550  = ~We cannot have that, can we? Let us rejoin the others and press onward then.~
+@551  = ~I remember, <CHARNAME>. And I pity you for that. Tell me, is that your life’s goal, to make Alaundo’s prophecy to come true?~
+@552  = ~Is there wisdom in being an oracle of events which have not yet happened? Is it really a great joy to be questioned constantly by fearful people and know that your answer may not be taken lightly by a Lord you serve? If I was a prophet I would hide from the rich and powerful, that is for sure.~
+@553  = ~Everyone has a talent, a particular talent. And to fulfill your life it has to be realized. If a seer hid himself and ignored his visions it would drive him mad, I think.~
+@554  = ~You would rather turn into one of the mad beggars walking the roads and foretelling doom to all?~
+@555  = ~Going mad may be a wise choice for them. At least then they would not feel responsible for their counsel and not comprehend its consequences.~
+@556  = ~Then any counselor or a ruler is better off mad, Sime.~
+@557  = ~Sime, you stopped making any sense.~
+@558  = ~You are being unreasonable. The prophecy of Alaundo explains many things to me about the way I feel and act. I would be worse off, if I did not know what I am.~
+@559  = ~A mad Lord will cause great grief to his people. Because of that, I wish no ruler or his courtier to be mad.~
+@560  = ~Let us rejoin the others and press onward then.~
+@561  = ~I know that, <CHARNAME>. And I pity you for it. Tell me, is that your life’s goal, to make Alaundo’s prophecy to come true?~
+@562  = ~No, of course not. I live by the advice of my own heart. But the prophecy. . .the prophecy explains many things to me about the way I feel and act. I would be worse off, if I did not know what I am.~
+@563  = ~So, tell me of all those ladies you fancied in your past? Is there a maid still waiting for you in Candlekeep? Was there a companion of the road  who was dearer to your heart than any other?~
+@564  = ~Sime, you are the only one for me. I can see the beauty and grace of other women, but I am somehow not attracted to them in the way I am to you. And I never was. I guess I was just waiting for you to come and claim my heart.~
+@565  = ~Are you in the mood for absolving sins? Yes, I had a girl or two before. ~
+@566  = ~There was a Northerner, tall and proud, who traveled with me for a time. A true warrior Branwen was, and beautiful beyond belief.~
+@567  = ~I often had my eyes upon Skie Silvershield, a daughter of a Grand Duke of Baldur’s Gate.~
+@568  = ~Dynaheir, her name was Dynaheir, but I rather not talk about it.~
+@569  = ~There was a fighter I fancied for a time, Shar Teel by name.~
+@570  = ~Is that true? Oh, no matter that sounds way too sweet for me to question it.~
+@571  = ~And?~
+@572  = ~No "and". I wish to keep some sins and some secrets, Sime.~
+@573  = ~And then I met you. Sime, you are the only one for me now. I can see the beauty and grace of other women, but I am somehow not attracted to them in the way I am to you. No one else matters.~
+@574  = ~I often had my eyes upon Skie Silvershield, a daughter of a Grand Duke in Baldur’s Gate.~
+@575  = ~Dynaheir, her name was Dynaheir, but I would rather not talk about it.~
+@576  = ~Oh well, I’ll let the bards figure it out for their songs.~
+@577  = ~What ever became of her?~
+@578  = ~My stone maiden she was. It is true, Sime. A lousy mage turned her into stone when she refused to fight unarmed people. I released her from the curse. I sort of thought that would promote a romance. But Branwen had been on her own quest to become a priest of Tempus. It was a position reserved solely for males in her parts, so when she judged that she had gained enough power, and the favor of Tempus was with her, she departed for her homeland to prove herself. I felt that I had to let her go.~
+@579  = ~That was very noble of you.~
+@580  = ~I guess. That was what I was kept telling myself for a time. But time heals all wounds.~
+@581  = ~Noble? May be. That war hammer she was swinging in battle also played a role in my decision.~
+@582  = ~I find that this sort of wound can only be healed by more radical means. The heart is like a port: as one ship is leaving another is entering. Fear not, <CHARNAME>, I foresee that you will love and be loved many more times.~
+@583  = ~You are never serious, are you? I like that about you.~
+@584  = ~She has gone off with her lover, a fortune seeker named Eldoth Kron. She is still trying to persuade Duke Silvershield to recognize their marriage. Until then, they are in hiding. I hope at least, Eldoth does not mistreat her.~
+@585  = ~Young girls brought up in noble families can be so blind in the ways of the real world. Was there nothing you could do?~
+@586  = ~Just like her father, I tried to make her to see Eldoth for what he was, but I got no better results than him. It only added to her conviction that the whole world was one big conspiracy against her love for the slimy bard.~
+@587  = ~Well, all my courting went unnoticed. She considered me to be a lowlife.~
+@588  = ~I tried but without success. As you said, she was completely oblivious to the way things work in the real world. But, Sime,that is enough of Skie. You are the only one for me now. I can see the beauty and grace of other women, but I am somehow not attracted to them in the way I am to you.  No one else matters.~
+@589  = ~For her sake I hope she will wake up one day and meet someone more honorable. It always saddens me when hearts bleed for an unworthy person.~
+@590  = ~(*Laughs*)...  Then she committed a grave mistake. I did never meet a lord more honorable and valiant than you. I would dearly like to have seen you in the beginning of your travels. A bit shabbier you may have been, but with less pain in your eyes, and more starlight and youth.~
+@591  = ~For her sake I hope she will wake up one day and meet someone more honorable. But she will not have you now; I am a greedy woman.~
+@592  = ~It is the name of one of your fallen companions, is not it?~
+@593  = ~Yes, it is.~
+@594  = ~I know how it feels to lose a lover to death, <CHARNAME>.  That’s when our spinning and ringing world of battles and adventures comes to a crashing stop.~
+@595  = ~If I only knew... Shar-Teel was a very angry person and trusted no man. Her life was not an easy one, I suspect. She let me have no more than a glance into her soul, which was far more than anyone else ever saw.  I suspect that she is fighting some battle somewhere or drinks and laughs with one group of rascals or another.~
+@596  = ~It does not sound like a happy story, <CHARNAME>.~
+@597  = ~Wrong people, wrong feelings. Happens all the time.~
+@598  = ~You want a happy story? Then let us make it. You are the only one for me now. I can see the beauty and grace of other women, but I am somehow not attracted to them in the way I am to you. Nothing else matters.~
+@599  = ~Yes, but I feel not comforted by that.~
+@600  = ~A worthy idea! And we are hard at it already, do not you think?~
+@601  = ~(*Reads to you from an old tome*)
+
+"And His Grace the King came then upon Sir Knight and his Lady Wife. They were asleep on his cloak shielded by the branches of an ancient oak tree. Sir Knight’s great sword lay between them and so the King saw that his honor was not despoiled.  His Grace kneeled and slipped his own ring onto his Lady’s finger and then he rode off..."~
+@602  = ~I am not sure I am truly convinced in the efficiency of that sword. Be there a blade between us or not, you will not be safe from my embrace. But I have heard of a ranger who used a direwolf for that purpose. That might be more efficient.~
+@603  = ~Sounds like a thing Valygar would do. Or may be Kivan if some lady would imagine that she could replace his dear Deheriana. It would be a hamster, not direwolf in Minsc’s case, I guess.~
+@604  = ~That sounds dangerous - a sword in the bedroll. Someone could get hurt.~
+@605  = ~Ahem, Sime, do you think we can delay the story’s ending till tomorrow night? I am afraid my endurance is lacking compare to that of Sir Knight.~
+@606  = ~That is a tale to warm up a noble heart.~
+@607  = ~His name was Jon. But, do you imply that it is a typical behavioral pattern for rangers?~
+@608  = ~In no way. Rangers can be very playful and outgoing. I even know one. Blonde tresses, green eyes, charming smile, and an absolutely irresistible way to kiss.~
+@609  = ~Oh, no. I know that better than anyone else! Rangers are passionate lovers. Do not you agree?~
+@610  = ~May be. But I can be convinced to reconsider.~
+@611  = ~I have no opinion on the matter. You were talking about rangers and I remembered all I have met. No, wait I forgot Drizzt Do’Urden! Ahem, bad example, I am afraid.~
+@612  = ~Now, that you started this talk about kissing, think we can delay the story’s ending till tomorrow night? And do some serious research on the ways the rangers love?~
+@613  = ~Absolutely true, <CHARNAME>. Do you think we can delay the story’s  ending till tomorrow night? And do some serious research on the ways the rangers love?~
+@614  = ~I am afraid it can take some significant amount of time. Do you think we can delay the story’s ending till tomorrow night? And do some serious research on the ways the rangers love?~
+@615  = ~Bad example indeed. Have you ever heard about the courtesan in Waterdeep who approached him, thinking he was sufficiently drunk? Not only did he politely refuse her nineteen times, but on the twentieth he set his ale aside, pulled out his diary, and started reading her an excerpt on the Drow’s way of love... They say that poor girl refuses to enter that inn ever since.~
+@616  = ~Sime, that... that cannot be true!~
+@617  = ~Shall we keep talking about Drow or can we delay it till tomorrow night? I am afraid my endurance is lacking compared to that of Sir Knight or Drizzt.~
+@618  = ~May be, but I have heard it from a very reliable source. Do you think we can delay this discussion? And do some serious research on the ways the other rangers love?~
+@619  = ~Am I glad to hear that, <CHARNAME>. I was wondering how long it would take you to figure out that I had not been kissed tonight yet.~
+@620  = ~A direwolf sounds better to you?~
+@621  = ~At least it is softer. And warmer.~
+@622  = ~Where is your familiar?~
+@623  = ~Depends. Did it work for that ranger?~
+@624  = ~How about  warming up our bed ourselves?~
+@625  = ~He’s off hunting. But at any rate, the werewolf did not work for Jon, why should it work for us?~
+@626  = ~No, it did not. His lady was just as persistent as I am. I hope you will follow his suit and join me under the covers now.~
+@627  = ~Am I glad to hear that, <CHARNAME>. I was wondering how long it would take you to figure out that I had not yet been kissed tonight.~
+@628  = ~How about warming up our bed as well?~
+@629  = ~I am not a mage, <CHARNAME>, and I am not even a mage’s apprentice, but there is a spell Darriel once taught me. I can see that you are weary and sad. The spell might put you into lighter mood. Do you want me to cast it?~
+@630  = ~No, Sime, I do not want any spell cast on me. I will sleep now, and I will be fine once I have rested.~
+@631  = ~What is the nature of that spell? ~
+@632  = ~I doubt that a single spell can take away my worries (unless it kills Irenicus), but do cast it Sime. I’d welcome some entertainment.~
+@633  = ~Sleep tight then, <CHARNAME>.~
+@634  = ~That is a... surprise. You like surprises, do not you?~
+@635  = ~No, Sime, not really. I do not want any spell cast on me. I will sleep now, and I will be fine once I have rested.~
+@636  = ~It depends... But you said it is going to be something pleasant, did not you? All right then cast your spell and we shall see.~
+@637  = ~I adore surprises, especially pleasant ones. Cast the spell, Sime Linvail!~
+@638  = ~Give me your hand, <CHARNAME>... Kaimeldor panta annonta ten’lle...~
+@639  = ~I am glad to feel the warmth of the sun on my skin and see the light and the shadows play. I have not liked it at all in the caverns of the Underdark and its creepy inhabitants. How do you feel now that we have returned to the Surface? Are you a creature of light?~
+@640  = ~I am a creature of light, Sime, no matter what they say about me. I have never been as jolly as when we came back under the gaze of the sun. I disliked the Underdark and all the foul creatures that populate it.~
+@641  = ~Dark it is my fair Lady, but many riches are hidden within. I took a look around the mines that those gnomes worked. I say that the rock there might yield clear diamonds and glowing garnet gems. And that was naught but a small corner of the Underdark. Nays, Sime, do not judge the place unlikable too hastily.~
+@642  = ~I agree with you in that I feel more comfortable on the Surface. But there is a certain beauty in the Underdark. And not all creatures that populate it are foul.~
+@643  = ~I have to say that I felt fine in the Underdark. Drow are no worse than the snotty Elves in Suldanesselar. Solaufein fellow was quite decent. Deep gnomes are cute... Of course there were few unpleasant meetings, but that’s no different than on the Surface. Besides it is always warm there and it does not rain. In fact I am thinking of journeying there again when I will have time.~
+@644  = ~I am glad we think alike.~
+@645  = ~I did not think about it in that way, <CHARNAME>. But to tell you the truth, I treasure a flower above any jewel, and I like the light of sun above any riches.~
+@646  = ~Oh, then I can give you wild flowers instead of jewels. How very wise and economic! The only thing that bothers me that I will be seen while picking up flowers, like some effeminate Elf.~
+@647  = ~Ah, but what of weapons, Sime? Can you make a blade without shiny mithril or dark adamantite?~
+@648  = ~You talk nonsense, girl. Flowers will wither, but gemstone would shine forever.~
+@649  = ~I can propose an even more economic solution: give me your love, that’s all I need.~
+@650  = ~Here you got me! Well, I guess I was not born to be a miner, but I shall be grateful that others were. Though if there were not any weapons ever made... there wouldn’t be fighting. Nay, I am silly. One can fight with wooden weapons, his bare hands or spells if he really wants to.~
+@651  = ~Both flowers and gems are given by nature to us, and they both are beautiful. I am talking nonsense, <CHARNAME>. I guess the fresh air after the stuffiness of the Underdark made me feel queer.~
+@652  = ~Indeed, <CHARNAME>. I am talking nonsense, I am afraid. I guess the fresh air after the stuffiness of the Underdark made me feel queer.~
+@653  = ~I thought that I would never want to part with you, but I doubt that I would like to accompany you back to the Underdark. However... however there is a certain beauty in the Underdark. And not all creatures that populate it are foul. May be we shall go back. After all, I like a good adventure!~
+@654  = ~Irenicus is nearer with every step, <CHARNAME>, we all know... How do you feel about it? Are you nervous?~
+@655  = ~As I always do when I am about to bring justice to the world! Irenicus is going to be punished for his crimes and the righteousness shall triumph again!~
+@656  = ~Nothing special really. One more foe to fight, big deal.~
+@657  = ~I think I am... We have faced Irenicus before, and he is not exactly your commonplace diseased xvart. ~
+@658  = ~It may sound odd, but do you think Irenicus is a black-hearted villain? That he cannot be redeemed? It is apparent that his capabilities are far above normal. Genius and evil are two things incompatible, a bard said once. Do not you think so?~
+@659  = ~Sime, Irenicus had overstepped every moral boundary known.  Genius he might be, but a genius of evil. He destroys before creating. He is Evil incarnate, Sime, and an unredeemable Evil.~
+@660  = ~I neither know, nor do I care, if he is apt for redemption, Sime. I have a personal score to settle with Irenicus, and I am bent on sending him to Nine Hells.~
+@661  = ~There can be redemption for him, Sime, but it is not my part to bring it to him. ~
+@662  = ~Do you think that he killed or destroyed more than you did?~
+@663  = ~I killed those who were standing against me ready to fight. I neither tortured my enemies, nor violated someone by stealing his soul. May be I am not exactly what you would call an innocent victim, but you know my sister, Imoen. Do you think anyone, but a heartless monster could put her through the tortures she endured?~
+@664  = ~If I did, then I am the stronger, and that gives me hope that I can defeat him. He has something of mine and I want it back! Irenicus can do whatever he wants in Abyss after I cast him down there.~
+@665  = ~Sime, cannot you see the difference between Irenicus and me? It is scary.~
+@666  = ~Irenicus’ crimes are immense, <CHARNAME>. I just hope that it will not be blind hatred and revenge that will guide your striking arm when we will finally meet him.~
+@667  = ~Revenge is a noble passion. And hatred - I am past hatred I think. I see a man who has to be destroyed lest he renders the Realm into ashes.~
+@668  = ~Sime, it is strange, but I do not feel hatred, nor I am going into this battle for vengeance. I feel that I am doomed to fight him. I think that he forged our link himself, by stealing my soul - only one of us is to live now. Forgive me if I am egotistical, but I want him to die, not me.~
+@669  = ~The passions you are speaking about are dark ones, but they make my blood boil in battle. Therefore I allow them to fill what is left of my soul. But I know how to control them now, just like I can control the Slayer in myself.~
+@670  = ~I am glad that you go into this battle leaving hatred behind, but I urge you to clear your mind of the thought of revenge as well. Have not you seen people obsessed with revenge and how empty their life becomes after the sworn enemy is dead? Please, promise me to reflect on that, <CHARNAME>.~
+@671  = ~(*Smiles and touches your cheek*)... You know that your staying alive will make at least one more person happy, do not you? May be you are right, <CHARNAME>, maybe it is you or him. But be merciful if you should have a chance, will you?~
+@672  = ~Then I admire your strength, <CHARNAME>. For you will be fighting two battles instead of one. But be merciful if you should have a chance, will you?~
+@673  = ~It is, as I feared then. Blind hatred and revenge will guide your striking arm when we will finally meet him.~
+@674  = ~Revenge is a noble passion. And hatred - I am past hatred I think. I see a man who has to be destroyed lest he renders the Realm into ashes. ~
+@675  = ~The passions you are speaking about are dark ones, but they make my blood boil in battle. Therefore, I allow them to fill what is left of my soul. But I know how to control them now, just like I can control the Slayer in myself.~
+@676  = ~Why?~
+@677  = ~Because.~
+@678  = ~Imoen, Khalid and Dynaheir are my three reasons.  It is in my power to forgive him for what he had done to me, but how can I forgive him the torture and death of my friends? He did not give them any chances.~
+@679  = ~I have judged him and found him guilty. The only mercy I have for him is the mercy of my sword hand. He will die quick and painless if that choice would be given to me, but he will die.~
+@680  = ~I am not the redeeming type, Sime. He can go to priests of Ilmater for that, not to me.~
+@681  = ~Oh, that was deep.~
+@682  = ~Irenicus crimes are immense, <CHARNAME>, including the ones he committed against you and your friends. I can understand your anger and your pain. I just hope that it will not be blind hatred and revenge that will guide your striking arm when we will finally meet him.~
+@683  = ~I am glad that you go into this battle leaving hatred behind, but I urge you to clear your mind of the thought of revenge as well. Have not you seen people obsessed with revenge and how empty their lives become after the sworn enemy is dead? Please, promise me to reflect on that, <CHARNAME>.~
+@684  = ~(*Smiles and touches your cheek.*)... You know that your staying alive will make at least one more person happy, do not you? May be you are right, <CHARNAME>, maybe it is you or him. But be merciful if you will have a chance, will you?~
+@685  = ~Care to take one along? Because it is most likely that we will meet with Irenicus before he will have a desire to visit Ilmater’s Temple.~
+@686  = ~He will have the desire as soon as he sees me, I wager.~
+@687  = ~You are a good enough priest, Sime. Besides, I am sure Irenicus would clutch to his sins, rather than have them absolved.~
+@688  = ~A whole dozen if that will please my Lady! ~
+@689  = ~Ahem, do you think they are any good in a fight those beggars?~
+@690  = ~I doubt it not, <CHARNAME>. You scare even me sometimes. But be merciful if you should have a chance, will you?~
+@691  = ~May be... after all, you know him better than I do. Let it be, then. But be merciful if you should have a chance, will you?~
+@692  = ~<CHARNAME>, pleasing me is not the concern here... By Mielikki, you are grinning! Are you ever serious?~
+@693  = ~You are thinking cannon fodder, are not you? You... you are a beast!~
+@694  = ~It is apparent that his capabilities are far above normal, yes. He is a terrifying adversary. <CHARNAME>, I wanted to ask you something. It may sound odd, but do you think Irenicus is a black-hearted villain? That he cannot be redeemed? Genius and evil are two things incompatible, a bard said once. Do not you think so?~
+@695  = ~There can be redemption for him, Sime, but it is not my part to bring it to him.~
+@696  = ~Once I thought that I discovered a secret: love was once invented by an idle person, and the whole world believed it out of boredom or envy. My soul was silent since then and sickly.~
+@697  = ~Why you are telling me that?~
+@698  = ~But you do not believe it now?~
+@699  = ~And what I am supposed to say?~
+@700  = ~Because it was you who have destroyed my blissful ignorance, <CHARNAME>. Because you healed my heart.~
+@701  = ~Oh... good.~
+@702  = ~So now you are just like everyone else: waiting for a chanced meeting, afraid to part and singing sad songs?~
+@703  = ~Of course it is good! But sometimes I am angry at you for that.~
+@704  = ~You are cross with me because you love me? ~
+@705  = ~I think I will just kiss you and hope for the best.~
+@706  = ~It does not make sense, does it? Oh, Nine Hells, just kiss me, will you?~
+@707  = ~Wonderful idea! That is guaranteed to cheer me up.~
+@708  = ~You are supposed to say "uh-huh" and kiss me.~
+@709  = ~Exactly. And it is your entire fault! I am cross with you, <CHARNAME>.~
+@710  = ~You are cross with me because you love me?~
+@711  = ~No, because you destroyed that belief of mine. I am cross with you.~
+@712  = ~I have been studying you for so long, <CHARNAME>, that I can write a book about you. You are noble and valiant person. The sort that saves fair maidens from the clutches of evil dragons.~
+@713  = ~Nay, Sime. There are enough fair maidens in the world and too few dragons. Though of course there is one maiden which is worth fighting a dragon for.~
+@714  = ~Sure, I start every day by killing a dragon and saving a maiden. They have a terrifying habit of marrying me as a gesture of gratitude and now I have a harem full of princesses of all sorts, did not you notice?~
+@715  = ~Sime, where is this conversation leading?~
+@716  = ~You think so? (*Laughs*)... Care to try?~
+@717  = ~Sime, you, rangers are supposed to prevent people from doing dangerous things, like fighting dragons for example...~
+@718  = ~Sime, are you thinking what I think you are thinking?~
+@719  = ~Sime, I do not want to fight any dragons!~
+@720  = ~But, we rangers are also supposed to promote good deeds like maiden saving... And I really want to be a damsel in distress for once... Come, give me your hand!  Kaimeldor panta annonta ten’lle, <CHARNAME>.~
+@721  = ~Oh, yes! Come, give me your hand! Kaimeldor panta annonta ten’lle, <CHARNAME>.~
+@722  = ~What, not even a tiny one? For me? Please? I really want to be a damsel in distress for once...~
+@723  = ~No, Sime, not even a baby-dragon. And you are terrible at making puppy eyes.~
+@724  = ~Alright, alright, where is this beast I am required to slaughter to free my fair Lady?~
+@725  = ~I will have to practice harder then.~
+@726  = ~Oh, yes! Come, give me your hand!  Kaimeldor panta annonta ten’lle, <CHARNAME>.~
+@727  = ~Is that true? (*Laughs*)... But I have not seen you do that today yet. We cannot leave you without a princess of the day, can we?~
+@728  = ~I thought I might offer you a very exotic entertainment... very romantic too...~
+@729  = ~Aerie, what are you doing? What is this? Let me take a look at this vial.~
+@730  = ~You... do not need to check me. I... do what I want.~
+@731  = ~Give me that vial.~
+@732  = ~It is empty.~
+@733  = ~I can see that. No harm in giving me an empty vial, is not it?~
+@734  = ~Here, catch it if you can... (*She throws the vial to Sime and tries to run away, crying).~
+@735  = ~(*Sniffs the bottle carefully*)... <CHARNAME>! Hold her! Silly child.~
+@736  = ~She is... faint?~
+@737  = ~What, I have nothing better to do than run after hysterical girls? She will come back. Sime, she fainted!~
+@738  = ~You caught her? Good. Please, hold her tight while I purge her body from poison.~
+@739  = ~Poison? Aerie poisoned herself? I do not understand. Is not it regarded as a mortal sin among elves? Why, Aerie, why?~
+@740  = ~As if we do not have enough troubles already. She is unaccustomed to the trials of adventurer’s life. I should not have allowed her to follow... us.~
+@741  = ~Do you think that she did it because of...~
+@742  = ~It is because of you and me, <CHARNAME>, do not you see? She is in love with you.~
+@743  = ~I hope she will be alright. I will talk to her and I will try to explain... I do not know how yet, but I will try. I do not wish our future to be clouded by this child’s tears.~
+@744  = ~Because of me? My poor gentle Aerie! Sime, I am sorry, but I think my eyes are finally opened. I love Aerie.~
+@745  = ~To follow YOU, that’s what you wanted to say. It is because of you and me, <CHARNAME>, let’s face it. She is in love with you.~
+@746  = ~She is waking up. I will leave you now. Whatever you want to say should be said in private. I do not think she would want me around.~
+@747  = ~I see. Know <CHARNAME>, that I will not ask you for your love again. It looks that you find a good place for it. But hid my advice, tell her how I loved you. The foolish ones hold the sense of victory in more esteem than the tenderness of the first days together. When you would spend the last penny of your happiness with your sweetheart, on the night of my triumph, do not come to me! I will not know you. And how will I be able to help? I would not know how to heal the happiness.~
+@748  = ~Listen, Jaheira, I know that look. Stop nagging at me, just say you are jealous and be done with it.~
+@749  = ~Jealous? No, I am not. Why would I? I am only pitying <CHARNAME>. The empty-headed toy like you would not give anything. You are not capable to give and instill the true deep feelings, warm and tender, of the sort my Khalid and I shared.~
+@750  = ~So deep, warm and tender that you have remembered them for what? Three days? Before starting to try to entice your former ward?~
+@751  = ~Child, are you going just to sit there and listen your mouth agape, to some foolish girl to shame your oldest friend?~
+@752  = ~(*laughs*) Oldest, yeah, that’s true. But friend?~
+@753  = ~Eh, Sime. Lay off. Jaheira is a real friend and a loyal companion, I would not have her insulted.~
+@754  = ~Jaheira, pay Sime no heed. She will never understand the true love, such as you and I share.~
+@755  = ~Jaheira, I love Sime. If you are as loyal to me as you always claim to be, you shall accept this. Otherwise, the roads are free for all to use.~
+@756  = ~I? A loyal companion? So that's how you feel about me? I shall remember.~
+@757  = ~(*sighs*) I was rude, I am sorry.~
+@758  = ~Oh, now I hear a man grown, not a boy!~
+@759  = ~I see. Know <CHARNAME>, that I will not ask you for your love again. It looks that you find a good place for it. But hid my advice, tell her how I loved you.~
+@760  = ~The foolish ones hold the sense of victory in more esteem than the tenderness of the first days together. When you would spend the last penny of your happiness with your sweetheart, on the night of my triumph, do not come to me! I will not know you. And how will I be able to help? I would not know how to heal the happiness.~
+@761  = ~I think that I shall use it then.~
+@762  = ~Jaheira, you do not have to... I was rude, I am sorry... I am afraid it is too late, <CHARNAME>. Her mind was set on leaving. I am sorry, I did not mean for you to loose your friend.~
+@763  = ~(*Wakes up with a startle*)... What is it? Viconia!~
+@764  = ~(*Hisses and tries to stab Sime*)~
+@765  = ~What is going on? I did not think you were such close friends to stay up late and chat.~
+@766  = ~Can I ever get any sleep around here? Viconia, Sime, break it!~
+@767  = ~What in Nine Hells is going on?~
+@768  = ~That wicked bitch tried to stab me, that’s all.~
+@769  = ~Shut up mrannd d'ssins. Rivvin.~
+@770  = ~Viconia, that's it. I have given you shelter against fanatics and how do you repay me? By trying to kill the woman I love?~
+@771  = ~Viconia, get you backpack and go away. Now!~
+@772  = ~Jal ssinrig zhah waella - All love is foolish.~
+@773  = ~No it is not. You are wrong, have not I taught you anything? (*sighs*) Oh, Viconia. I guess it is my own fault, I should not have spend so much time with another and give your poor lost heart so much troubles. Sime, I am sorry about what have happened. I am sure you have it in you to forgive both Viconia and myself. I should not have abandoned the road I walked with Viconia.~
+@774  = ~Whatever you say, Viconia. But do not you dare to as much as look at Sime unfriendly again! I am sorry that you have suffered from that vile woman, Sime. Be strong, my love.~
+@775  = ~I was going to. (*laughs*) But I wanted to kill your blonde first. Ssun usst - fear me!~
+@776  = ~Well, walk it then, <CHARNAME>, but watch your step. For you might accidentally end up in Abyss.~
+@777  = ~I am not about to cease breathing yet, <CHARNAME>. It left unpleasant taste in my mouth, but for your love I am ready to endure worst things.~
+@778  = ~(*You notice Sime approaching you with a smile on her lips. The two of you have become quite close lately, growing beyond that of simple companionship.*)~
+@779  = ~(*Sime stands close to you and gently eases her body against yours for support. You wrap an arm firmly about her shoulder, and kiss the side of her head softly.*)~
+@780  = ~(*Sime pulls your body to hers and hugs you close. She fits perfectly against you, as though your bodies had grown to come together in perfect harmony, like the pieces of a puzzle... As soon as you come into contact with each other, her breathing eases into a steady, content rhythm. It warms your heart to know you can soothe her in such a way.*)~
+@781  = ~(*Sime bestows to you a quick kiss to your cheek, smiling gently as she does so.*)~
+@782  = ~(*You notice that Sime has been watching you carefully for the past few minutes. As you turn toward her to demand an explanation, she simply smiles mysteriously and winks at you.*)~
+@783  = ~<CHARNAME>, I just wanted to thank you for allowing me to see the world with you. You have been a good friend to me  (*Sime smiles and clasps hands with yours*)...~
+@784  = ~(*Sime giggles and bites at the tip of your nose playfully*)...~
+@785  = ~(*Sime quickly inspects the straps of your traveling gear and pack. She notices that a strap is loose on your arm, and tightens it for you.*)~
+@786  = ~(*As the party silently walks down the beaten path, Sime decides to break the lull and pounces on your back.*)~
+@787  = ~(*Sime turns her bright gaze upward into your eyes and, leaning into you, gives you an impassioned kiss to your lips.*)~
+@788  = ~(*She kisses your cheek firmly before releasing you. You can’t help but feel more empty now that she is out of your arms.*)~
+@789  = ~(*You hope for more, but instead she turns her back to you, allowing you a splendid view of her graceful figure.*)~
+@790  = ~(*She begins to quietly hum a random tune and turns away, pretending to occupy herself with cleaning her weapons while still watching you from the corner of her eye.*)~
+@791  = ~(*She gazes into your eyes with a look that mixes between wonder and affection, and runs her free hand down your cheek and jaw line, sending a slight shiver to course down your spine.*)~
+@792  = ~(*Before you can ask what brought that on, she has already moved behind you, and wraps her arms wrapped around your neck, breathing contently.*)~
+@793  = ~(*She smiles and runs her hand down the length of your arm and over the back of your hand in a gentle caress.*) You must remember to keep your traveling equipment in proper order, though I do not mind lending a hand every now and then.~
+@794  = ~(*You lurch forward with a forlorn yelp, resigned to the fact that the hard ground is quite suddenly rushing up to meet you. Both you and Sime hit the dirt with a resounding smack, but Sime at least has a most convenient cushion for her fall.*)~
+@795  = ~(*Sime giggles into your ear and whispers a half-hearted apology before kissing your temple. The pain from the fall vanishes from your mind as you roll under Sime and stare up into her smiling, beautiful features.*)~
+@796  = ~Do you forgive me, <CHARNAME>? (*Sime wears her most innocent look, and trails a finger down your forehead and the length of your nose, stopping at your lips.*)~
+@797  = ~(*She then leans down and kisses you very sweetly on the lips, causing your heart to beat fiercely and your stomach to tie in knots*)... I knew you would! ~
+@798  = ~(*She lets you up then, allowing you to gather your equipment and the last bit of your dignity before hugging you tightly, and resuming her place in line.*)~
+@799  = ~(*You stumble forward with a surprised yell, alerting the other party members who, at first think, you were attacked by some vicious animal. When they notice it is only a giggling Sime all they can do is roll their eyes.*)~
+@800  = ~(*You manage to support the combined weight of Sime, along with both her and your own equipment.*)~
+@801  = ~(*Sime bears no shame, and is giggling madly as you hoist her farther up your back, but you decide to turn the tables against her by reaching behind and grabbing her waist, and with a might swing, she is soon facing you and haning off of your hips.*)~
+@802  = ~(*You mash a long and deep kiss upon her rosy lips, both out of pure desire and to stifle the incessant laughing she emits. After your reluctant parting, she slips down from your arms and hugs you tightly, before resuming pace with the rest of the party.*)~
+@803  = ~(*You find your gaze wandering over to Sime. Her sweet disposition belies the crowd of grim Shadow Thieves you found her hanging around with, and you are eager to learn more about her.*)~
+@804  = ~(*Admire Sime’s exquisite beauty and unmatched grace. You realize that you have never before come across such a fair and exotic woman in all of your travels.*)~
+@805  = ~(*You reach for Sime’s hand after removing your cumbersome gloves. Your hand is afire with the desire of her touch, and her soft skin is the only thing to quench your thirst for her.*)~
+@806  = ~(*You lean into Sime to fulfill your desire to feel her mouth against yours. Sime’s mouth is sweet and her lips rosy red, and you are nearly driven wild in anticipation.*)~
+@807  = ~(*Shower Sime’s face and neck with soft, wet kisses.*)~
+@808  = ~I’m glad that Aran allowed you to join me, Sime. I truly enjoy your presence here beside me.~
+@809  = ~(*Tug Sime toward you for a close, intimate embrace. The contact of her body against yours ignites an inner warmth deep within your heart, making you wonder how you could have ever possibly gone through a day without holding her.*)~
+@810  = ~(*Throw aside all care and modesty and caress Sime’s torso and the curves of her body. Her feminine, yet strong build verily begs to be touched and you cannot hold back any longer.*)~
+@811  = ~(*Engulf your hands into Sime’s golden tresses, twining her hair between your fingers.*)~
+@812  = ~(*Cup Sime’s face between your palms. You slide your tongue easily between full lips that part eagerly for you and massage her tongue with your own.*)~
+@813  = ~(*You present to Sime a branch of berries you found along a path earlier that morn. After carefully testing their flavor and safety, you tingle with excitement as Sime takes the berries from you.*)~
+@814  = ~(*The sun glistening off of Sime’s honey hair inspires you to humble yourself before her, and recite lines of love and adoration to her.*)
+
+Lady of my life, gentle maiden of my dreams and fairy tails,
+Let this poor <PRO_MANWOMAN> be blessed by your touch,
+The feel of your featherlike hand across my skin
+and your sweet breath against my face
+Is bliss, let this <PRO_MANWOMAN> be glorified by
+Your words of praise and love.
+I am yours, my Sime
+Now, and forevermore.~
+@815  = ~(*The sun glistening off of Sime’s honey hair inspires you to humble yourself before her, and recite lines of love and adoration to her.*)
+
+Sime, your beauty in this light
+And any light for that matter,
+Is unmatched by even the most
+Glamorous of dryads, or the
+Most splendid of Solars
+Even the most heavenly
+Of Goddesses pale when
+Compared to you, dearest Sime,
+Please say nothing, but know
+That these just words echo
+Throughout my mind
+Like a thunderous underground waterfall
+In a shining, diamond cavern.~
+@816  = ~(*The sun glistening off of Sime’s honey hair inspires you to humble yourself before her, and recite lines of love and adoration to her.*)
+
+Uh... demons are red,
+Xvarts  are blue,
+The Abyss is really hot,
+...and so are you!~
+@817  = ~(*You notice that Sime seems a bit on edge as of late. You come up beside her and rest an arm about her small shoulders and pull her close to you. Sime looks up at you with gratitude, and you kiss the side of her head softly to comfort her*) Is everything well, my shining star?~
+@818  = ~(*The party takes a short break in order to restore vitality through food and rest. A small campfire is built, and the blackened shadows swiftly retreat from the intrusion of the light. Sime stares into the flames, lost in thought.*)~
+@819  = ~(*Your eyes linger over the half-elf’s features and body. You note the way her hair flows behind her like a sun-kissed cloth, how her eyes glitter whenever a laugh escapes her lips, and how the trials and tribulations you endure with her never seem to wipe a smile off of her fair face.*)~
+@820  = ~(*Her eyes meet yours suddenly, causing your stomach to flutter. She tilts her head to the side and starts making silly faces at you, giggling when you feel your neck and ears heat in an embarrassed blush.*)~
+@821  = ~I thought I heard you singing about love, <CHARNAME>. It was lovely enough, but your voice could use a bit of  tuning, however.~
+@822  = ~(*Sime giggles at you, and you can only imagine how red your ears and neck must have turned.*)~
+@823  = ~(*Sime is currently walking ahead of you, making it easier for you to admire her without being noticed. The easy swaying of her hips and her graceful step are only a few of the great many things about her that you notice.*)~
+@824  = ~(*You suddenly find yourself aching for her touch, and burning for the feel of her in your arms. Sime whirls suddenly and presses her mouth against yours, expertly slipping her tongue into your mouth. When the moment is over, she laughs heartily at your surprised expression.*)~
+@825  = ~(*Her glistening eyes captivate you as you stare into them. They each have their own inner glow as bright as a thousand suns.*)~
+@826  = ~(*Your gaze wanders to the slight curve of her nose to her rich yet subtle lips. When you look back up to her eyes she finds herself staring straight back at you, making you blink in surprise.*)~
+@827  = ~(*Sime giggles*) It seems I won that staring contest, <CHARNAME>!~
+@828  = ~(*You slowly reach out with your right hand toward her left, but pull away nervously. A moment later, you try to take her hand again but find yourself too nervous to go through with it, and you pull away yet again.*)~
+@829  = ~(*Finally, you muster enough courage to reach for her a third time, but Sime snatches your hand in hers. Surprised, you look into her face and see her smiling.*)~
+@830  = ~You should try and learn some more subtlety, <CHARNAME>. (*She says, tossing you a wink.*)~
+@831  = ~(*You wrap her free hand in your own, reveling in her touch.*)~
+@832  = ~(*Sime looks to you in puzzlement, and politely releases herself from your grip*) I’m sorry, <CHARNAME>, it was sweet, but this isn’t a good time.~
+@833  = ~(*After interlocking your fingers with hers, Sime’s hand trembles slightly at the sudden contact, but she does not pull away. The two of you walk on for a while as such, until she decisively turns and breaks your hold, in order to inspect her weapons and armor.*)~
+@834  = ~(*Sime at first doesn’t react to the sudden brush of your lips on hers, as if she isn’t quite certain of what just happened. She quickly regains her composure and yanks her head back, looking at you with a dark expression on her face.*)~
+@835  = ~Look, <CHARNAME>, you have been very kind to me so far, but I do not think I’m prepared to advance our...relationship...that far yet.~
+@836  = ~(*Sime’s lips lock with yours for a brief moment. You are nearly overcome by the sweetness of the moment, but Sime soon breaks away before any further advancement.*)~
+@837  = ~Ah, <CHARNAME>, what exactly have you been drinking as of late?~
+@838  = ~(*To your surprise, Sime returns your kiss. It is not the sensual kiss of lovers, but it is more than the formal peck of friends as well. The two of you part quickly, and you feel your heart pounding in your chest. You look to Sime, only to find that she has turned and is walking away from you.*)~
+@839  = ~(*You hungrily begin kissing Sime on her forehead, then moving down to her eyelids and the very tip of her nose. She does not pull away or resist your attention, until you reach her neck and upper chest.*)~
+@840  = ~(*She lightly but firmly pushes you away, a clear message in her eyes warning you to keep your hands to yourself.*)~
+@841  = ~(*You kiss both of Sime’s cheeks, and then her nose. You do not get much farther than that, for she pulls back, trying to suppress a giggle.*)~
+@842  = ~I’m sorry <CHARNAME>, but I’m ticklish there!~
+@843  = ~(*Sime presses her hand on the back of your head, pulling you closer and encouraging your assault. You stop your affectionate kisses at the base of her neck and pull back, beaming at her. Sime rewards you with a long and deep kiss to your lips.*)~
+@844  = ~Thank you, <CHARNAME>. I enjoy being with you as well, but remember, I’m also here for my own reasons, not just for bringing pleasure to you.~
+@845  = ~And I am glad as well. I much prefer your company than a guild of pickpockets and thieves.~
+@846  = ~Why thank you, <CHARNAME>. I do my best to aid you, and it pleases me to hear I am doing well.~
+@847  = ~(*Sime rests her body against yours with a gentle grace. Her light breathing caresses the neck of your skin as you hold her close, causing a tingle to run up your spine.*)~
+@848  = ~(*You seem to have picked the perfect moment to give Sime comfort, for she clings to you with desperation.*)~
+@849  = ~(*Sime balls her hands into fists while she grips your clothing tightly, and softly whispers something into your shoulder*) Mielikki, bless you.~
+@850  = ~(*Sime nuzzles her nose against your neck as you hold each other. You are suddenly overcome in a wave of warmth and care, and from the way that Sime holds you as though making sure you are real, you can tell she is experiencing the same.*)~
+@851  = ~(*Sime is distracted momentarily by the attention, but she quickly grips your wandering hands by the wrists and pushes you back.*)~
+@852  = ~Do not... do not touch me that way, <CHARNAME>.~
+@853  = ~(*Sime slaps your hands away from her body angrily*) I am not an object, <CHARNAME>. Do not treat me as something to be manhandled as such.~
+@854  = ~(*You reach towards Sime, but she turns away unexpectedly, making your hands bump into her back. She turns her head around and gazes at you warily, but softens her visage quickly.*)~
+@855  = ~(*Sime leans backward into you and presses her back against your stomach while wrapping your arms around her*) You could have just asked if you wanted a hug, <CHARNAME>.~
+@856  = ~(*Though it is not exactly what you had in mind, the hug is still quite intimate.*)~
+@857  = ~(*Sime welcomes your touch and closes her eyes and smiles to herself as you stroke and play with her hair.*)~
+@858  = ~(*Sime smiles mischievously, then she flips her head about, sending her hair flying into your face. Sime laughs sweetly as the loose strands momentarily blind your eyes, and as you sputter to remove the pieces of hair that flew into your mouth.*)~
+@859  = ~I’m sorry, <CHARNAME>, it was just too tempting! And you know I love to tease you. (*Sime kisses you once, then twice on the lips in an effort to apologize.*)~
+@860  = ~(*Sime reaches out slowly and likewise runs her fingers through your hair. Her soft stroking soothes you, and you feel at peace. She looks as if she wants to say something, but seems to be afraid of spoiling the moment. Instead, she compromises by leaning forward and moves up and down the side of your neck leaving soft, wet kisses in her wake.*)~
+@861  = ~(*Sime’s breath quickens in your mouth and she presses against you with a fierce and fiery passion. Your tongues fight each other in a playful match for dominance of the other’s mouth.*)~
+@862  = ~(*Your parting is slow and breathless, and Sime’s eyes speak an unfathomable amount of trust and dedication for you.*)~
+@863  = ~(*Sime’s reaction is initially slow, but the passion between you two builds wonderfully quickly.*)~
+@864  = ~You make me so happy, <CHARNAME>... (*Sime manages to say between chaste kisses. You make certain that your responding kiss tells her of all the adoration you hold for her as well.*)~
+@865  = ~(*Sime moves her head backwards denying you the sweetness of her mouth for a moment and tries to speak to you when you suddenly press your mouth on hers, and her words flow into your mouth as an incoherent stream of sound.*)~
+@866  = ~(*Her tongue rolls over yours in a wild and beautiful dance inside your mouth*)...~
+@867  = ~(*When you finally break the embrace, she grins widely while catching her breath*)... I was just about to say that it had been a while since you last kissed me, <CHARNAME>. Are you certain that one of your gifts as a Bhaalspawn isn’t telepathy?~
+@868  = ~(*Sime teases you delightfully. She carefully plucks a berry from the branch, and rolls it betwixt her fingers. She brings it to her nose, and smells it slowly. Then, she runs the berry over her succulent lips, slipping her tongue from her mouth and tasting the sweetness of the fruit.*)~
+@869  = ~(*You think you hear a pitiful whimpering, and only then you realize it is coming from you. Sime ends her game by slowly inserting the fruit into her delicate mouth, and reverentially chews it before swallowing.*)~
+@870  = ~(*She giggles while looking at you, then spits the pit out so that it bounces off of your sweating forehead*)... Mmm, delicious, <CHARNAME>...~
+@871  = ~(*You groan in exasperation and surrender the rest of the branch to her.*)~
+@872  = ~(*You think you see a tear well in one of Sime’s eyes, but she blinks it away.*)~
+@873  = ~That was... wonderful <CHARNAME>, but know you that I am not one to condone slavery. (*She giggles*)~
+@874  = ~(*Thank... thank you, <CHARNAME>. That was much better than the one lined poems some of the Shadow Thieves would grant me... I did not know you felt so much about me.*)~
+@875  = ~(*She looks as if she wants to say something to tease you, but thinks better of it. This is a rare moment when Sime actually doesn’t have a clever retort to give... you must have touched her deeply indeed.*)~
+@876  = ~Umm... thank you, <CHARNAME>. Please tell me that you didn’t spend all day thinking of that one.~
+@877  = ~(*Sime smiles at you and snuggles closer to you*)... Everything is all right now, my walking headrest. (*She accentuates her claim by resting her head against your shoulder, humming gently to herself.*)~
+@878  = ~Hmm? Oh... of course, I am fine. I thought I smelled undead... I always become distant when the air tastes of the stench of a mummy or vampire. I have never taken a liking to them...~
+@879  = ~(*Sime’s distracted look returns to her countenance, but you decide to respect her privacy and not press it any further.*)~
+@880  = ~(*You begin singing a well-known song of valor and love, seeing if the rest of the group will join in.*)~
+@881  = ~(*No one else joins in with your singing, but the mood does seem to lighten because of it. Sime, however, continues to stare into the flames.*)~
+@882  = ~(*Undaunted, you raise the tone of your voice and change the fair lady’s name in the song to “Sime”. You certainly arouse her attention then, and she shakes her head almost resolutely. Seeing you falter in your singing brings a tired, but genuine smile to her face, a reward in itself  for your efforts.*)~
+@883  = ~(*You playfully toss a pebble in her direction.*)~
+@884  = ~(*Sime’s head shoots up after the pebble bounces harmlessly off of her. You try to suppress a laugh, but to no avail. At first she glares at you in hurt and betrayal, but then it seems she decides she is being too serious and mediocre for her own good.*)~
+@885  = ~(*Sime quickly retaliates by launching a barrage of small stones and pebbles back at you, making you squirm and wriggle in surprise. It then becomes a full-fledged throwing contest, and you are soon resorting to food, wrappers, and even the occasional pillow.*)~
+@886  = ~(*By the end of your play, you and Sime are laying side by side giggling and laughing at each other’s expense. Sime sits up on her elbows, leaning over you. She then leans down and kisses you softly, sliding her tongue against yours*)...~
+@887  = ~I feel better now, <CHARNAME>, thank you.~
+@888  = ~(*You do nothing.*)~
+@889  = ~(*Sime glances up at you from time to time, shifting her gaze from the fire to your face. After a moment of more contemplation, she turns away, and settles into her bedroll, and is soon asleep.*)~
+@890  = ~I do not trust this pirate, <CHARNAME>. His manner is that of a fool, but his behavior during the voyage betrays a cunning mind beneath.~
+@891  = ~He has delivered us as promised. There are more important things to worry about. ~
+@892  = ~Kill him if you wish. I don’t care either way.~
+@893  = ~He seems amiable enough to me. Come, you’ll feel better once off the ship.~
+@894  = ~Agreed. Be prepared, this place is dangerous enough even without my suspicions of Saemon. ~
+@895  = ~We may need his ship for our return. No, just be on your guard. He is probably the least of our worries in this place.~
+@896  = ~I knew he would prove treacherous. Our threats were sufficient to keep us safe while afloat, but there must be someone here that he fears even more.~
+@897  = ~Certainly this was Bodhi’s doing. These creatures would not have followed Saemon of their own will. His weakness would disgust them.~
+@898  = ~Unfortunately he fled the battle. I shall be sure to repay him if I see him again.~
+@899  = ~We should find him, track him to his lair! He has earned his death from this!~
+@900  = ~Forget him. I have no fear of him or any scheme he might come up with.~
+@901  = ~There are more important things to worry about right now, anyway. I must see that you are able to enter the asylum.~
+@902  = ~Go to the tavern. Speak with a man named Sanik. If there is a way in to the asylum, he will know it.~
+@903  = ~Work with haste, <CHARNAME>. Our enemies know we are here.~
+@904  = ~Getting Inside the Asylum
+
+With the vampires defeated and Saemon fled, Sime said that Bodhi was probably behind the pirate’s treachery. I must work quickly to gain access to the asylum. Sime said to go to the local tavern and speak to a man named Sanik.~
+@905  = ~<CHARNAME>, I wonder what you told him, that settled him down.~
+@906  = ~I told him, that I am going to marry you. Aran gave me your mother’s ring. Will you accept it from me?~
+@907  = ~Just what he wanted to hear, Sime. He is just worried I will mistreat you. Aran gave me your mother’s ring. Will you accept it from me?~
+@908  = ~Some nonsense. Aran gave me your mother’s ring. Will you accept it from me?~
+@909  = ~You what? Are you mad? What are we going to do if Aran takes it seriously and books the biggest temple in Athkatla for the wedding before we know it?~
+@910  = ~(*Smile disarmingly*)... We will... elope?~
+@911  = ~Go there and get married, what else?~
+@912  = ~He won’t. And if he does, we’ll find a way around it, unless you do want to marry me.~
+@913  = ~Oh, Sime you and your father are both too... emotional.~
+@914  = ~You and your odd sense of humor! All right, I guess we will worry about it when the time comes. And you took the ring! My father was trying to press this thing on me for ages. I do not like it, but I guess now I’ll have to take it so I will not land you in trouble.~
+@915  = ~By Mielikki! My father was trying to press this thing on me for ages. I do not like it, but I guess now I’ll have to take it so I will not land you in trouble.~
+@916  = ~I was comparing you to my father, <CHARNAME>, and I came to the conclusion that you are very similar. I am sure that he was the same way as you are in his youth. No law but his own law, live fast, live on the edge, consider everything to be easy come, easy go. It is attractive, but I know what has happened to my father at the end. ~
+@917  = ~Where is this ominous talk leading?~
+@918  = ~Is it because I took charge of the Guild?~
+@919  = ~So what? Do not all girls fall hardest for those who remind them of their fathers?~
+@920  = ~I think, what I meant to say is, it would be best for both of us to discontinue our relationship.~
+@921  = ~Ah? Why in Nine Hells do you think that?~
+@922  = ~I think I deserve a better explanation than that. What, you feel like you are committing an act of incest? You have some other complex psychological reason to dislike sleeping with me?~
+@923  = ~Women. Cannot live with them, cannot live without them. Sime, it beats me why you want to walk out on me.~
+@924  = ~Sime, do not do that! If you wish, I’ll refuse to be the Guild Master, I’d do anything to keep you.~
+@925  = ~Have it your way. We are history.~
+@926  = ~I love my father against my good judgement and all my adult life I was fighting to change him into something he is not. I do not wish that to be repeated with you. You should follow your own way, <CHARNAME>, and I shall follow mine. There is nothing more to discuss.~
+@927  = ~No, I do not want you to do that. <CHARNAME>, I love my father against my good judgement and all my adult life I was fighting to change him into something he is not. I do not wish that to be repeated with you. You should follow your own way, <CHARNAME>, and I shall follow mine. There is nothing more to discuss.~
+@928  = ~There is nothing more to discuss then.~
+@929  = ~That only fleshed out my concern. <CHARNAME>, I think that it would be best for both of us to discontinue our relationship.~
+@930  = ~I guess, yes. I might have been in denial, but now I see clearly that I am attracted to you because you remind me so much of my father. But also, because of it, I think it would be best for both of us to discontinue our relationship.~
+@931  = ~<CHARNAME>, it seems to me that you are accustomed to the long marches and slow downs between fierce battles. What did you do to speed up the passage of time? I remember we used to sing when the danger was near or far when I was in Darriel’s company.~
+@932  = ~Sing? Well, there was a good song I used to sing back in the good old days spent with the Candlekeep guard. Do you want to it hear it?~
+@933  = ~(*You look away momentarily*)... Sime, we used to sing this song before, while our company marched. It helped pass the time and keep the mind on more pleasant matters. Will you permit me to sing it to you?~
+@934  = ~I was always a loner, my friend, and did not adventure in a big company. But when the going got rough, there was one song I liked to sing. Would you care to hear it?~
+@935  = ~If you used to do it often then mayhap it is time to renew the tradition. Start up a song, Sime.~
+@936  = ~Sime, you are a ranger after all, you should understand how important it is to be quiet. I know of one thing which can be done very-very quietly and can take your mind away from the weariness of the road... (*You kiss Sime*)~
+@937  = ~Yes, nothing would please me more, <CHARNAME>, mayhap it will even help you to relax a bit... (*gently smiles*) ...by lighten our hearts and easing our minds.~
+@938  = ~Far over the misty mountains cold 
+To dungeons deep and caverns old 
+We must away ere break of day 
+To seek the pale enchanted gold.~
+@939  = ~Old Danilo Twill had a hundred bags ’o gold,
+And a dozen times more silver than he could ever hold,
+But he lost it all at knucklebones, till he didn’t have a crumb,
+Still, there’ll always be more where that came from.~
+@940  = ~The road goes ever on and on,
+Out from the door where it begun,
+Now far ahead the Road had gone
+Let others follow it who can.~
+@941  = ~It is quite lovely, but it seems to me that this song has triggered some sadness in you, and that was not my intention this eve, nor would it ever be.~
+@942  = ~I used to sing it with my friends and now my mind is assailed by memories of the fallen. Forgive me this moment of weakness, Sime.~
+@943  = ~A sweet melancholy griped at my heart, as I remembered the peaceful times, and the past. But, it is over now. Did you find the song to your liking my Lady?~
+@944  = ~(*Taking Sime’s hand*)... I apologize for giving you rise to concern, it is just that...well song is a very emotional thing. Even for a stoic fighter. It is one of the few ways in which your soul can truly be free of the duties you carry, even if only of a moment or two, it is a welcomed release.~
+@945  = ~No, no, I was not sad at all, I was just concentrating on keeping the tune right!~
+@946  = ~I wish to properly thank you for sharing such a significant part of yourself with me... (*Sime kisses you deeply*).~
+@947  = ~I like the song and I love the singer.~
+@948  = ~(*Laughs*)... You always put all your heart in what you are doing, <CHARNAME>!~
+@949  = ~Hear this one, then:
+ 
+Home is behind, the world ahead, 
+And there are many paths to tread 
+Through shadows to the edge of night, 
+Until the stars are all alight.~
+@950  = ~I know this song. I used to sing it with my friends as well. Now my mind is assailed by memories of the fallen. Forgive me this moment of melancholy, Sime.~
+@951  = ~Oh, Sime! The song reminded me of the peaceful times when I only dreamt of adventures! Thank you!~
+@952  = ~It is a beautiful song, Sime, but I think that we should keep quiet for a time. I know of one thing which can be done very-very quietly and can take your mind away from the weariness of the road... (*You kiss Sime*)~
+@953  = ~Now we have no shortage of adventure it seems and little precious time for love. I’d like to remind you of what’s the passion is like... (*Sime kisses you deeply*)~
+@954  = ~So you did not forget the passion we shared last night? I am glad to feel that in your kiss.~
+@955  = ~You wanted me here as well? I am... surprised.~
+@956  = ~Sime, where are we?~
+@957  = ~We are in the Land of Dreams, the Kaimeldor. You are one of our kin, have you never heard of it?   It is an ancient Elven enchantment that allows one to live ones’ dreams for a time. Kaimeldor appears different to everyone. The hunter will come to a forest full of game, and an older man will enter an inn and would taste the best ale...~
+@958  = ~I have been raised by a human, Sime. I have never heard of this enchantment. So, am I dreaming? In this case it should not surprise you that you are here.~
+@959  = ~I am not as versed in Elven lore as I would like to be, Sime. This enchantment, I have never heard of it, but I like it. Why does it surprise you that you are by my side in Kaimeldor?~
+@960  = ~I must have been really drunk, when I dreamt this place up. Flowers and silly butterflies everywhere! Give me battles and gore, not some gardens! I do dream of you sometimes, I must confess. If Kaimeldor is what you are saying it to be, then I am not surprised that you are here. How the rest got included is the mystery to me.~
+@961  = ~It is not a dream, <CHARNAME>, we are both awake and walk Kaimeldor. But to call me to your place in this land we have to share a connection of a kind... a bond...~
+@962  = ~A bond, Sime? You mean the Elven Bond? It is not... impossible, is not it, mela en coiamin?~
+@963  = ~Is that news for you, Sime? Are you finally beginning to understand that we are meant for each other? Amin mela lle. Usst ssin dosst. Noldoli mellethe ulter. Zander thaerine zolt. I love you.~
+@964  = ~Sime, it is all too odd. Let us just enjoy this little outing without questioning why and how. ~
+@965  = ~I do not think it is impossible... May that’s why we are here today. You called me the love of your life, <CHARNAME>. I guess... I guess you are the one for me as well. Amin mela lle, <CHARNAME>. Amin mela lle. ~
+@966  = ~(*Laughs*)... If those are the only words you know how to say in all these languages, than you picked up the right ones to learn. But why would we use the foul language of the Dark ones or a roaring one of the fierce dwarves? We are kin and I think you are right - we are meant for each other. I can hear the voice of my heart clearly. Amin mela lle, <CHARNAME>. Amin mela lle.~
+@967  = ~I think there is a meaning to that outing, <CHARNAME>. I think that I came here with you today so I can see that we are meant for each other. I can hear the voice of my heart clearly. Amin mela lle, <CHARNAME>. I love you. ~
+@968  = ~Mayhap you have a gentler heart, than you suspected. Dreaming of me is not enough to call me to your place in this land. You could have had my shadow or my voice may be... But for Sime Linvail in flesh and blood to walk Kaimeldor by your side, we have to share a connection of a kind... a bond...~
+@969  = ~We are in the Land of Dreams, the Kaimeldor. It is an ancient Elven enchantment that allows one to live ones’ dreams for a time. Kaimeldor appears different to everyone. The hunter will come to a forest full of game, and an older man will enter an inn and would taste the best ale...~
+@970  = ~I have never heard of this enchantment. So, am I dreaming? In this case it should not surprise you that you are here.~
+@971  = ~I am not as versed in Elven lore as I would like to be, Sime. This enchantment, I have never heard of it, but I like it. Why does it surprise you that you are by my side in this... Kaimeldor?~
+@972  = ~It is not a dream, <CHARNAME>, we are both awake and walk Kaimeldor. But to call me to your place in this land we have to share a connection of a kind... an Elven bond... It must be the strength of your divine blood... or... something we do not know that allowed you to call for me.~
+@973  = ~An Elven Bond? Divine blood? I do not know much about it, but what I know, is that I love you, Sime. Is not it reason enough for you to be by my side?~
+@974  = ~Is that news for you, Sime? I am not a regular mortal, Elf or not. We are meant for each other - do not you understand? I love you.~
+@975  = ~Sime, it is all too odd. Let us just enjoy this little outing without questioning why and how.~
+@976  = ~I do not think it is impossible... May be that’s why we are here today. I guess... I guess I love you. Amin mela lle, <CHARNAME>. Amin mela lle.~
+@977  = ~I think there is a meaning to that outing, <CHARNAME>. I think that I came here with you today so I can see that we are meant for each other. I can hear the voice of my heart clearly. Amin mela lle, <CHARNAME>. Amin mela lle.~
+@978  = ~Mayhap you have a gentler heart, than you suspected. Dreaming of me is not enough to call me to your place in this land. You could have had my shadow or my voice may be... But for Sime Linvail in flesh and blood to walk Kaimeldor by your side, we have to share a connection of a kind... a bond... an Elven bond... It must be the strength of your divine blood... or... something we do not know that allowed you to call for me.~
+@979  = ~You have indeed free me, my good <PRO_SIRMAAM>!~
+@980  = ~Yes, I did. Am I hero enough for you now?~
+@981  = ~My Fair Lady, your favor filled me with strength and valor. The victory is as much yours as it is mine.~
+@982  = ~I... I think so. Oh, Sime must you invent some ridiculous trials? Do not you know that I love you?~
+@983  = ~I never doubted that you are a hero. But now I can tell everyone, that the <PRO_MANWOMAN> I love saved me from the clutches of an evil dragon. It was worth a trip!~
+@984  = ~Such gallantry! I only pity that I did not join you in the fight! Next time...~
+@985  = ~No next time, my Fair Lady. The deal was one salvation for one wedding. I cannot marry you more than once, can I?~
+@986  = ~Next time we will head a host of riders to fight some evil lord... or fight in a tourney... we cannot do dragons all the time. It will be ultimately boring, my Lady.~
+@987  = ~Yes, dear. (Keldorn said it usually works...)~
+@988  = ~Oh... I see. Well, we can do something different then. How about a tourney?~
+@989  = ~You have a point. Let it be an evil lord next. But our time is up now...~
+@990  = ~Hmm, sounds good. But what was that thing about Keldorn you muttered? Never mind, we must go now.~
+@991  = ~I never doubted that you love me. But now I can tell everyone, that the <PRO_MANWOMAN> I love saved me from the clutches of an evil dragon. It was worth a trip!~
+@992  = ~No, <CHARNAME>, please, do not do it. You do not understand what you are getting yourself into! Renal, he will NOT be a Shadow Thief! <CHARNAME>, please, tell him that you will NOT accept!~
+@993  = ~Saemon looks nervous. Find out what he wants.~

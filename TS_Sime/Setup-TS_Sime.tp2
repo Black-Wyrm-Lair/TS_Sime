@@ -1,11 +1,32 @@
 //______________________________________//
 //                                      //
-//        Tortured Souls - Sime v0.1    //
+//        Tortured Souls - Sime         //
 //______________________________________//
 //                                      //
 
 BACKUP ~TS_Sime\backup~
 AUTHOR ~Vladislav Papper (vladp6@gmail.com)~
+VERSION ~0.5~
+
+ALWAYS
+  ACTION_IF (GAME_IS ~eet~) BEGIN
+    OUTER_SET bg2_chapter = 12
+  END ELSE BEGIN
+    OUTER_SET bg2_chapter = 0
+  END
+  OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+    OUTER_SET bg2_chapter = bg2_chapter + 1
+    OUTER_SPRINT name_source ~bg2_chapter_%i%~
+    OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+  END
+END
+
+AUTO_TRA ~TS_Sime/translations/%s~
+
+LANGUAGE ~English~
+         ~english~
+         ~TS_Sime/translations/english/setup.tra~ 
+
 BEGIN ~Vlad's Sime NPC~
 
 /* -------------------------------------------------------------------------------------------------- *
@@ -22,10 +43,10 @@ APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 ///////////////////////////
 
 COPY ~TS_Sime/epilogue/vpsimenr.2da~ ~override~
-REPLACE ~99999~ ~Sime had witnessed death all around <CHARNAME> and after her adventuring with the notorious Bhaalspawn was over, she returned to Athkatla bent on never leaving the side of her father again. Her involvement with the Shadow Thieves, however, resulted in strange events, like distributing valuables of a robbed lord to the misfortunate or using Shadow Thief resources and manpower for noble causes. Because of that, Aran Linvail was eventually forced to retire. He went with Sime to a small village in Northern Amn where Sime was offered the position of ranger-protector, despite her background. Aran was so bored that he started to take interest in local politics and within a few years the community had become known as a tax haven. The bureaucrats in Athkatla had believed for years that it was just a nameless hamlet, while in fact it was a prominent trade post.  Aran stayed as mayor of the community until his death. It is not known what happened to his half-elven daughter afterwards.~
+REPLACE ~99999~ @3
 
 COPY ~TS_Sime/epilogue/vpsimer.2da~ ~override~
-REPLACE ~99999~ ~After half-a-dozen visits by Shadow Thieves’ messengers it became evident to <CHARNAME> and Sime that it was time to visit Athkatla again. It was not much of a surprise to <CHARNAME> that their sojourn with Aran Linvail did not last for long. Sime took one look at her father’s plans for their wedding and that very night she convinced <CHARNAME> to elope. To lay the issue to rest they got married in the Druid’s Grove shortly after. However the marriage did not stop Sime from leading the nomadic lifestyle and together they traveled the land for many years. It is said that the couple was seen with two children, named Gorion and Imoen. Eventually the tales about <CHARNAME> and Sime became so unbelievable that one can only assume that they were no more. It is not known how and when they met their end.~
+REPLACE ~99999~ @4
 
 APPEND ~PDIALOG.2da~ ~VPSIME VPSIMEP VPSIMEJ VPSIMED VPSIMEP2 VPSIMEJ2 VPSIMED2 VPSIME25~
 UNLESS ~VPSIME~
@@ -60,13 +81,54 @@ END
 //Dialogue
 ///////////////////////////
 
-COMPILE ~TS_Sime/dialogue~
+COMPILE ~TS_Sime/dialogue/vparan.d~
+~TS_Sime/dialogue/vpchrdra.d~
+~TS_Sime/dialogue/vpsailoff.d~
+~TS_Sime/dialogue/vpsime.d~
+~TS_Sime/dialogue/vpsime25.d~
+~TS_Sime/dialogue/vpsimeb.d~
+~TS_Sime/dialogue/vpsimeb2.d~
+~TS_Sime/dialogue/vpsimej.d~
+~TS_Sime/dialogue/vpsimej2.d~
+~TS_Sime/dialogue/vpsimep.d~
+~TS_Sime/dialogue/vpsimep2.d~
+~TS_Sime/dialogue/vpsimeq.d~
+~TS_Sime/dialogue/vpsimesl.d~
+~TS_Sime/dialogue/vpwolf.d~
 
 ///////////////////////////
 //Scripts
 ///////////////////////////
 
-COMPILE ~TS_Sime/scripts~
+COMPILE ~TS_Sime/scripts/tt0304.baf~
+~TS_Sime/scripts/vparan.baf~
+~TS_Sime/scripts/vpchrdra.baf~
+~TS_Sime/scripts/vpcut41b.baf~
+~TS_Sime/scripts/vpcut41d.baf~
+~TS_Sime/scripts/vpcut41e.baf~
+~TS_Sime/scripts/vpcutamb.baf~
+~TS_Sime/scripts/vpcuts01.baf~
+~TS_Sime/scripts/vpcuts02.baf~
+~TS_Sime/scripts/vpcuts03.baf~
+~TS_Sime/scripts/vpcuts04.baf~
+~TS_Sime/scripts/vpcuts05.baf~
+~TS_Sime/scripts/vpcutwra.baf~
+~TS_Sime/scripts/vpkorsim.baf~
+~TS_Sime/scripts/vpmaid.baf~
+~TS_Sime/scripts/vpmov3b.baf~
+~TS_Sime/scripts/vpmov3d.baf~
+
+COMPILE EVAL ~TS_Sime/scripts/vpsime.baf~
+
+COMPILE ~TS_Sime/scripts/vpsime25.baf~
+~TS_Sime/scripts/vpsimed.baf~
+~TS_Sime/scripts/vpsimedr.baf~
+~TS_Sime/scripts/vpsimesl.baf~
+~TS_Sime/scripts/vpsimeva.baf~
+~TS_Sime/scripts/vpsimex.baf~
+~TS_Sime/scripts/vpsimkor.baf~
+~TS_Sime/scripts/vpsol.baf~
+~TS_Sime/scripts/vpveter.baf~
 
 EXTEND_TOP ~AR0307.bcs~ ~TS_Sime/sExt/AR0307.baf~
 EXTEND_TOP ~AR0809.bcs~ ~TS_Sime/sExt/AR0809.baf~
@@ -76,6 +138,24 @@ EXTEND_TOP ~CLEANSE.bcs~ ~TS_Sime/sExt/CLEANSE.baf~
 EXTEND_BOTTOM ~CUT218G.bcs~ ~TS_Sime/sExt/CUT218G.baf~
 EXTEND_TOP ~VAMPAMB.bcs~ ~TS_Sime/sExt/VAMPAMB.baf~
 EXTEND_TOP ~VLUVINFO.bcs~ ~TS_Sime/sExt/VLUVINF.baf~
+
+ACTION_IF GAME_IS ~EET~ BEGIN
+  INCLUDE ~EET/other/EET_functions.tph~ // functions from EET mod
+  LAF ~EET_NPC_TRANSITION~
+    INT_VAR
+      type = 2 // NPC is summonable if met before
+    STR_VAR
+      dv = "vpsime" // death variable of your NPC
+      override_SoA = "vpsime" // override script of your NPC (SoA)
+      override_ToB = "vpsime25" // override script of your NPC (ToB)
+      dialog_ToB = "VPSIME25" // joining dialogue for ToB
+	  traFile = EVAL "TS_Sime/translations/%LANGUAGE%/vpsime25.tra"
+      string = "@100"
+      stringPosDV = "Skie"
+  END
+END ELSE BEGIN
+  COMPILE ~TS_Sime/dialogue/FATESP.d~
+END
 
 //////////////////////////////
 //Areas
@@ -92,36 +172,22 @@ END
 COPY_EXISTING ~MASTAREA.2DA~ ~override~
 APPEND ~MASTAREA.2DA~
 ~TT0010  value
-TT0304  value~
+TT0304  value~ UNLESS ~TT0010~
 
 //////////////////////////////////////////////
 // Spells
 //////////////////////////////////////////////
 
-COPY ~TS_Sime/spl~          ~override~
-
-COPY_EXISTING ~SPIN678.SPL~ ~override~
- READ_LONG  0x64 "ability_offset"
- READ_SHORT 0x68 "abil_cnt"
- READ_LONG  0x6a "eff_offset"
- FOR( cnt=0; cnt<"%abil_cnt%"; cnt=cnt+1 ) BEGIN
-   READ_BYTE ("%ability_offset%"+cnt*0x28)  "type"
-   PATCH_IF("%type%"=1) BEGIN                                      //Melee
-     READ_SHORT ("%ability_offset%"+0x28*cnt+0x1e)  eff_number
-     READ_SHORT ("%ability_offset%"+0x28*cnt+0x20)  eff_idx
-     FOR( cnt2=0; cnt2<eff_number; cnt2=cnt2+1 ) BEGIN
-       READ_SHORT ("%eff_offset%"+0x30*(cnt2+eff_idx))  "eff_type"
-       PATCH_IF( "%eff_type%" = 49 ) BEGIN                       //wisdom bonus
-         WRITE_LONG ("%eff_offset%"+0x30*(cnt2+eff_idx)+4) 18    //value, 16 is mentioned everywhere though...
-       END
-     END
-   END
- END
-BUT_ONLY_IF_IT_CHANGES
+COPY ~TS_Sime/spl~ ~override~
 
 //////////////////////////////////////////////
 //Items
 /////////////////////////////////////////////
+
+APPEND ~item_use.2da~ ~vpsleat      vpsime       9382   2
+vpshelm      vpsime       9382   2
+vpsmace1     vpsime       9382   2~
+UNLESS ~vpsleat~
 
 COPY ~TS_Sime/itm/vpfmace.itm~ ~override/vpfmace.itm~
 COPY ~TS_Sime/itm/vpfpotn1.itm~ ~override/vpfpotn1.itm~
@@ -135,222 +201,55 @@ COPY ~TS_Sime/itm/vpfswor1.itm~ ~override/vpfswor1.itm~
 COPY ~TS_Sime/itm/vpfswor2.itm~ ~override/vpfswor2.itm~
 
 COPY ~TS_Sime/itm/vparring.itm~ ~override/vparring.itm~
-SAY NAME2 ~Ring of Niri Alud~ 
-SAY DESC ~This blue ring engraved with an ebony figurine of a black rook was the favourite ring of Niri Alud, a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment’s notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors and other numerous items like this ring that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud’s chess sets and items were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of his possession sinks into the desert sands, then traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
-
-STATISTICS:
-
-Combat Abilities:
-   Armor Class Bonus: +2
-   THAC0 Bonus: +2
-   Saving Throws Bonus: +2
-
-Special Abilities:
-   Summons a thief-like ally one time per day.~
+SAY NAME2 @5 
+SAY DESC @6
 
 COPY ~TS_Sime/itm/vpbela.itm~ ~override/vpbela.itm~
- SAY NAME1 ~Suna’s Bloom~
- SAY NAME2 ~Suna’s Bloom~
- SAY UNIDENTIFIED_DESC ~A pretty purple flower.~
- SAY DESC ~A pretty purple flower.~
-     	                        
+ SAY NAME1 @7
+ SAY NAME2 @7
+ SAY UNIDENTIFIED_DESC @8
+ SAY DESC @8
+
 COPY ~TS_Sime/itm/vpshelm.itm~        ~override/vpshelm.itm~
-SAY NAME2 ~Selune's Laurel of Favor~
-SAY DESC ~This wreath of laurel leaves and roses was another gift from the church of Selune to Sime’s mother. The representatives of the silver-haired goddess were well received, and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting her Temple.
+SAY NAME2 @9
+SAY DESC @10
 
-STATISTICS:
-
-Armor Class Bonus: 2
-Special: +2 to Charisma
-Weight: 1~
-                             
 COPY ~TS_Sime/itm/vpsbody.itm~ ~override/vpsbody.itm~
-SAY NAME1 ~Sime’s Body~
-SAY NAME2 ~Sime’s Body~
-SAY UNIDENTIFIED_DESC ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don’t know what it would be.~
-SAY DESC ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don’t know what it would be.~
-
-COPY_EXISTING ~RINGWOLF.itm~       ~override~
- READ_LONG  0x6a  "eff_offset"
- READ_SHORT 0x70  "glob_eff_cnt"
- FOR( cnt=0; cnt<"%glob_eff_cnt%"; cnt=cnt+1 ) BEGIN
-   READ_SHORT ("%eff_offset%"+0x30*cnt) "type"
-   PATCH_IF( "%type%" = 98 ) BEGIN             //regeneration
-     WRITE_LONG ("%eff_offset%"+0x30*cnt+4)  2  //value
-     WRITE_LONG ("%eff_offset%"+0x30*cnt+14) 0  //time
-   END
- END
-BUT_ONLY_IF_IT_CHANGES
+SAY NAME1 @11
+SAY NAME2 @11
+SAY UNIDENTIFIED_DESC @12
+SAY DESC @12
 
 COPY ~TS_Sime/itm/vpsamul.itm~ ~override/vpsamul.itm~
-SAY NAME2 ~Amulet of Blessing~
-SAY DESC ~Amulet of Blessing
+SAY NAME2 @13
+SAY DESC @14
 
-This amulet bears the repeating angular geometric patterns that the long-dead craftsmen of Myth Lharast were known for. Considered plain by modern elven standards, the amulet was a gift to Kiran-Hai, Circle Singer of Angharradh and Ward Mistress of the Arboreal Tombs in Myth Lahl. The name of its creator has been lost. It is believed to have been blessed later by priestesses of Selune, goddess of the moon. Sime inherited this amulet from her mother, and never takes it off.
-
-STATISTICS
-
- Magic Resistance: +15%
- Decrease Spell Casting Speed by 3
- Immunity to Level Drain
- +2 to Dexterity
- +2 to Charisma~
-                 
 COPY ~TS_Sime/itm/vpscloak.itm~ ~override/vpscloak.itm~
-SAY NAME2 ~Aran's Cloak of Protection~
-SAY DESC ~Aran's Cloak of Protection
+SAY NAME2 @15
+SAY DESC @16
 
-The origins of this cloak have been lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul of an unusually large group of winter wolves on a solo expedition into the Spine of the World mountains having been forced to don a heavier cloak to keep out of the cold...
-
-STATISTICS
-
-The cloak grants a +3 bonus to Armor Class and can be worn in combination with any other form of protection enchantment - thus it can be worn over magical armor unlike a cloak of protection.
-
-Armor Class Bonus: +3
-Weight: 3~
-                
-COPY ~TS_Sime/itm/vpsleat.itm~         ~override/vpsleat.itm~
-SAY NAME2 ~Aran's Love +6~
-SAY DESC ~Aran's Love +6
-
-It was a rumor that once upon a time when Aran Linvail was a young adventurer, he fell in love with an elven girl. She was the most beautiful creature he had ever seen in his life. In order to protect his lover in their travels, he asked one of the famous Calimshite merchants to bring him the most invulnerable leather armour he would find. In two months the merchant brought this excellent set of studded leather armour to Aran, but it was too later. His lover was shot dead by a goblin archer in a forest of Tethyr. Aran has kept this armour for a long time in remembrance of his short and passionate love, and eventually bestowed this armour to his favourite guild master.
-
-STATISTICS:
-
- Immunity to Normal Weapons
- Resistance to Missile Attacks: +75%
- Immunity to Disease and Poison
- Regeneration (1 HP/round)
- True Free Action
-  (Immunity to any slowing, holding and paralyzation magics)
- 
-Armor Class: 0
-Weight: 35
-Requires: 6 Strength~
- 	                
-COPY ~TS_Sime/itm/vpsmace1.itm~        ~override/vpsmace1.itm~
-SAY NAME2 ~Selune's Promise~
-SAY DESC ~A weapon once owned by a grief-stricken high priestess of the Moonmaiden, Selune’s Promise has a short and sad history. Fassa the Melancholy (as she is now known) was the head of a band of Selunite adventurers dedicated to destroying undead creatures wherever they found them. The band was initially quite successful, rarely suffering any casualties. Tymora’s luck could not stay with them forever, though.
-
-In 1156, Fassa and her band entered the Sepulcher of the Dim. The band knew the Sepulcher was rumored to contain a "leak" to the Negative Material Plane, but they had no idea just how many undead creations were inside. Mixed in with the seemingly harmless poltergeists and phantoms were powerful spectres and wraiths. Over a short and chillingly quiet period of several minutes, almost all of Fassa’s allies had their vital energy drained away. Fassa and her remaining companions fled and tried to form a plan of attack. When they returned on the following night, all of Fassa’s former companions had been turned into slave spectres under the control of the master. She and her few remaining comrades destroyed the master spectre and eventually destroyed the souls of her tormented brethren.  In the end, Fassa was the only one left alive.
-
-Fassa returned to her temple in misery and prayed to Selune that she never forget the agony of that night. Selune granted her request by causing a ghostly white and blue mace to appear on her bed when the next full moon rose. Carved into the shaft of the club were two words: Never Forget.
-
-Fassa became almost fanatical in her undead hunting in later years. At the age of thirty-three, tired and bitter, Fassa fell into decline. On the night of a full moon, she renounced her faith to Selune in front of her superiors and fellow clergy. Hours later, she threw herself into the Moonsea from a high cliff. The mace was found in her room and reluctantly kept in the church. Many years later, the new high priest of the temple decided to bestow this unique weapon to a new promising priestess. This mace was the favourite weapon of Sime’s mother.
-
-STATISTICS:
-
-Damage:  1D6 + 4
-THAC0:  +3
-Damage type:  Crushing
-Special:  Double damage against undead and outer planar creatures.
-Undead:
-1-4 Hit Dice: Automatically Destroyed
-5 Hit Dice: 95% chance of being Destroyed
-6 Hit Dice: 80%
-7 Hit Dice: 65%
-8-9 Hit Dice: 50%
-10 Hit Dice: 35%
-11+ Hit Dice: 20%
-Outer Planar Creatures: 5% chance of being Destroyed
-Weight:  5
-Speed Factor:  4
-Proficiency Type:  Mace
-Type:  1-handed~
+COPY ~TS_Sime/itm/vpsleat.itm~ ~override/vpsleat.itm~
+SAY NAME2 @17
+SAY DESC @18
+    
+COPY ~TS_Sime/itm/vpsmace1.itm~ ~override/vpsmace1.itm~
+SAY NAME2 @19
+SAY DESC @20
  
 COPY ~TS_Sime/itm/vpsmace2.itm~ ~override/vpsmace2.itm~
-SAY NAME2 ~Three White Doves~
-SAY DESC ~An extremely unusual mace, Three White Doves was created by an Ilmaterian priest named Alledec in 850 DR. Alledec had been a fighting priest for the order for twenty years, and he decided it was time to leave a legacy for the church to use after he had passed away. This ivory-headed mace was the result. The shaft of the weapon is made from black-enameled steel, with the handle being crafted of carved ivory. Gold bands lock the head and the handle into place. The head itself is the most unusual part of the mace. It is carved from pure ivory and it resembles three white doves facing the center of the weapon. The flared wings of the doves form the flanges.
+SAY NAME2 @21
+SAY DESC @22
 
-Alledec died in his sleep three years after completing the mace. It was given to a traveling fighter in service of the church of Ilmater. The fighter later passed the weapon on to a priest of Ilmater named Recken the Bold. Recken lost the weapon when he was fighting a powerful vampire near Trollbark Forest. Recken was eventually victorious over the vampire, but he never recovered the mace.
-
-STATISTICS:
-
-Equipped Abilities:
- Complete Mind Shield
-  (Immunity to any mind-alterating effects)
-   
-Combat Abilities:
- Base THAC0 Bonus: +2
- Extra Attacks: +1 per round
- Knock Out
-  (Each hit has a 10% chance to knock back and stun an opponent for two rounds with no saving throw. Large creatures such as dragons or giants are not affected.)
-
-Special Abilities:
- True Sight (thrice per day)
- Mass Cure (thrice per day)
- Cure (thrice per day)
- 
-THAC0: +3
-Damage:  1D6 + 4, +1d4 slashing damage
-Damage type:  crushing
-Weight: 3
-Speed Factor: 4
-Proficiency Type: Mace
-Type:  1-handed
-Requires: 5 Strength~
-                
 COPY ~TS_Sime/itm/vpssling.itm~ ~override/vpssling.itm~
-SAY NAME2 ~Giant Killer~
-SAY DESC ~A halfling warrior named Kim Marchwatch used this potent weapon against the giants that frequently plagued his homeland, hitting them in the head with so many rocks that they fell over in pain or ran away.  When Kim was replaced as shire-reeve of his homeland, he became a reluctant adventurer.  He is believed to have been swallowed up by the dreaded Fen Mists of Acallo in 760 DR.
-
-STATISTICS:
-
-Damage:  +1, +4 vs. Giants
-THAC0:  +2, +5 vs. Giants
-Weight:  0
-Speed Factor:  5
-Proficiency Type:  Missile Weapons
-Type:  1-handed~
+SAY NAME2 @23
+SAY DESC @24
 
 COPY ~TS_Sime/itm/vpwfig.itm~ ~override/vpwfig.itm~
-SAY NAME1 ~White Direwolf Figurine~
-SAY NAME2 ~White Direwolf Figurine~
-SAY UNIDENTIFIED_DESC ~White Direwolf Figurine
-
-Carved from the white alabaster, this figurine is more than just a work of art. It is imbibed with a soul of a white direwolf called Veter. The direwolf is easily recognized from its kin by its large size, ruby-colored eyes and snow-white pelt. In addition the direwolf wears a ruby studded silver colar. Unlike other creatures bound to such figurines, Veter does not grow weaker on the Material Plane and can stay with his chosen master for as long as he is needed. The wolf can be called upon at any time. Veter considers Sime as his mistress at present.
-
-STATISTICS
-
-Special Abilities:
- Immunity to Death Magic
- Immunity to Psionics and Mind Control
- Immunity to Hold, Stun and Pertrification
-
-Thief Abilities:
- Detect Traps: 100%
- Hide in Shadows: 90%
- Move Silently: 95%
- 4x Backstab Attack
-
-Magic Abilities:
- Infravision
- Magic Resistance: 50%
- Improved Invisibility: twice per day
- Healing Lick: twice per day~
-SAY DESC ~White Direwolf Figurine
-
-Carved from the white alabaster, this figurine is more than just a work of art. It is imbibed with a soul of a white direwolf called Veter. The direwolf is easily recognized from its kin by its large size, ruby-colored eyes and snow-white pelt. In addition the direwolf wears a ruby studded silver colar. Unlike other creatures bound to such figurines, Veter does not grow weaker on the Material Plane and can stay with his chosen master for as long as he is needed. The wolf can be called upon at any time. Veter considers Sime as his mistress at present.
-
-STATISTICS
-
-Special Abilities:
- Immunity to Death Magic
- Immunity to Psionics and Mind Control
- Immunity to Hold, Stun and Pertrification
-
-Thief Abilities:
- Detect Traps: 100%
- Hide in Shadows: 90%
- Move Silently: 95%
- 4x Backstab Attack
-
-Magic Abilities:
- Infravision
- Magic Resistance: 50%
- Improved Invisibility: twice per day
- Healing Lick: twice per day~
-                
+SAY NAME1 @25
+SAY NAME2 @25
+SAY UNIDENTIFIED_DESC @26
+SAY DESC @26
+ 
 COPY ~TS_Sime/itm/vpwbelt.itm~ ~override/vpwbelt.itm~              
 COPY ~TS_Sime/itm/vpwring.itm~ ~override/vpwring.itm~              
 COPY ~TS_Sime/itm/vpwwi1.itm~ ~override/vpwwi1.itm~
@@ -360,153 +259,153 @@ COPY ~TS_Sime/itm/vpwwi2.itm~ ~override/vpwwi2.itm~
 //Creatures
 //////////////////////////////
 
-COPY~TS_Sime/cre/vpmaid1.cre~ ~override/vpmaid1.cre~
-SAY NAME1 ~Captive Woman~
-SAY NAME2 ~Captive Woman~
-      
-COPY~TS_Sime/cre/vpmaid2.cre~ ~override/vpmaid2.cre~
-SAY NAME1 ~Captive Woman~
-SAY NAME2 ~Captive Woman~
-      
-COPY~TS_Sime/cre/vpmaid3.cre~ ~override/vpmaid3.cre~
-SAY NAME1 ~Captive Woman~
-SAY NAME2 ~Captive Woman~
-      
-COPY~TS_Sime/cre/vpmaid4.cre~ ~override/vpmaid4.cre~
-SAY NAME1 ~Captive Woman~
-SAY NAME2 ~Captive Woman~
-      
-COPY~TS_Sime/cre/vpmaid5.cre~ ~override/vpmaid5.cre~
-SAY NAME1 ~Captive Woman~
-SAY NAME2 ~Captive Woman~
+COPY ~TS_Sime/cre/vpmaid1.cre~ ~override/vpmaid1.cre~
+SAY NAME1 @27
+SAY NAME2 @27
 
-COPY~TS_Sime/cre/vprthief.cre~ ~override/vprthief.cre~
+COPY ~TS_Sime/cre/vpmaid2.cre~ ~override/vpmaid2.cre~
+SAY NAME1 @27
+SAY NAME2 @27
 
-COPY~TS_Sime/cre/vpchrdra.cre~ ~override/vpchrdra.cre~
-SAY NAME1 ~Dalhaleitkazyyr~
-SAY NAME2 ~Dalhaleitkazyyr~
-     
-COPY~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
-SAY NAME1 ~Sime~
-SAY NAME2 ~Sime~
+COPY ~TS_Sime/cre/vpmaid3.cre~ ~override/vpmaid3.cre~
+SAY NAME1 @27
+SAY NAME2 @27
+
+COPY ~TS_Sime/cre/vpmaid4.cre~ ~override/vpmaid4.cre~
+SAY NAME1 @27
+SAY NAME2 @27
+
+COPY ~TS_Sime/cre/vpmaid5.cre~ ~override/vpmaid5.cre~
+SAY NAME1 @27
+SAY NAME2 @27
+
+COPY ~TS_Sime/cre/vprthief.cre~ ~override/vprthief.cre~
+
+COPY ~TS_Sime/cre/vpchrdra.cre~ ~override/vpchrdra.cre~
+SAY NAME1 @28
+SAY NAME2 @28
+
+COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
+SAY NAME1 @29
+SAY NAME2 @29
 SAY INITIAL_MEETING ~~
-SAY LEADER ~Hey, you want me to be the leader, huh? Heh heh, alright.~ [CSIME06]
-SAY BATTLE_CRY1 ~Shut your face, or I'm gotta shut it for you.~ [CSIME09]
-SAY BATTLE_CRY2 ~I'm going to dance in your blood!~ [CSIME10]
-SAY BATTLE_CRY3 ~I'm feeling nice, so I'll kill you quickly.~ [CSIME11]
-SAY TIRED ~*yawns* My feet are awake but the rest of me has been asleep for an hour.~ [CSIME07]
-SAY BORED ~If we don't get moving I will chew my leg off to relieve the boredom.~ [CSIME08]
-SAY DAMAGE ~Someone, help me...~ [CSIME23]
-SAY DYING ~...No, I can't...~ [CSIME13]
-SAY HURT ~~ [CSIME12]
-SAY AREA_CITY ~Where is the pub? I need a drink. Just... one, a small one. Honest!~ [CSIME15]
-SAY AREA_DUNGEON ~~ [CSIME16]
-SAY AREA_FOREST ~Ehm... No reason, but what does poison oak look like?~ [CSIME14]
-SAY AREA_DAY ~Hey, anybody got the map? Nah, I'm just kidding. I know where I'm going... I think.~ [CSIME17]
-SAY AREA_NIGHT ~I am not afraid of the dark! I am not afraid of the dark. I am... not... afraid... of the dark...~ [CSIME18]
-SAY SELECT_COMMON1 ~Yes?~ [CSIME19]
-SAY SELECT_COMMON2 ~Waiting with bated breath.~ [CSIME21]
-SAY SELECT_COMMON3 ~Listening.~ [CSIME22]
-SAY SELECT_COMMON4 ~Feeling a little bossy today, aren't we?~ [CSIME04]
-SAY SELECT_COMMON5 ~Heh, right.~ [CSIME02]
-SAY SELECT_ACTION1 ~I'm on it.~ [CSIME25]
-SAY SELECT_ACTION2 ~Gotcha, gotcha.~ [CSIME26]
-SAY SELECT_ACTION3 ~~ [CSIME27]
-SAY SELECT_ACTION4 ~*hums*~ [CSIME28]
-SAY SELECT_ACTION5 ~Someone has to do it.~ [CSIME29]
-SAY SELECT_ACTION6 ~*whistles*~ [CSIME30]
-SAY SELECT_ACTION7 ~If this gets me killed, I'm going to be very annoyed.~ [CSIME20]
-SAY REACT_TO_DIE_GENERAL ~No! Don't die! I'm doing my best!~ [CSIME05]
-SAY SELECT_RARE1 ~Let the wind blow high, let the wind blow low...~ [CSIME31]
-SAY SELECT_RARE2 ~...And you would like me to do what?~[CSIME32]
-SAY CRITICAL_HIT ~Hah! Take that!~ [CSIME33]
-SAY CRITICAL_MISS ~Dammit!~[CSIME34]
-SAY TARGET_IMMUNE ~Dammit! Somebody, make this work!~ [CSIME35]
-SAY INVENTORY_FULL ~This is ridiculous. Make somebody else carry this.~ [CSIME36]
-SAY SPELL_DISRUPTED ~All right, that didn't work!~[CSIME37]
-SAY EXISTANCE1 ~Huh, sometimes I even scare myself.~ [CSIME03]
-SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
+SAY LEADER @31
+SAY BATTLE_CRY1 @32
+SAY BATTLE_CRY2 @33
+SAY BATTLE_CRY3 @34
+SAY TIRED @35
+SAY BORED @36
+SAY DAMAGE @37
+SAY DYING @38
+SAY HURT @39
+SAY AREA_CITY @40
+SAY AREA_DUNGEON @41
+SAY AREA_FOREST @42
+SAY AREA_DAY @43
+SAY AREA_NIGHT @44
+SAY SELECT_COMMON1 @45
+SAY SELECT_COMMON2 @46
+SAY SELECT_COMMON3 @47
+SAY SELECT_COMMON4 @48
+SAY SELECT_COMMON5 @49
+SAY SELECT_ACTION1 @50
+SAY SELECT_ACTION2 @51
+SAY SELECT_ACTION3 @52
+SAY SELECT_ACTION4 @53
+SAY SELECT_ACTION5 @54
+SAY SELECT_ACTION6 @55
+SAY SELECT_ACTION7 @56
+SAY REACT_TO_DIE_GENERAL @57
+SAY SELECT_RARE1 @58
+SAY SELECT_RARE2 @59
+SAY CRITICAL_HIT @60
+SAY CRITICAL_MISS @61
+SAY TARGET_IMMUNE @62
+SAY INVENTORY_FULL @63
+SAY SPELL_DISRUPTED @64
+SAY EXISTANCE1 @65
+SAY BIO @66
 
-COPY~TS_Sime/cre/vpsime25.cre~ ~override/vpsime25.cre~
-SAY NAME1 ~Sime~
-SAY NAME2 ~Sime~
+COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime25.cre~
+SAY NAME1 @29
+SAY NAME2 @29
 SAY INITIAL_MEETING ~~
-SAY LEADER ~Hey, you want me to be the leader, huh? Heh heh, alright.~ [CSIME06]
-SAY BATTLE_CRY1 ~Shut your face, or I'm gotta shut it for you.~ [CSIME09]
-SAY BATTLE_CRY2 ~I'm going to dance in your blood!~ [CSIME10]
-SAY BATTLE_CRY3 ~I'm feeling nice, so I'll kill you quickly.~ [CSIME11]
-SAY TIRED ~*yawns* My feet are awake but the rest of me has been asleep for an hour.~ [CSIME07]
-SAY BORED ~If we don't get moving I will chew my leg off to relieve the boredom.~ [CSIME08]
-SAY DAMAGE ~Someone, help me...~ [CSIME23]
-SAY DYING ~...No, I can't...~ [CSIME13]
-SAY HURT ~~ [CSIME12]
-SAY AREA_CITY ~Where is the pub? I need a drink. Just... one, a small one. Honest!~ [CSIME15]
-SAY AREA_DUNGEON ~~ 					[CSIME16]
-SAY AREA_FOREST ~Ehm... No reason, but what does poison oak look like?~ [CSIME14]
-SAY AREA_DAY ~Hey, anybody got the map? Nah, I'm just kidding. I know where I'm going... I think.~ [CSIME17]
-SAY AREA_NIGHT ~I am not afraid of the dark! I am not afraid of the dark. I am... not... afraid... of the dark...~ [CSIME18]
-SAY SELECT_COMMON1 ~Yes?~ [CSIME19]
-SAY SELECT_COMMON2 ~Waiting with bated breath.~ [CSIME21]
-SAY SELECT_COMMON3 ~Listening.~ [CSIME22]
-SAY SELECT_COMMON4 ~Feeling a little bossy today, aren't we?~ [CSIME04]
-SAY SELECT_COMMON5 ~Heh, right.~ [CSIME02]
-SAY SELECT_ACTION1 ~I'm on it.~ [CSIME25]
-SAY SELECT_ACTION2 ~Gotcha, gotcha.~ [CSIME26]
-SAY SELECT_ACTION3 ~~ [CSIME27]
-SAY SELECT_ACTION4 ~*hums*~ [CSIME28]
-SAY SELECT_ACTION5 ~Someone has to do it.~ [CSIME29]
-SAY SELECT_ACTION6 ~*whistles*~ [CSIME30]
-SAY SELECT_ACTION7 ~If this gets me killed, I'm going to be very annoyed.~ [CSIME20]
-SAY REACT_TO_DIE_GENERAL ~No! Don't die! I'm doing my best!~ [CSIME05]
-SAY SELECT_RARE1 ~Let the wind blow high, let the wind blow low...~ [CSIME31]
-SAY SELECT_RARE2 ~...And you would like me to do what?~[CSIME32]
-SAY CRITICAL_HIT ~Hah! Take that!~ [CSIME33]
-SAY CRITICAL_MISS ~Dammit!~[CSIME34]
-SAY TARGET_IMMUNE ~Dammit! Somebody, make this work!~ [CSIME35]
-SAY INVENTORY_FULL ~This is ridiculous. Make somebody else carry this.~ [CSIME36]
-SAY SPELL_DISRUPTED ~All right, that didn't work!~[CSIME37]
-SAY EXISTANCE1 ~Huh, sometimes I even scare myself.~ [CSIME03]
-SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
+SAY LEADER @31
+SAY BATTLE_CRY1 @32
+SAY BATTLE_CRY2 @33
+SAY BATTLE_CRY3 @34
+SAY TIRED @35
+SAY BORED @36
+SAY DAMAGE @37
+SAY DYING @38
+SAY HURT @39
+SAY AREA_CITY @40
+SAY AREA_DUNGEON @41
+SAY AREA_FOREST @42
+SAY AREA_DAY @43
+SAY AREA_NIGHT @44
+SAY SELECT_COMMON1 @45
+SAY SELECT_COMMON2 @46
+SAY SELECT_COMMON3 @47
+SAY SELECT_COMMON4 @48
+SAY SELECT_COMMON5 @49
+SAY SELECT_ACTION1 @50
+SAY SELECT_ACTION2 @51
+SAY SELECT_ACTION3 @52
+SAY SELECT_ACTION4 @53
+SAY SELECT_ACTION5 @54
+SAY SELECT_ACTION6 @55
+SAY SELECT_ACTION7 @56
+SAY REACT_TO_DIE_GENERAL @57
+SAY SELECT_RARE1 @58
+SAY SELECT_RARE2 @59
+SAY CRITICAL_HIT @60
+SAY CRITICAL_MISS @61
+SAY TARGET_IMMUNE @62
+SAY INVENTORY_FULL @63
+SAY SPELL_DISRUPTED @64
+SAY EXISTANCE1 @65
+SAY BIO @66
 
 COPY ~TS_Sime/cre/vpsimedr.cre~ ~override/vpsimedr.cre~
-SAY NAME1 ~Sime~
-SAY NAME2 ~Sime~
+SAY NAME1 @29
+SAY NAME2 @29
 
 COPY ~TS_Sime/cre/vpsimesl.cre~ ~override/vpsimesl.cre~
-SAY NAME1 ~Sime~
-SAY NAME2 ~Sime~
+SAY NAME1 @29
+SAY NAME2 @29
 
 COPY ~TS_Sime/cre/vpsimeva.cre~ ~override/vpsimeva.cre~
-SAY NAME1 ~Sime~
-SAY NAME2 ~Sime~
+SAY NAME1 @29
+SAY NAME2 @29
 
 COPY ~TS_Sime/cre/vpexlove.cre~ ~override/vpexlove.cre~
-SAY NAME1 ~Darriel~
-SAY NAME2 ~Darriel~
+SAY NAME1 @67
+SAY NAME2 @67
 
 COPY~TS_Sime/cre/vparan.cre~ ~override/vparan.cre~
 
 COPY~TS_Sime/cre/vpwolf.cre~ ~override/vpwolf.cre~
-SAY NAME1 ~Veter~
-SAY NAME2 ~Veter~
+SAY NAME1 @68
+SAY NAME2 @68
 
 COPY ~TS_Sime/cre/vpsol.cre~ ~override/vpsol.cre~
-SAY NAME1 ~Sol~
-SAY NAME2 ~Sol~
+SAY NAME1 @69
+SAY NAME2 @69
 
 COPY ~TS_Sime/cre/vpsola.cre~ ~override/vpsola.cre~
-SAY NAME1 ~Sola~
-SAY NAME2 ~Sola~
+SAY NAME1 @70
+SAY NAME2 @70
 
 COPY ~TS_Sime/cre/vpsolauf.cre~ ~override/vpsolauf.cre~
-SAY NAME1 ~Solauf~
-SAY NAME2 ~Solauf~
+SAY NAME1 @71
+SAY NAME2 @71
 
 ///////////////////////////////
 //Legacy Voicelines
 //////////////////////////////
 
-BEGIN ~Legacy Voiceover~
+BEGIN @72
 
 LAF HANDLE_AUDIO
   STR_VAR
@@ -519,6 +418,6 @@ END
 //Alternate portrait
 //////////////////////////////
 
-BEGIN ~Alternate Portrait (Enkida)~
+BEGIN @73
 
 COPY ~TS_Sime/altportraits~ ~override~

@@ -30,19 +30,19 @@ END
 REPLACE ~PPSAEM~
 
 IF ~~ THEN BEGIN 48
-  SAY ~Protection? I was not aware of any such plans. The captain should be consulted on all such matters.~
+  SAY @0
   IF ~!InParty("vpsime")~ THEN EXTERN ~PPARAN2~ 5 // both cases: Sime has been already and has not been yet in party ---> original sequence of dialogues
   IF ~InParty("vpsime")~ THEN EXTERN ~PPARAN2~ VPSailOffSime // Sime is in party
 END
 END
 
 CHAIN PPARAN2 VPSailOffSime
-~Sime has been travelling with <CHARNAME> for some time. She will attempt to improve the overall safety of the voyage.~
-= ~She will be staying very close to you, Saemon Havarian. For your safety, of course.~
-== PPSAEM ~Of course.~
-== VPSIMEJ ~I shall make certain that, should we be surprised at sea, death will not come from a surprise source. Do I make myself clear?~
-== PPSAEM ~As clear as clear could be, m’lady, though I am not sure I approve of your tone. I assure you, nothing untoward will happen during our crossing.~
-== PPARAN2 ~Sime shall also advise you, <CHARNAME>. She is acquainted with a few of the inhabitants of the island.~
-== PPSAEM ~Then we are fully staffed and ready to sail. Best that we get underway as soon as possible. Disembark, m’lord, and we shall away.~
+@1
+= @2
+== PPSAEM @3
+== VPSIMEJ @4
+== PPSAEM @5
+== PPARAN2 @6
+== PPSAEM @7
 DO ~StartCutSceneMode() StartCutScene("vpcut41d")~
 EXIT
