@@ -1,20 +1,20 @@
 
 @3    = ~Сайм, насмотревшись на смерть и разрушения, после своего путешествия со знаменитым отпрыском Баала, вернулась в Аткатлу и поклялась больше никогда не покидать своего отца. Однако ее связи с теневой гильдией привели к недовольству в определенных кругах Аткатлы. Поскольку участились случаи раздачи награбленного добра нуждающимся и привлечения ресурсов гильдии для благородных дел. Из-за этого Аран Линвайл был вынужден уйти в отставку. Вместе с Сайм они уехали в небольшую деревушку на севере Амна, где Сайм предложили пост следопыта-защитника. Но Аран не мог сидеть без дела, и вскоре эта деревушка стала известна как торговый рай на всем побережье. Чиновники Аткатлы долгие годы были уверены, что это всего лишь маленький заброшенный поселок, хотя на самом деле объемы торговых сделок превышали там все мыслимые пределы. До самой смерти Аран оставался мэром этого городка, а какова дальнейшая судьба его дочери - доподлинно никому неизвестно.~
-@4    = ~After half-a-dozen visits by Shadow Thieves' messengers it became evident to <CHARNAME> and Sime that it was time to visit Athkatla again. It was not much of a surprise to <CHARNAME> that their sojourn with Aran Linvail did not last for long. Sime took one look at her father's plans for their wedding and that very night she convinced <CHARNAME> to elope. To lay the issue to rest they got married in the Druid's Grove shortly after. However the marriage did not stop Sime from leading the nomadic lifestyle and together they traveled the land for many years. It is said that the couple was seen with two children, named Gorion and Imoen. Eventually the tales about <CHARNAME> and Sime became so unbelievable that one can only assume that they were no more. It is not known how and when they met their end.~
+@4    = ~После дюжины визитов посланников Теневых Воров, <CHARNAME> и Сайм поняли, что настало время вновь посетить Аткатлу. Однако их визит к Арану Линвайлу продлился недолго. Сайм вкратце ознакомилась с планами отца относительно ее свадьбы, и в ту же ночь <CHARNAME> и она решили потихоньку ускользнуть из города. Дальнейшая их история такова: они вскоре поженились в Роще Друидов. Однако свадьба не избавила Сайм от привычки вести кочевой образ жизни, и они вместе путешествовали долгие годы. Поговаривали, что у них родилось двое детей, сын и дочь, которых они назвали Горион и Имоен. Постепенно рассказы об их приключениях обросли невероятными домыслами, по которым лишь отдаленно можно судить, что же с ними было. Неизвестно, где и когда они встретили свою смерть.~
 @5    = ~Перстень Нури Элада~
-@6    = ~This blue ring engraved with an ebony figurine of a black rook was the favourite ring of Niri Alud, a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors and other numerous items like this ring that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets and items were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of his possession sinks into the desert sands, then traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+@6    = ~Этот голубой перстень, на котором выгравирован черный ворон, был любимым перстнем Нури Элада. Нури Элад был волшебником из Тетира, который очень любил играть в шахматы. В своих многочисленных путешествиях он всегда возил с собой шахматы и продвигал эту замечательную игру среди местных вельмож. Однажды ему пришла в голову мысль создать комплект шахматных фигур, которые подобно магическим големам могли бы при случае помочь своему хозяину отбиться от шайки разбойников. Так появилась знаменитая шахматная коллекция Нури Элада, состоящая из комплекта шахматных фигур обоих цветов. За годы путешествий большинство этих фигур были потеряны в стычках с налетчиками и бандитами. Фигурки терялись в густой траве, их засасывали ненасытные пески и поглощали беспощадные волны. Охотники за сокровищами до сих пор отчаянно ищут и готовы заплатить любые деньги даже за отдельные фигурки. Стоимость всего комплекта сравнима с ценой небольшого государства.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Combat Abilities:
-– Armor Class Bonus: +2
-– THAC0 Bonus: +2
-– Saving Throws Bonus: +2
+Свойства при экипировке:
+   Вызывает союзника вора один раз в день.
 
-Special Abilities:
-– Summons a thief-like ally one time per day.
+Боевые особенности:
+– Бонус к Класса Брони: +2
+– Бонус к THAC0: +2
+– Бонус к спасброскам: +2
 
-Weight: 0~
+Вес: 0~
 @7    = ~Цветок Суны~
 @8    = ~A pretty purple flower.
 
@@ -22,19 +22,19 @@ STATISTICS:
 
 Weight: 0~
 @9    = ~Венок Селуны~
-@10   = ~This wreath of laurel leaves and roses was another gift from the church of Selune to Sime's mother. The representatives of the silver-haired goddess were well received, and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting her Temple.
+@10   = ~Этот венок лавровых листьев и роз был еще одним подарком церкви Селуны матери Сайм, которая в свою очередь подарила его своей единственной дочери. Сайм очень дорожит этим венком и не позволяет никому его одевать даже в шутку. И надо признать, что в этом венке Сайм выглядит гораздо симпатичнее.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Equipped abilities:
-– Armor Class: +2
-– Charisma: +2
+Особенности при экипировке:
+– Бонус к Классу Брони: +2
+– Харизма: +2
 
-Weight: 1~
+Вес: 1~
 @11   = ~Тело Сайм~
-@12   = ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don't know what it would be.
+@12   = ~Сайм была похищена Боди и заражена вампиризмом, вам пришлось убить ее. Наверняка ее можно спасти, но пока вы не знаете как это сделать.
 
-Weight: 135~
+Вес: 135~
 @13   = ~Благословенный Амулет~
 @14   = ~Amulet of Blessing
 
