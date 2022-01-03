@@ -1,7 +1,7 @@
 
-@3    = ~Sime had witnessed death all around <CHARNAME> and after her adventuring with the notorious Bhaalspawn was over, she returned to Athkatla bent on never leaving the side of her father again. Her involvement with the Shadow Thieves, however, resulted in strange events, like distributing valuables of a robbed lord to the misfortunate or using Shadow Thief resources and manpower for noble causes. Because of that, Aran Linvail was eventually forced to retire. He went with Sime to a small village in Northern Amn where Sime was offered the position of ranger-protector, despite her background. Aran was so bored that he started to take interest in local politics and within a few years the community had become known as a tax haven. The bureaucrats in Athkatla had believed for years that it was just a nameless hamlet, while in fact it was a prominent trade post.  Aran stayed as mayor of the community until his death. It is not known what happened to his half-elven daughter afterwards.~
+@3    = ~Сайм, насмотревшись на смерть и разрушения, после своего путешествия со знаменитым отпрыском Баала, вернулась в Аткатлу и поклялась больше никогда не покидать своего отца. Однако ее связи с теневой гильдией привели к недовольству в определенных кругах Аткатлы. Поскольку участились случаи раздачи награбленного добра нуждающимся и привлечения ресурсов гильдии для благородных дел. Из-за этого Аран Линвайл был вынужден уйти в отставку. Вместе с Сайм они уехали в небольшую деревушку на севере Амна, где Сайм предложили пост следопыта-защитника. Но Аран не мог сидеть без дела, и вскоре эта деревушка стала известна как торговый рай на всем побережье. Чиновники Аткатлы долгие годы были уверены, что это всего лишь маленький заброшенный поселок, хотя на самом деле объемы торговых сделок превышали там все мыслимые пределы. До самой смерти Аран оставался мэром этого городка, а какова дальнейшая судьба его дочери - доподлинно никому неизвестно.~
 @4    = ~After half-a-dozen visits by Shadow Thieves' messengers it became evident to <CHARNAME> and Sime that it was time to visit Athkatla again. It was not much of a surprise to <CHARNAME> that their sojourn with Aran Linvail did not last for long. Sime took one look at her father's plans for their wedding and that very night she convinced <CHARNAME> to elope. To lay the issue to rest they got married in the Druid's Grove shortly after. However the marriage did not stop Sime from leading the nomadic lifestyle and together they traveled the land for many years. It is said that the couple was seen with two children, named Gorion and Imoen. Eventually the tales about <CHARNAME> and Sime became so unbelievable that one can only assume that they were no more. It is not known how and when they met their end.~
-@5    = ~Ring of Niri Alud~
+@5    = ~Перстень Нури Элада~
 @6    = ~This blue ring engraved with an ebony figurine of a black rook was the favourite ring of Niri Alud, a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors and other numerous items like this ring that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets and items were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of his possession sinks into the desert sands, then traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
 
 STATISTICS:
@@ -15,13 +15,13 @@ Special Abilities:
 – Summons a thief-like ally one time per day.
 
 Weight: 0~
-@7    = ~Suna's Bloom~
+@7    = ~Цветок Суны~
 @8    = ~A pretty purple flower.
 
 STATISTICS:
 
 Weight: 0~
-@9    = ~Selune's Laurel of Favor~
+@9    = ~Венок Селуны~
 @10   = ~This wreath of laurel leaves and roses was another gift from the church of Selune to Sime's mother. The representatives of the silver-haired goddess were well received, and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting her Temple.
 
 STATISTICS:
@@ -31,11 +31,11 @@ Equipped abilities:
 – Charisma: +2
 
 Weight: 1~
-@11   = ~Sime's Body~
+@11   = ~Тело Сайм~
 @12   = ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don't know what it would be.
 
 Weight: 135~
-@13   = ~Amulet of Blessing~
+@13   = ~Благословенный Амулет~
 @14   = ~Amulet of Blessing
 
 This amulet bears the repeating angular geometric patterns that the long-dead craftsmen of Myth Lharast were known for. Considered plain by modern elven standards, the amulet was a gift to Kiran-Hai, Circle Singer of Angharradh and Ward Mistress of the Arboreal Tombs in Myth Lahl. The name of its creator has been lost. It is believed to have been blessed later by priestesses of Selune, goddess of the moon. Sime inherited this amulet from her mother, and never takes it off.
@@ -50,7 +50,7 @@ Equipped abilities:
 – Charisma: +2
  
 Weight: 3~
-@15   = ~Aran's Cloak of Protection~
+@15   = ~Плащ Защиты Арана~
 @16   = ~Aran's Cloak of Protection
 
 The origins of this cloak have been lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul of an unusually large group of winter wolves on a solo expedition into the Spine of the World mountains having been forced to don a heavier cloak to keep out of the cold...
@@ -63,7 +63,7 @@ Equipped abilities:
 – Armor Class: +3
 
 Weight: 3~
-@17   = ~Aran's Love +6~
+@17   = ~Любовь Арана +6~
 @18   = ~Aran's Love +6
 
 It was a rumor that once upon a time when Aran Linvail was a young adventurer, he fell in love with an elven girl. She was the most beautiful creature he had ever seen in his life. In order to protect his lover in their travels, he asked one of the famous Calimshite merchants to bring him the most invulnerable leather armour he would find. In two months the merchant brought this excellent set of studded leather armour to Aran, but it was too later. His lover was shot dead by a goblin archer in a forest of Tethyr. Aran has kept this armour for a long time in remembrance of his short and passionate love, and eventually bestowed this armour to his favourite guild master.
@@ -82,7 +82,7 @@ Requires:
  6 Strength
 
 Weight: 35~
-@19   = ~Selune's Promise~
+@19   = ~Обет Селун~
 @20   = ~A weapon once owned by a grief-stricken high priestess of the Moonmaiden, Selune's Promise has a short and sad history. Fassa the Melancholy (as she is now known) was the head of a band of Selunite adventurers dedicated to destroying undead creatures wherever they found them. The band was initially quite successful, rarely suffering any casualties. Tymora's luck could not stay with them forever, though.
 
 In 1156, Fassa and her band entered the Sepulcher of the Dim. The band knew the Sepulcher was rumored to contain a "leak" to the Negative Material Plane, but they had no idea just how many undead creations were inside. Mixed in with the seemingly harmless poltergeists and phantoms were powerful spectres and wraiths. Over a short and chillingly quiet period of several minutes, almost all of Fassa's allies had their vital energy drained away. Fassa and her remaining companions fled and tried to form a plan of attack. When they returned on the following night, all of Fassa's former companions had been turned into slave spectres under the control of the master. She and her few remaining comrades destroyed the master spectre and eventually destroyed the souls of her tormented brethren.  In the end, Fassa was the only one left alive.
@@ -115,7 +115,7 @@ Requires:
  10 Strength
  
 Weight: 5~
-@21   = ~Three White Doves~
+@21   = ~Три Белых Голубки~
 @22   = ~An extremely unusual mace, Three White Doves was created by an Ilmaterian priest named Alledec in 850 DR. Alledec had been a fighting priest for the order for twenty years, and he decided it was time to leave a legacy for the church to use after he had passed away. This ivory-headed mace was the result. The shaft of the weapon is made from black-enameled steel, with the handle being crafted of carved ivory. Gold bands lock the head and the handle into place. The head itself is the most unusual part of the mace. It is carved from pure ivory and it resembles three white doves facing the center of the weapon. The flared wings of the doves form the flanges.
 
 Alledec died in his sleep three years after completing the mace. It was given to a traveling fighter in service of the church of Ilmater. The fighter later passed the weapon on to a priest of Ilmater named Recken the Bold. Recken lost the weapon when he was fighting a powerful vampire near Trollbark Forest. Recken was eventually victorious over the vampire, but he never recovered the mace.
@@ -146,7 +146,7 @@ Requires:
  5 Strength
  
 Weight: 3~
-@23   = ~Giant Killer~
+@23   = ~Убийца гигантов~
 @24   = ~A halfling warrior named Kim Marchwatch used this potent weapon against the giants that frequently plagued his homeland, hitting them in the head with so many rocks that they fell over in pain or ran away.  When Kim was replaced as shire-reeve of his homeland, he became a reluctant adventurer.  He is believed to have been swallowed up by the dreaded Fen Mists of Acallo in 760 DR.
 
 STATISTICS:
@@ -160,7 +160,7 @@ Requires:
  3 Strength
 
 Weight: 0~
-@25   = ~White Direwolf Figurine~
+@25   = ~Белая фигурка Волка-Оборотня~
 @26   = ~White Direwolf Figurine
 
 Carved from the white alabaster, this figurine is more than just a work of art. It is imbibed with a soul of a white direwolf called Veter. The direwolf is easily recognized from its kin by its large size, ruby-colored eyes and snow-white pelt. In addition the direwolf wears a ruby studded silver colar. Unlike other creatures bound to such figurines, Veter does not grow weaker on the Material Plane and can stay with his chosen master for as long as he is needed. The wolf can be called upon at any time. Veter considers Sime as his mistress at present.
@@ -194,9 +194,9 @@ Magic Abilities:
 – Healing Lick: twice per day
 
 Weight: 0~
-@27   = ~Captive Woman~
-@28   = ~Dalhaleitkazyyr~
-@29   = ~Sime~
+@27   = ~Пленница~
+@28   = ~Дейлхалеиказиир~
+@29   = ~Сайм~
 
 @31   = ~Hey, you want me to be the leader, huh? Heh heh, alright.~ [CSIME06]
 @32   = ~Shut your face, or I'm gotta shut it for you.~ [CSIME09]
@@ -212,7 +212,7 @@ Weight: 0~
 @42   = ~Ehm... No reason, but what does poison oak look like?~ [CSIME14]
 @43   = ~Hey, anybody got the map? Nah, I'm just kidding. I know where I'm going... I think.~ [CSIME17]
 @44   = ~I am not afraid of the dark! I am not afraid of the dark. I am... not... afraid... of the dark...~ [CSIME18]
-@45   = ~Yes?~ [CSIME19]
+@45   = ~Да?~ [CSIME19]
 @46   = ~Waiting with bated breath.~ [CSIME21]
 @47   = ~Listening.~ [CSIME22]
 @48   = ~Feeling a little bossy today, aren't we?~ [CSIME04]
@@ -233,11 +233,11 @@ Weight: 0~
 @63   = ~This is ridiculous. Make somebody else carry this.~ [CSIME36]
 @64   = ~All right, that didn't work!~ [CSIME37]
 @65   = ~Huh, sometimes I even scare myself.~ [CSIME03]
-@66   = ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla's Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran's dealings and Sime flees the city vowing never to come back.~
-@67   = ~Darriel~
-@68   = ~Veter~
-@69   = ~Sol~
-@70   = ~Sola~
-@71   = ~Solauf~
+@66   = ~Эта бодрая светловолосая девушка разговаривает и действует так, как будто мир - это большая ярмарка, и она ничего не хочет пропустить. Сайм задорно смеется, может протанцевать всю ночь напролет и поет о великих старых битвах с таким же удовольствием, как и о любви. Однако сквозь эту стену веселья можно услышать нежный голос, истинный голос Сайм Линвайл. Со временем вы узнаете, что она - дочь Мастера Теневой Гильдии Аткатлы. Иногда Сайм Линвайл отправляется в Аткатлу навестить своего отца. Однако эти встречи всегда заканчиваются спорами о темных делах Арана, и Сайм покидает город, клянясь, что больше ноги ее здесь не будет.~
+@67   = ~Дериэл~
+@68   = ~Ветер~
+@69   = ~Сол~
+@70   = ~Сола~
+@71   = ~Солоф~
 @72   = ~Legacy Voiceover~
 @73   = ~Alternate Portrait (Enkida)~
