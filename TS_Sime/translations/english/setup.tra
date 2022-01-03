@@ -1,8 +1,8 @@
 
 @3    = ~Sime had witnessed death all around <CHARNAME> and after her adventuring with the notorious Bhaalspawn was over, she returned to Athkatla bent on never leaving the side of her father again. Her involvement with the Shadow Thieves, however, resulted in strange events, like distributing valuables of a robbed lord to the misfortunate or using Shadow Thief resources and manpower for noble causes. Because of that, Aran Linvail was eventually forced to retire. He went with Sime to a small village in Northern Amn where Sime was offered the position of ranger-protector, despite her background. Aran was so bored that he started to take interest in local politics and within a few years the community had become known as a tax haven. The bureaucrats in Athkatla had believed for years that it was just a nameless hamlet, while in fact it was a prominent trade post.  Aran stayed as mayor of the community until his death. It is not known what happened to his half-elven daughter afterwards.~
-@4    = ~After half-a-dozen visits by Shadow Thieves’ messengers it became evident to <CHARNAME> and Sime that it was time to visit Athkatla again. It was not much of a surprise to <CHARNAME> that their sojourn with Aran Linvail did not last for long. Sime took one look at her father’s plans for their wedding and that very night she convinced <CHARNAME> to elope. To lay the issue to rest they got married in the Druid’s Grove shortly after. However the marriage did not stop Sime from leading the nomadic lifestyle and together they traveled the land for many years. It is said that the couple was seen with two children, named Gorion and Imoen. Eventually the tales about <CHARNAME> and Sime became so unbelievable that one can only assume that they were no more. It is not known how and when they met their end.~
+@4    = ~After half-a-dozen visits by Shadow Thieves' messengers it became evident to <CHARNAME> and Sime that it was time to visit Athkatla again. It was not much of a surprise to <CHARNAME> that their sojourn with Aran Linvail did not last for long. Sime took one look at her father's plans for their wedding and that very night she convinced <CHARNAME> to elope. To lay the issue to rest they got married in the Druid's Grove shortly after. However the marriage did not stop Sime from leading the nomadic lifestyle and together they traveled the land for many years. It is said that the couple was seen with two children, named Gorion and Imoen. Eventually the tales about <CHARNAME> and Sime became so unbelievable that one can only assume that they were no more. It is not known how and when they met their end.~
 @5    = ~Ring of Niri Alud~
-@6    = ~This blue ring engraved with an ebony figurine of a black rook was the favourite ring of Niri Alud, a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment’s notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors and other numerous items like this ring that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud’s chess sets and items were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of his possession sinks into the desert sands, then traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+@6    = ~This blue ring engraved with an ebony figurine of a black rook was the favourite ring of Niri Alud, a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors and other numerous items like this ring that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets and items were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of his possession sinks into the desert sands, then traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
 
 STATISTICS:
 
@@ -15,14 +15,14 @@ Special Abilities:
 – Summons a thief-like ally one time per day.
 
 Weight: 0~
-@7    = ~Suna’s Bloom~
+@7    = ~Suna's Bloom~
 @8    = ~A pretty purple flower.
 
 STATISTICS:
 
 Weight: 0~
 @9    = ~Selune's Laurel of Favor~
-@10   = ~This wreath of laurel leaves and roses was another gift from the church of Selune to Sime’s mother. The representatives of the silver-haired goddess were well received, and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting her Temple.
+@10   = ~This wreath of laurel leaves and roses was another gift from the church of Selune to Sime's mother. The representatives of the silver-haired goddess were well received, and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting her Temple.
 
 STATISTICS:
 
@@ -31,8 +31,8 @@ Equipped abilities:
 – Charisma: +2
 
 Weight: 1~
-@11   = ~Sime’s Body~
-@12   = ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don’t know what it would be.
+@11   = ~Sime's Body~
+@12   = ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don't know what it would be.
 
 Weight: 135~
 @13   = ~Amulet of Blessing~
@@ -83,13 +83,13 @@ Requires:
 
 Weight: 35~
 @19   = ~Selune's Promise~
-@20   = ~A weapon once owned by a grief-stricken high priestess of the Moonmaiden, Selune’s Promise has a short and sad history. Fassa the Melancholy (as she is now known) was the head of a band of Selunite adventurers dedicated to destroying undead creatures wherever they found them. The band was initially quite successful, rarely suffering any casualties. Tymora’s luck could not stay with them forever, though.
+@20   = ~A weapon once owned by a grief-stricken high priestess of the Moonmaiden, Selune's Promise has a short and sad history. Fassa the Melancholy (as she is now known) was the head of a band of Selunite adventurers dedicated to destroying undead creatures wherever they found them. The band was initially quite successful, rarely suffering any casualties. Tymora's luck could not stay with them forever, though.
 
-In 1156, Fassa and her band entered the Sepulcher of the Dim. The band knew the Sepulcher was rumored to contain a "leak" to the Negative Material Plane, but they had no idea just how many undead creations were inside. Mixed in with the seemingly harmless poltergeists and phantoms were powerful spectres and wraiths. Over a short and chillingly quiet period of several minutes, almost all of Fassa’s allies had their vital energy drained away. Fassa and her remaining companions fled and tried to form a plan of attack. When they returned on the following night, all of Fassa’s former companions had been turned into slave spectres under the control of the master. She and her few remaining comrades destroyed the master spectre and eventually destroyed the souls of her tormented brethren.  In the end, Fassa was the only one left alive.
+In 1156, Fassa and her band entered the Sepulcher of the Dim. The band knew the Sepulcher was rumored to contain a "leak" to the Negative Material Plane, but they had no idea just how many undead creations were inside. Mixed in with the seemingly harmless poltergeists and phantoms were powerful spectres and wraiths. Over a short and chillingly quiet period of several minutes, almost all of Fassa's allies had their vital energy drained away. Fassa and her remaining companions fled and tried to form a plan of attack. When they returned on the following night, all of Fassa's former companions had been turned into slave spectres under the control of the master. She and her few remaining comrades destroyed the master spectre and eventually destroyed the souls of her tormented brethren.  In the end, Fassa was the only one left alive.
 
 Fassa returned to her temple in misery and prayed to Selune that she never forget the agony of that night. Selune granted her request by causing a ghostly white and blue mace to appear on her bed when the next full moon rose. Carved into the shaft of the club were two words: Never Forget.
 
-Fassa became almost fanatical in her undead hunting in later years. At the age of thirty-three, tired and bitter, Fassa fell into decline. On the night of a full moon, she renounced her faith to Selune in front of her superiors and fellow clergy. Hours later, she threw herself into the Moonsea from a high cliff. The mace was found in her room and reluctantly kept in the church. Many years later, the new high priest of the temple decided to bestow this unique weapon to a new promising priestess. This mace was the favourite weapon of Sime’s mother.
+Fassa became almost fanatical in her undead hunting in later years. At the age of thirty-three, tired and bitter, Fassa fell into decline. On the night of a full moon, she renounced her faith to Selune in front of her superiors and fellow clergy. Hours later, she threw herself into the Moonsea from a high cliff. The mace was found in her room and reluctantly kept in the church. Many years later, the new high priest of the temple decided to bestow this unique weapon to a new promising priestess. This mace was the favourite weapon of Sime's mother.
 
 STATISTICS:
 
@@ -233,7 +233,7 @@ Weight: 0~
 @63   = ~This is ridiculous. Make somebody else carry this.~ [CSIME36]
 @64   = ~All right, that didn't work!~ [CSIME37]
 @65   = ~Huh, sometimes I even scare myself.~ [CSIME03]
-@66   = ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
+@66   = ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla's Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran's dealings and Sime flees the city vowing never to come back.~
 @67   = ~Darriel~
 @68   = ~Veter~
 @69   = ~Sol~
