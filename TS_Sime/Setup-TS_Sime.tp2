@@ -25,7 +25,11 @@ AUTO_TRA ~TS_Sime/translations/%s~
 
 LANGUAGE ~English~
          ~english~
-         ~TS_Sime/translations/english/setup.tra~ 
+         ~TS_Sime/translations/english/setup.tra~
+
+LANGUAGE ~Russian~
+         ~russian~
+         ~TS_Sime/translations/russian/setup.tra~
 
 BEGIN ~Vlad's Sime NPC~
 
