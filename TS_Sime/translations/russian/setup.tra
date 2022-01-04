@@ -6,29 +6,29 @@
 
 ПАРАМЕТРЫ:
 
-Свойства при экипировке:
-   Вызывает союзника вора один раз в день.
+Свойства экипировки:
+– класс защиты: +2;
+– THAC0: +2;
+– спасброски: +2.
 
-Боевые особенности:
-– Бонус к Класса Брони: +2
-– Бонус к THAC0: +2
-– Бонус к спасброскам: +2
+Свойства зарядов:
+- Вызывает союзника вора один раз в день.
 
 Вес: 0~
 @7    = ~Цветок Суны~
-@8    = ~A pretty purple flower.
-
-STATISTICS:
-
-Weight: 0~
-@9    = ~Венок Селуны~
-@10   = ~Этот венок лавровых листьев и роз был еще одним подарком церкви Селуны матери Сайм, которая в свою очередь подарила его своей единственной дочери. Сайм очень дорожит этим венком и не позволяет никому его одевать даже в шутку. И надо признать, что в этом венке Сайм выглядит гораздо симпатичнее.
+@8    = ~Прекрасный пурпурный цветок.
 
 ПАРАМЕТРЫ:
 
-Особенности при экипировке:
-– Бонус к Классу Брони: +2
-– Харизма: +2
+Вес: 0~
+@9    = ~Венок Селуны~
+@10   = ~Этот венок лавровых листьев и роз был еще одним подарком церкви Селуны матери Сайм. Представители богини были тепло приняты, а верховная жрица Ханали Селанил носила венок каждый раз, когда люди посещали ее Храм.
+
+ПАРАМЕТРЫ:
+
+Свойства экипировки:
+– класс защиты: +2;
+– Харизма: +2.
 
 Вес: 1~
 @11   = ~Тело Сайм~
@@ -36,64 +36,58 @@ Weight: 0~
 
 Вес: 135~
 @13   = ~Благословенный Амулет~
-@14   = ~Amulet of Blessing
+@14   = ~В качестве рисунка на этом амулете нанесены повторяющиеся геометрические узоры, которыми славились давно умершие мастера Миф Лараста. Будучи простым по современным эльфийским стандартам, этот амулет был подарен Куран-Хаи, Певице Круга и Хранительнице Арборейских Могил в Миф Лале. Имя его создателя неизвестно. Считается, что позже его благословила жрица Селуны, богини луны. Сайм получила этот амулет в наследство от матери и никогда его не снимает.
 
-This amulet bears the repeating angular geometric patterns that the long-dead craftsmen of Myth Lharast were known for. Considered plain by modern elven standards, the amulet was a gift to Kiran-Hai, Circle Singer of Angharradh and Ward Mistress of the Arboreal Tombs in Myth Lahl. The name of its creator has been lost. It is believed to have been blessed later by priestesses of Selune, goddess of the moon. Sime inherited this amulet from her mother, and never takes it off.
+ПАРАМЕТРЫ:
 
-STATISTICS
+Свойства экипировки:
+– сопротивление магии: +15%;
+- скорость прочтения заклинаний улучшена на 3;
+- иммунитет к откачке уровня;
+– Ловкость: +2;
+– Харизма: +2.
 
-Equipped abilities:
-– Magic Resistance: +15%
-– Improves casting speed by 3
-– Immunity to Level Drain
-– Dexterity: +2
-– Charisma: +2
- 
-Weight: 3~
+Вес: 3~
 @15   = ~Плащ Защиты Арана~
-@16   = ~Aran's Cloak of Protection
+@16   = ~История создания этого плаща теряется в тумане веков. Тем не менее, доподлинно известно, что когда-то им владел маг огромной силы из Уотердипа - Дрейсус. Предания гласят, что Дрейсус погиб, когда пытался в одиночку пересечь Хребет Мира и был атакован стаей голодных и свирепых зимних волков. Дальнейшая судьба плаща покрыта мраком неизвестности...
 
-The origins of this cloak have been lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul of an unusually large group of winter wolves on a solo expedition into the Spine of the World mountains having been forced to don a heavier cloak to keep out of the cold...
+Этот плащ предоставляет своему владельцу +3 к Классу Брони и может быть одет одновременно с любой другой магической вещью. Таким образом - его можно носить поверх магической брони или совместно с магическим кольцом.
 
-The cloak grants a +3 bonus to Armor Class and can be worn in combination with any other form of protection enchantment - thus it can be worn over magical armor unlike a cloak of protection.
+ПАРАМЕТРЫ:
 
-STATISTICS:
+Свойства экипировки:
+– класс защиты: +3.
 
-Equipped abilities:
-– Armor Class: +3
-
-Weight: 3~
+Вес: 3~
 @17   = ~Любовь Арана +6~
-@18   = ~Aran's Love +6
+@18   = ~Слухи утверждают, что однажды, когда Аран Линвайл был юным искателем приключений, он влюбился в эльфийскую девушку. Она была самым красивым созданием, которое он встречал в своей жизни. Чтобы защитить свою любовь во время странствий, он попросил одного из самых известных Калимшитских торговцев достать ему самую неуязвимую броню из кожи, которую тому удастся найти. Через два месяца торговец принес это великолепное кожаное изделие, но было уже слишком поздно. Его возлюбленную подстрелил гоблин-лучник в лесах Тетира. Долгое время Аран держал этот доспех при себе в память о своей краткой и страстной любви, но, в конце концов, подарил своему любимому мастеру гильдии.
 
-It was a rumor that once upon a time when Aran Linvail was a young adventurer, he fell in love with an elven girl. She was the most beautiful creature he had ever seen in his life. In order to protect his lover in their travels, he asked one of the famous Calimshite merchants to bring him the most invulnerable leather armour he would find. In two months the merchant brought this excellent set of studded leather armour to Aran, but it was too later. His lover was shot dead by a goblin archer in a forest of Tethyr. Aran has kept this armour for a long time in remembrance of his short and passionate love, and eventually bestowed this armour to his favourite guild master.
+ПАРАМЕТРЫ:
 
-STATISTICS:
-
-Equipped abilities:
+Свойства экипировки:
 – Immunity to Normal Weapons
 – +75% resistance to missile damage
 – Immunity to Disease and Poison
 – Regenerate 1 Hit Point/round
 – Immunity to any slowing, holding and paralyzation magics
- 
+
 Armor Class: 0
 Requires:
  6 Strength
 
-Weight: 35~
+Вес: 35~
 @19   = ~Обет Селун~
-@20   = ~A weapon once owned by a grief-stricken high priestess of the Moonmaiden, Selune's Promise has a short and sad history. Fassa the Melancholy (as she is now known) was the head of a band of Selunite adventurers dedicated to destroying undead creatures wherever they found them. The band was initially quite successful, rarely suffering any casualties. Tymora's luck could not stay with them forever, though.
+@20   = ~У этого оружия, принадлежавшего когда-то сраженной горем верховной жрице Лунной Девы, короткая и печальная история. Фасса Печальная (как все ее знают) возглавляла группу селунитов-путешественников, которые поставили себе цель уничтожать любую нежить, которая попадется им на пути. Сначала они неплохо преуспевали в своей миссии, редко попадая в затруднительные ситуации. Однако удача Тиморы не могла пребывать с ними вечно.
 
-In 1156, Fassa and her band entered the Sepulcher of the Dim. The band knew the Sepulcher was rumored to contain a "leak" to the Negative Material Plane, but they had no idea just how many undead creations were inside. Mixed in with the seemingly harmless poltergeists and phantoms were powerful spectres and wraiths. Over a short and chillingly quiet period of several minutes, almost all of Fassa's allies had their vital energy drained away. Fassa and her remaining companions fled and tried to form a plan of attack. When they returned on the following night, all of Fassa's former companions had been turned into slave spectres under the control of the master. She and her few remaining comrades destroyed the master spectre and eventually destroyed the souls of her tormented brethren.  In the end, Fassa was the only one left alive.
+В 1156 году Фасса и ее товарищи спустились в Тусклую Гробницу. Они знали, что по слухам в Гробнице есть маленькое окно в План Отрицательной Материи, но они не представляли, сколько мертвых созданий там находится. Неприметно среди практически безвредных призраков и фантомов притаились могущественные духи и умертвия. В ледяной тишине за несколько минут почти все товарищи Фассы лишились своей жизненной силы. Оставшиеся компаньоны во главе с Фассой смогли вырваться и принялись обсуждать план повторного нападения. Когда они вернулись следующей ночью, все погибшие были обращены в призраков-рабов, управляемых могучим Мастером. В разыгравшейся жестокой битве Фассе и ее бойцам удалось уничтожить Мастера и ожившие души своих бывших друзей, освободив их от мук полу-небытия. В конце концов, в живых осталась только Фасса.
 
-Fassa returned to her temple in misery and prayed to Selune that she never forget the agony of that night. Selune granted her request by causing a ghostly white and blue mace to appear on her bed when the next full moon rose. Carved into the shaft of the club were two words: Never Forget.
+Подавленная произошедшим несчастьем Фасса вернулась в храм и молила Селуну, чтобы она не позволила ей забыть кошмар той ночи. И Селуна откликнулась на ее просьбу, явив бледную бело-голубую булаву в изголовье ее кровати в ближайшее полнолуние. На рукояти были выгравированы три слова: Никогда не забывай.
 
-Fassa became almost fanatical in her undead hunting in later years. At the age of thirty-three, tired and bitter, Fassa fell into decline. On the night of a full moon, she renounced her faith to Selune in front of her superiors and fellow clergy. Hours later, she threw herself into the Moonsea from a high cliff. The mace was found in her room and reluctantly kept in the church. Many years later, the new high priest of the temple decided to bestow this unique weapon to a new promising priestess. This mace was the favourite weapon of Sime's mother.
+В последующие годы Фасса с неистовством одержимой занялась преследованием нежити. В возрасте тридцати трех лет, уставшая и опустошенная, Фасса пришла к отречению. В полнолуние она отреклась от Селуны перед лицом высшего клира и рядового священничества. Спустя несколько часов она бросилась с утеса в Лунное Море. Эту булаву нашли в ее комнате и отнесли в храмовую сокровищницу. Много лет спустя новая верховная жрица решила вручить это уникальное оружие новой многообещающей послушнице. Эта булава была любимым оружием матери Сайм.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Combat abilities:
+Свойства экипировки:
 – Double damage against undead and outer planar creatures.
   Undead:
     1-4 Hit Dice: Automatically destroyed
@@ -107,18 +101,18 @@ Combat abilities:
     5% chance of being destroyed
 
 THAC0: +3
-Damage: 1d6+4 (crushing)
-Speed Factor: 4
-Proficiency Type: Mace
-Type: One-handed
-Requires:
- 10 Strength
- 
-Weight: 5~
-@21   = ~Три Белых Голубки~
-@22   = ~An extremely unusual mace, Three White Doves was created by an Ilmaterian priest named Alledec in 850 DR. Alledec had been a fighting priest for the order for twenty years, and he decided it was time to leave a legacy for the church to use after he had passed away. This ivory-headed mace was the result. The shaft of the weapon is made from black-enameled steel, with the handle being crafted of carved ivory. Gold bands lock the head and the handle into place. The head itself is the most unusual part of the mace. It is carved from pure ivory and it resembles three white doves facing the center of the weapon. The flared wings of the doves form the flanges.
+Урон: 1d6+4 (дробящий)
+Фактор скорости: 4
+Навык: Палица
+Тип: одноручное
+Требования:
+ Сила 10
 
-Alledec died in his sleep three years after completing the mace. It was given to a traveling fighter in service of the church of Ilmater. The fighter later passed the weapon on to a priest of Ilmater named Recken the Bold. Recken lost the weapon when he was fighting a powerful vampire near Trollbark Forest. Recken was eventually victorious over the vampire, but he never recovered the mace.
+Вес: 5~
+@21   = ~Три Белых Голубки~
+@22   = ~Эта очень необычная булава была создана священником Ильматер Алледеком в 850м году. Алледек двадцать лет сражался во имя порядка и справедливости и когда он ушел на покой, то решил оставить церкви что-нибудь в память о своей борьбе. В результате была создана эта булава с набалдашником из слоновой кости. Рукоять изготовлена из черной стали и покрыта затейливой резьбой. Самое необычное в этом оружии - его набалдашник, сделанный в виде трех голубей, как бы вылетающих из одной точки, и их крылья образуют ударные шипы.
+
+Спустя три года после создания булавы Алледек умер во сне. Ее вручили путешествующему по указаниям храма Ильматер воину. Позже воин отдал эту булаву священнику Ильматер Рекену Смелому. Рекен потерял это оружие, сражаясь с могучим вампиром в Троличьем Лесу. В конце концов Рекен одолел вампира, но булаву так и не нашел.
 
 STATISTICS:
 
@@ -147,7 +141,7 @@ Requires:
  
 Weight: 3~
 @23   = ~Убийца гигантов~
-@24   = ~A halfling warrior named Kim Marchwatch used this potent weapon against the giants that frequently plagued his homeland, hitting them in the head with so many rocks that they fell over in pain or ran away.  When Kim was replaced as shire-reeve of his homeland, he became a reluctant adventurer.  He is believed to have been swallowed up by the dreaded Fen Mists of Acallo in 760 DR.
+@24   = ~Воин полурослик по имени Ким Стерегущий сражался этим оружием с гигантами, которые часто нападали на его родную землю, запуская им в голову столько камней, что они либо падали, корчась от боли, либо в страхе убегали прочь. После того, как его сместили с должности старосты общины, он отправился путешествовать по миру. Говорят, что его поглотили ужасные болотные туманы Акалло в 760м году.
 
 STATISTICS:
 
@@ -161,9 +155,7 @@ Requires:
 
 Weight: 0~
 @25   = ~Белая фигурка Волка-Оборотня~
-@26   = ~White Direwolf Figurine
-
-Carved from the white alabaster, this figurine is more than just a work of art. It is imbibed with a soul of a white direwolf called Veter. The direwolf is easily recognized from its kin by its large size, ruby-colored eyes and snow-white pelt. In addition the direwolf wears a ruby studded silver colar. Unlike other creatures bound to such figurines, Veter does not grow weaker on the Material Plane and can stay with his chosen master for as long as he is needed. The wolf can be called upon at any time. Veter considers Sime as his mistress at present.
+@26   = ~Эта изящная статуэтка, вырезанная из белого алебастра, не обычная безделушка для богатых придворных. Душа белого волка-оборотня по имени Ветер помещена в эту фигурку. Волка-оборотня можно отличить от обычных волков по значительно более крупным размерам, по глазам цвета кровавого рубина и по белоснежной шкуре без единого пятнышка. Кроме того, у него обычно можно увидеть серебряный ошейник, усыпанный рубинами. В отличие, от других подобных статуэток, Ветер может оставаться в Материальных Планах столько, сколько нужно. Вызвать его можно в любое время. Следует помнить, что Ветер считает своей хозяйкой Сайм.
 
 STATISTICS:
 
