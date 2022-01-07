@@ -925,23 +925,23 @@ Kaimeldor panta annonta ten'lle... ~
 А демоны так красны,
 Бездна такая горячая,
 Как впрочем и ты!~
-@817  = ~(*You notice that Sime seems a bit on edge as of late. You come up beside her and rest an arm about her small shoulders and pull her close to you. Sime looks up at you with gratitude, and you kiss the side of her head softly to comfort her*) Is everything well, my shining star?~
-@818  = ~(*The party takes a short break in order to restore vitality through food and rest. A small campfire is built, and the blackened shadows swiftly retreat from the intrusion of the light. Sime stares into the flames, lost in thought.*)~
-@819  = ~(*Your eyes linger over the half-elf's features and body. You note the way her hair flows behind her like a sun-kissed cloth, how her eyes glitter whenever a laugh escapes her lips, and how the trials and tribulations you endure with her never seem to wipe a smile off of her fair face.*)~
-@820  = ~(*Her eyes meet yours suddenly, causing your stomach to flutter. She tilts her head to the side and starts making silly faces at you, giggling when you feel your neck and ears heat in an embarrassed blush.*)~
-@821  = ~I thought I heard you singing about love, <CHARNAME>. It was lovely enough, but your voice could use a bit of  tuning, however.~
-@822  = ~(*Sime giggles at you, and you can only imagine how red your ears and neck must have turned.*)~
-@823  = ~(*Sime is currently walking ahead of you, making it easier for you to admire her without being noticed. The easy swaying of her hips and her graceful step are only a few of the great many things about her that you notice.*)~
-@824  = ~(*You suddenly find yourself aching for her touch, and burning for the feel of her in your arms. Sime whirls suddenly and presses her mouth against yours, expertly slipping her tongue into your mouth. When the moment is over, she laughs heartily at your surprised expression.*)~
-@825  = ~(*Her glistening eyes captivate you as you stare into them. They each have their own inner glow as bright as a thousand suns.*)~
-@826  = ~(*Your gaze wanders to the slight curve of her nose to her rich yet subtle lips. When you look back up to her eyes she finds herself staring straight back at you, making you blink in surprise.*)~
-@827  = ~(*Sime giggles*) It seems I won that staring contest, <CHARNAME>!~
-@828  = ~(*You slowly reach out with your right hand toward her left, but pull away nervously. A moment later, you try to take her hand again but find yourself too nervous to go through with it, and you pull away yet again.*)~
-@829  = ~(*Finally, you muster enough courage to reach for her a third time, but Sime snatches your hand in hers. Surprised, you look into her face and see her smiling.*)~
-@830  = ~You should try and learn some more subtlety, <CHARNAME>. (*She says, tossing you a wink.*)~
-@831  = ~(*You wrap her free hand in your own, reveling in her touch.*)~
-@832  = ~(*Sime looks to you in puzzlement, and politely releases herself from your grip*) I'm sorry, <CHARNAME>, it was sweet, but this isn't a good time.~
-@833  = ~(*After interlocking your fingers with hers, Sime's hand trembles slightly at the sudden contact, but she does not pull away. The two of you walk on for a while as such, until she decisively turns and breaks your hold, in order to inspect her weapons and armor.*)~
+@817  = ~(*Вы замечаете, что Сайм в последнее время выглядит немного раздражённой. Вы подходите к ней, обнимаете её изящные плечи и притягиваете к себе. Сайм смотрит на вас с благодарностью, в то время, как вы целуете её волосы, чтобы успокоить.*) Всё в порядке, моя звездочка?~
+@818  = ~(*Ваша группа решает остановиться на небольшой перерыв, для восстановления сил с помощью еды и отдыха. Почерневшие тени стремительно отступают от веселого пламени небольшого костерка. Сайм смотрит в огонь, плавая в своих мыслях.*)~
+@819  = ~(*Ваш взгляд цепляется за черты лица полуэльфийки. Вы замечаете, что её волосы, струящиеся вдоль спины, словно сотканы из солнечного света, а глаза сияют, когда смех срывается с её губ. Кажется, что никакие испытания или невзгоды не способны стереть улыбку с её прекрасного лица.*)~
+@820  = ~(*Её глаза встречаются с вашими, отчего у вас начинает покалывать в спине. Она наклоняет свою голову набок и начинает корчить вам глупые рожи, хихикая, в то время как ваша шея и уши нагреваются от румянца смущения.*)~
+@821  = ~Мне показалось, что ты поёшь о любви, <CHARNAME>. Это было достаточно мило, но тебе не мешало бы поработать над своим голосом.~
+@822  = ~(*Сайм хихикает, и ты можешь только догадываться, как сильно покраснели твои уши и шея.*)~
+@823  = ~(*Сайм идет впереди вас, позволяя вам восхищаться ей, оставаясь незамеченным. То, как она плавно покачивает бедрами, и её изящная походка - это лишь некоторые из её уникальных особенностей, которые вы так цените.*)~ ~(*Сайм идет впереди вас, позволяя вам восхищаться ей, оставаясь незамеченной. То, как она плавно покачивает бедрами, и её изящная походка - это лишь некоторые из её уникальных особенностей, которые вы так цените.*)~
+@824  = ~(*Вы осознаете, что сгораете от желания её прикосновений. Сайм внезапно разворачивается и резко прижимается свои губы к вашим, ловко просовывая свой язык в ваш рот. Когда этот головокружительный момент заканчивается, она снова начинает хихикать, глядя на ваше глупое выражение лица.*)~
+@825  = ~(*Её сияющие глаза завораживают, когда вы смотрите в них. Они сияют своим внутренним светом, ярче тысячи солнца.*)~
+@826  = ~(*Ваш взгляд скользит по тонкому изгибу её переносицы, к её пухлым, но изящным губам. Когда вы снова смотрите ей в глаза, вы обнаруживаете, что она смотрит прямо на вас, заставляя вас потупить взгляд от смущения.*)~
+@827  = ~(*Сайм хихикает*) Похоже, я выиграла в гляделки, <CHARNAME>!~
+@828  = ~(*Вы медленно протягиваете вашу руку к её руке, но, в последний момент, всё-таки не решаетесь взять Сайм за руку. Мгновенье спустя, вы предпринимаете ещё одну попытку, но вам снова не хватает духа, чтобы довести это дело до конца.*)~
+@829  = ~(*Наконец, вы набираетесь смелости для третьей попытки, но Сайм сама резко хватает вас за руку. Вы смотрите ей в глаза, застыв от удивления, и видите, как она улыбается вам.*)~
+@830  = ~Тебе следует подучиться искусству флирта, <CHARNAME>. (*Она подмигивает вам.*)~
+@831  = ~(*Вы заключаете её свободную руку в свою, наслаждаясь каждым прикосновением.*)~
+@832  = ~(*Сайм недоуменно смотрит на вас и вежливо отбирает свою руку.*) Прости, <CHARNAME>, это мило, но сейчас для этого неподходящее время.~
+@833  = ~(*После того, как ваши пальцы сплелись, вы чувствуете, что рука Сайм слегка дрожит, но она не отстраняется. Вы двое идёте рядом какое-то время, пока она не вырывает свою руку из вашей, решая осмотреть своё оружие и доспех.*)~
 @834  = ~(*Sime at first doesn't react to the sudden brush of your lips on hers, as if she isn't quite certain of what just happened. She quickly regains her composure and yanks her head back, looking at you with a dark expression on her face.*)~
 @835  = ~Look, <CHARNAME>, you have been very kind to me so far, but I do not think I'm prepared to advance our...relationship...that far yet.~
 @836  = ~(*Sime's lips lock with yours for a brief moment. You are nearly overcome by the sweetness of the moment, but Sime soon breaks away before any further advancement.*)~
