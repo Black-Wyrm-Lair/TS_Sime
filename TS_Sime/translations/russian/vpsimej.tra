@@ -875,60 +875,56 @@ Kaimeldor panta annonta ten'lle... ~
 @788  = ~(*Она крепко целует вас в щеку, прежде чем выпустить из своих объятий. Вы чувствуете себя опустошённым, теперь, когда она больше не обнимает вас.*)~
 @789  = ~(*Вы надеетесь на большее, но вместо этого она поворачивается к вам спиной, позволяя вам насладиться видом её изящной фигуры.*)~
 @790  = ~(*Она начинает тихонько напевать какую-то мелодию, отворачиваясь и делая вид, что занимается чисткой оружия, при этом продолжая наблюдать за вами краем глаза.*)~
-@791  = ~(*Она смотрит вам в глаза особым взглядом, в котором смешаны удивление и привязанность. От её нежного прикосновения к вашей щеке, дрожь пробегает по вашей спине.*)~
+@791  = ~(*Она смотрит вам в глаза особым взглядом, в котором смешаны удивление и привязанность. От её нежного прикосновения к вашей щеке, по вашей спине пробегает дрожь.*)~
 @792  = ~(*Прежде чем вы успели спросить, чем это вызвано, она уже подошла к вам сзади и нежно обвила вашу шею своими руками, удовлетворенно дыша.*)~
 @793  = ~(*Она улыбается и нежно проводит своей рукой вдоль вашей руки.*) Ты не должен забывать заботиться о своём снаряжении, хотя я и не против иногда протягивать руку помощи.~
 @794  = ~(*Вы вскрикиваете и падаете на землю, понимая что встреча с твёрдым грунтом будет не из приятных. Вы и Сайм, оба упали на землю, но у неё, по крайней мере, была мягкая подушка, для компенсации удара.*)~
 @795  = ~(*Сайм хихикает вам прямо в ухо и вяло шепчет какие-то извинения, прежде чем поцеловать вас в висок. Боль от падения уходит, уступая блаженству, когда вы, лежа под Сайм, смотрите вверх, прямо в её красивое лицо.*)~
-@796  = ~Do you forgive me, <CHARNAME>? (*Sime wears her most innocent look, and trails a finger down your forehead and the length of your nose, stopping at your lips.*)~
-@797  = ~(*She then leans down and kisses you very sweetly on the lips, causing your heart to beat fiercely and your stomach to tie in knots*)... I knew you would! ~
-@798  = ~(*She lets you up then, allowing you to gather your equipment and the last bit of your dignity before hugging you tightly, and resuming her place in line.*)~
-@799  = ~(*You stumble forward with a surprised yell, alerting the other party members who, at first think, you were attacked by some vicious animal. When they notice it is only a giggling Sime all they can do is roll their eyes.*)~
-@800  = ~(*You manage to support the combined weight of Sime, along with both her and your own equipment.*)~
-@801  = ~(*Sime bears no shame, and is giggling madly as you hoist her farther up your back, but you decide to turn the tables against her by reaching behind and grabbing her waist, and with a might swing, she is soon facing you and haning off of your hips.*)~
-@802  = ~(*You mash a long and deep kiss upon her rosy lips, both out of pure desire and to stifle the incessant laughing she emits. After your reluctant parting, she slips down from your arms and hugs you tightly, before resuming pace with the rest of the party.*)~
-@803  = ~(*You find your gaze wandering over to Sime. Her sweet disposition belies the crowd of grim Shadow Thieves you found her hanging around with, and you are eager to learn more about her.*)~
-@804  = ~(*Admire Sime's exquisite beauty and unmatched grace. You realize that you have never before come across such a fair and exotic woman in all of your travels.*)~
-@805  = ~(*You reach for Sime's hand after removing your cumbersome gloves. Your hand is afire with the desire of her touch, and her soft skin is the only thing to quench your thirst for her.*)~
-@806  = ~(*You lean into Sime to fulfill your desire to feel her mouth against yours. Sime's mouth is sweet and her lips rosy red, and you are nearly driven wild in anticipation.*)~
-@807  = ~(*Shower Sime's face and neck with soft, wet kisses.*)~
-@808  = ~I'm glad that Aran allowed you to join me, Sime. I truly enjoy your presence here beside me.~
-@809  = ~(*Tug Sime toward you for a close, intimate embrace. The contact of her body against yours ignites an inner warmth deep within your heart, making you wonder how you could have ever possibly gone through a day without holding her.*)~
-@810  = ~(*Throw aside all care and modesty and caress Sime's torso and the curves of her body. Her feminine, yet strong build verily begs to be touched and you cannot hold back any longer.*)~
-@811  = ~(*Engulf your hands into Sime's golden tresses, twining her hair between your fingers.*)~
-@812  = ~(*Cup Sime's face between your palms. You slide your tongue easily between full lips that part eagerly for you and massage her tongue with your own.*)~
-@813  = ~(*You present to Sime a branch of berries you found along a path earlier that morn. After carefully testing their flavor and safety, you tingle with excitement as Sime takes the berries from you.*)~
-@814  = ~(*The sun glistening off of Sime's honey hair inspires you to humble yourself before her, and recite lines of love and adoration to her.*)
+@796  = ~Ты простишь меня, <CHARNAME>? (*Сайм - сама невинность, проводит пальцем по вашему лбу, вдоль носа и останавливается только у ваших губ.*)~
+@797  = ~(*Затем она наклоняется и очень сладко целует вас в губы. Ваше сердце начинает бешено биться, а в животе порхать бабочки.*)... Я знала, что простишь!~
+@798  = ~(*После этого, она позволяет вам встать, и собрать ваше разбросанное снаряжение вместе с остатками достоинства. Прежде, чем занять своё место в строю, она крепко обнимает вас.*)~
+@799  = ~(*Вы спотыкаетесь с удивленным криком, предупреждая других членов вашей группы. Они, должно быть, подумали, что на вас напало какое-то злобное животное, но, заметив, что это только хихикающая Сайм, всё, что им остаётся делать - это закатывать глаза.*)~
+@800  = ~(*Вам удалось удержать ваш вес, вес Сайм и всего вашего снаряжения.*)~
+@801  = ~(*Сайм абсолютно не выглядит виноватой - она безумно хохочет, в то время как вы поднимаете её ещё выше к себе на спину. В следующий момент, вы хватаете её за талию и резко разворачиваете. И вот уже Сайм сидит, обхвативши ваши бедра своими ногами и вызывающе смотрит на вас.*)~
+@802  = ~(*Вы припечатываете губы Сайм долгим поцелуем, чтобы и получить удовольствие и заглушить её непрерывные смешки. После того, как она неохотно слезла с вас, Сайм в последний раз крепко обнимает вас и занимает своё место в строю.*)~
+@803  = ~(*Вы осознаете, что ваш взгляд блуждает по Сайм. Её милый, непосредственный характер, никак не соответствует мрачности Теневых Воров, с которыми вы её встретили. Вам не терпится узнать о ней побольше.*)~
+@804  = ~(*Оцените изысканную красоту и непревзойденную грация Сайм. Вы осознаете, что никогда раньше, во время своих путешествий, не встречались с такой красивой и экзотической женщиной.*)~
+@805  = ~(*Вы тянетесь к руке Сайм, сняв свои громоздкие перчатки. Вы просто сгораете от желания прикоснуться к ней и её нежная кожа - это единственное, что способно утолить вашу жажду.*)~
+@806  = ~(*Вы наклоняетесь к Сайм, чтобы исполнить свое желание почувствовать вкус её губ. Её сладкие губы напоминают розово-красные лепестки цветов и вы почти сходите с ума от предвкушения.*)~
+@807  = ~(*Покройте лицо и шею Сайм нежными, влажными поцелуями.*)~
+@808  = ~Здорово, что Аран позволил тебе присоединиться к моей группе, Сайм. Мне действительно нравится твое присутствие здесь, рядом со мной.~
+@809  = ~(*Притяните Сайм к себе для близких, интимных объятий. Прикосновение её тела к вашему разжигает тепло глубоко в вашей душе, заставляя вас задуматься, как вы вообще могли бы прожить день без её объятий.*)~
+@810  = ~(*Отбросьте всю свою скромность и погладьте талию Сайм и другие изгибы её тела. Её женственное, но сильное тело, прямо просит вашего прикосновения и вы больше не можете сдерживаться.*)~
+@811  = ~(*Пропустите сквозь ваши руки золотистые локоны Сайм, заплетая её волосы пальцами.*)~
+@812  = ~(*Обхватите лицо Сайм своими ладонями. Ваш язык скользит между её полными губами, жаждущими вас, а ваши языки сплетаются.*)~
+@813  = ~(*Вы дарите Сайм ветку ягод, которую нашли этим утром. Вы уже попробовали их и теперь вас переполняет удовольствие, когда Сайм берет эти ягоды из ваших рук.*)~
+@814  = ~(*Солнце, отражающееся в медовых волосах Сайм, просто обязывает вас прочитать ей строки любви и обожания.*)
 
-Lady of my life, gentle maiden of my dreams and fairy tails,
-Let this poor <PRO_MANWOMAN> be blessed by your touch,
-The feel of your featherlike hand across my skin
-and your sweet breath against my face
-Is bliss, let this <PRO_MANWOMAN> be glorified by
-Your words of praise and love.
-I am yours, my Sime
-Now, and forevermore.~
-@815  = ~(*The sun glistening off of Sime's honey hair inspires you to humble yourself before her, and recite lines of love and adoration to her.*)
+Ты словно богиня из сказки,
+Желаю коснуться тебя,
+Услышать твой голос прекрасный
+О Сайм, ты навеки моя.
+И взор твоих глаз светлый самый,
+И пальцы, как шёлк нежны,
+Служить не устану тебе я,
+Хоть мысли мои грешны.~
+@815  = ~(*Солнце, отражающееся в медовых волосах Сайм, просто обязывает вас прочитать ей строки любви и обожания.*)
 
-Sime, your beauty in this light
-And any light for that matter,
-Is unmatched by even the most
-Glamorous of dryads, or the
-Most splendid of Solars
-Even the most heavenly
-Of Goddesses pale when
-Compared to you, dearest Sime,
-Please say nothing, but know
-That these just words echo
-Throughout my mind
-Like a thunderous underground waterfall
-In a shining, diamond cavern.~
-@816  = ~(*The sun glistening off of Sime's honey hair inspires you to humble yourself before her, and recite lines of love and adoration to her.*)
+Твоя красота под солнцем,
+Как и в тёмной ночи,
+Не встретит соперников даже
+Среди ангелов или нимф.
 
-Uh... demons are red,
-Xvarts  are blue,
-The Abyss is really hot,
-...and so are you!~
+И даже богини бледнеют,
+В сравнении с милой Сайм.
+Хочу я хвалить тебя вечно,
+Но не хватает слов...~
+@816  = ~(*Солнце, отражающееся в медовых волосах Сайм, просто обязывает вас прочитать ей строки любви и обожания.*)
+
+Эмм... скварты такие синие,
+А демоны так красны,
+Бездна такая горячая,
+Как впрочем и ты!~
 @817  = ~(*You notice that Sime seems a bit on edge as of late. You come up beside her and rest an arm about her small shoulders and pull her close to you. Sime looks up at you with gratitude, and you kiss the side of her head softly to comfort her*) Is everything well, my shining star?~
 @818  = ~(*The party takes a short break in order to restore vitality through food and rest. A small campfire is built, and the blackened shadows swiftly retreat from the intrusion of the light. Sime stares into the flames, lost in thought.*)~
 @819  = ~(*Your eyes linger over the half-elf's features and body. You note the way her hair flows behind her like a sun-kissed cloth, how her eyes glitter whenever a laugh escapes her lips, and how the trials and tribulations you endure with her never seem to wipe a smile off of her fair face.*)~
