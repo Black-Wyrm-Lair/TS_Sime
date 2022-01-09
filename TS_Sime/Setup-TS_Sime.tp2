@@ -46,10 +46,10 @@ APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 //Epilogues
 ///////////////////////////
 
-COPY ~TS_Sime/epilogue/vpsimenr.2da~ ~override~
+COPY ~TS_Sime/2da/vpsimend.2da~ ~override/vpsimenr.2da~
 REPLACE ~99999~ @3
 
-COPY ~TS_Sime/epilogue/vpsimer.2da~ ~override~
+COPY ~TS_Sime/2da/vpsimend.2da~ ~override/vpsimer.2da~
 REPLACE ~99999~ @4
 
 APPEND ~PDIALOG.2da~ ~VPSIME VPSIMEP VPSIMEJ VPSIMED VPSIMEP2 VPSIMEJ2 VPSIMED2 VPSIME25~
@@ -66,13 +66,6 @@ UNLESS ~VPSIME~
 COPY ~TS_Sime/portraits~ ~override~
 COPY ~TS_Sime/eff~ ~override~
 COPY ~TS_Sime/bam~ ~override~
-
-LAF HANDLE_AUDIO
-  STR_VAR
-    audio_path = ~TS_Sime/audio/ss_new~
-    oggdec_path = ~TS_Sime/audio~
-    sox_path = ~TS_Sime/audio~
-END
 
 LAF HANDLE_AUDIO
 STR_VAR
@@ -134,14 +127,14 @@ COMPILE ~TS_Sime/scripts/vpsime25.baf~
 ~TS_Sime/scripts/vpsol.baf~
 ~TS_Sime/scripts/vpveter.baf~
 
-EXTEND_TOP ~AR0307.bcs~ ~TS_Sime/sExt/AR0307.baf~
-EXTEND_TOP ~AR0809.bcs~ ~TS_Sime/sExt/AR0809.baf~
-EXTEND_TOP ~AR6200.bcs~ ~TS_Sime/sExt/AR6200.baf~
-EXTEND_TOP ~BODHIAMB.bcs~ ~TS_Sime/sExt/BODHIAM.baf~
-EXTEND_TOP ~CLEANSE.bcs~ ~TS_Sime/sExt/CLEANSE.baf~
-EXTEND_BOTTOM ~CUT218G.bcs~ ~TS_Sime/sExt/CUT218G.baf~
-EXTEND_TOP ~VAMPAMB.bcs~ ~TS_Sime/sExt/VAMPAMB.baf~
-EXTEND_TOP ~VLUVINFO.bcs~ ~TS_Sime/sExt/VLUVINF.baf~
+EXTEND_TOP ~AR0307.bcs~ ~TS_Sime/scripts/AR0307.baf~
+EXTEND_TOP ~AR0809.bcs~ ~TS_Sime/scripts/AR0809.baf~
+EXTEND_TOP ~AR6200.bcs~ ~TS_Sime/scripts/AR6200.baf~
+EXTEND_TOP ~BODHIAMB.bcs~ ~TS_Sime/scripts/BODHIAM.baf~
+EXTEND_TOP ~CLEANSE.bcs~ ~TS_Sime/scripts/CLEANSE.baf~
+EXTEND_BOTTOM ~CUT218G.bcs~ ~TS_Sime/scripts/CUT218G.baf~
+EXTEND_TOP ~VAMPAMB.bcs~ ~TS_Sime/scripts/VAMPAMB.baf~
+EXTEND_TOP ~VLUVINFO.bcs~ ~TS_Sime/scripts/VLUVINF.baf~
 
 ACTION_IF GAME_IS ~EET~ BEGIN
   INCLUDE ~EET/other/EET_functions.tph~ // functions from EET mod
@@ -188,10 +181,13 @@ COPY ~TS_Sime/spl~ ~override~
 //Items
 /////////////////////////////////////////////
 
-APPEND ~item_use.2da~ ~vpsleat      vpsime       9382   2
-vpshelm      vpsime       9382   2
-vpsmace1     vpsime       9382   2~
+APPEND ~item_use.2da~ ~vpsleat      vpsime       9382   2	99999
+vpshelm      vpsime       9382   2	99999
+vpsmace1     vpsime       9382   2	99999~
 UNLESS ~vpsleat~
+
+COPY_EXISTING ~item_use.2da~ ~override~
+REPLACE ~99999~ @74
 
 COPY ~TS_Sime/itm/vpfmace.itm~ ~override/vpfmace.itm~
 COPY ~TS_Sime/itm/vpfpotn1.itm~ ~override/vpfpotn1.itm~
@@ -259,6 +255,20 @@ COPY ~TS_Sime/itm/vpwring.itm~ ~override/vpwring.itm~
 COPY ~TS_Sime/itm/vpwwi1.itm~ ~override/vpwwi1.itm~
 COPY ~TS_Sime/itm/vpwwi2.itm~ ~override/vpwwi2.itm~
 
+APPEND ~TOOLTIP.2DA~
+~vpsmace2	99998921	99998922	99998923
+vpfmace	77777772	-1	-1
+vpfstaff	77777772	-1	-1
+vpfstar	77777772	-1	-1
+vpfswor1	77777772	-1	-1
+vpfswor2	77777772	-1	-1~
+
+COPY_EXISTING ~TOOLTIP.2DA~ ~override~
+ REPLACE ~99998921~ #8786
+ REPLACE ~99998922~ #25633
+ REPLACE ~99998923~ #7468
+ REPLACE ~77777772~ #12026
+
 ///////////////////////////////
 //Creatures
 //////////////////////////////
@@ -288,88 +298,6 @@ COPY ~TS_Sime/cre/vprthief.cre~ ~override/vprthief.cre~
 COPY ~TS_Sime/cre/vpchrdra.cre~ ~override/vpchrdra.cre~
 SAY NAME1 @28
 SAY NAME2 @28
-
-COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
-SAY NAME1 @29
-SAY NAME2 @29
-SAY INITIAL_MEETING ~~
-SAY LEADER @31
-SAY BATTLE_CRY1 @32
-SAY BATTLE_CRY2 @33
-SAY BATTLE_CRY3 @34
-SAY TIRED @35
-SAY BORED @36
-SAY DAMAGE @37
-SAY DYING @38
-SAY HURT @39
-SAY AREA_CITY @40
-SAY AREA_DUNGEON @41
-SAY AREA_FOREST @42
-SAY AREA_DAY @43
-SAY AREA_NIGHT @44
-SAY SELECT_COMMON1 @45
-SAY SELECT_COMMON2 @46
-SAY SELECT_COMMON3 @47
-SAY SELECT_COMMON4 @48
-SAY SELECT_COMMON5 @49
-SAY SELECT_ACTION1 @50
-SAY SELECT_ACTION2 @51
-SAY SELECT_ACTION3 @52
-SAY SELECT_ACTION4 @53
-SAY SELECT_ACTION5 @54
-SAY SELECT_ACTION6 @55
-SAY SELECT_ACTION7 @56
-SAY REACT_TO_DIE_GENERAL @57
-SAY SELECT_RARE1 @58
-SAY SELECT_RARE2 @59
-SAY CRITICAL_HIT @60
-SAY CRITICAL_MISS @61
-SAY TARGET_IMMUNE @62
-SAY INVENTORY_FULL @63
-SAY SPELL_DISRUPTED @64
-SAY EXISTANCE1 @65
-SAY BIO @66
-
-COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime25.cre~
-SAY NAME1 @29
-SAY NAME2 @29
-SAY INITIAL_MEETING ~~
-SAY LEADER @31
-SAY BATTLE_CRY1 @32
-SAY BATTLE_CRY2 @33
-SAY BATTLE_CRY3 @34
-SAY TIRED @35
-SAY BORED @36
-SAY DAMAGE @37
-SAY DYING @38
-SAY HURT @39
-SAY AREA_CITY @40
-SAY AREA_DUNGEON @41
-SAY AREA_FOREST @42
-SAY AREA_DAY @43
-SAY AREA_NIGHT @44
-SAY SELECT_COMMON1 @45
-SAY SELECT_COMMON2 @46
-SAY SELECT_COMMON3 @47
-SAY SELECT_COMMON4 @48
-SAY SELECT_COMMON5 @49
-SAY SELECT_ACTION1 @50
-SAY SELECT_ACTION2 @51
-SAY SELECT_ACTION3 @52
-SAY SELECT_ACTION4 @53
-SAY SELECT_ACTION5 @54
-SAY SELECT_ACTION6 @55
-SAY SELECT_ACTION7 @56
-SAY REACT_TO_DIE_GENERAL @57
-SAY SELECT_RARE1 @58
-SAY SELECT_RARE2 @59
-SAY CRITICAL_HIT @60
-SAY CRITICAL_MISS @61
-SAY TARGET_IMMUNE @62
-SAY INVENTORY_FULL @63
-SAY SPELL_DISRUPTED @64
-SAY EXISTANCE1 @65
-SAY BIO @66
 
 COPY ~TS_Sime/cre/vpsimedr.cre~ ~override/vpsimedr.cre~
 SAY NAME1 @29
@@ -406,6 +334,157 @@ SAY NAME1 @71
 SAY NAME2 @71
 
 ///////////////////////////////
+//Portraits
+//////////////////////////////
+
+PRINT ~Choose a portrait for Sime:~
+PRINT ~Please choose one of the following:
+[1] Default Portrait
+[2] Alternate Portrait by Enkida~
+
+ACTION_READLN ~portrait~
+OUTER_WHILE (!(IS_AN_INT ~portrait~) OR (~%portrait%~ > 2) OR (~%portrait%~ < 1)) BEGIN
+  PRINT ~Please choose one of the following:
+[1] Default Portrait
+[2] Alternate Portrait by Enkida~ // repeat prompt until valid answer
+  ACTION_READLN ~portrait~
+END
+
+ACTION_IF (~%portrait%~ = 1) THEN BEGIN
+  PRINT ~Installing Portrait: Default Portrait~
+		COPY ~TS_Sime/portraits/vpsime1L.bmp~ ~override/vpsimeL.bmp~
+		COPY ~TS_Sime/portraits/vpsime1M.bmp~ ~override/vpsimeM.bmp~
+		COPY ~TS_Sime/portraits/vpsime1S.bmp~ ~override/vpsimeS.bmp~
+END ELSE ACTION_IF (~%portrait%~ = 2) THEN BEGIN
+  PRINT ~Installing Portrait: Alternate Portrait by Enkida~
+		COPY ~TS_Sime/portraits/vpsime2L.bmp~ ~override/vpsimeL.bmp~
+		COPY ~TS_Sime/portraits/vpsime2M.bmp~ ~override/vpsimeM.bmp~
+		COPY ~TS_Sime/portraits/vpsime2S.bmp~ ~override/vpsimeS.bmp~
+END
+
+///////////////////////////////
+//Soundsets
+//////////////////////////////
+
+PRINT ~Choose a Soundset for Sime:~
+PRINT ~Please choose one of the following:
+[1] Default Soundset
+[2] Legacy Soundset by Domi~
+
+ACTION_READLN ~soundset~
+OUTER_WHILE (!(IS_AN_INT ~soundset~) OR (~%soundset%~ > 2) OR (~%soundset%~ < 1)) BEGIN
+  PRINT ~Please choose one of the following:
+[1] Default Soundset
+[2] Legacy Soundset by Domi~ // repeat prompt until valid answer
+  ACTION_READLN ~soundset~
+END
+
+ACTION_IF (~%soundset%~ = 1) THEN BEGIN
+
+  PRINT ~Installing Soundset: Default Soundset~
+	COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
+		 ~TS_Sime/cre/vpsime25.cre~ ~override/vpsime25.cre~
+	SAY NAME1 @29
+	SAY NAME2 @29
+	SAY INITIAL_MEETING ~~
+	SAY LEADER @31
+	SAY BATTLE_CRY1 @32
+	SAY BATTLE_CRY2 @33
+	SAY BATTLE_CRY3 @34
+	SAY TIRED @35
+	SAY BORED @36
+	SAY DAMAGE @37
+	SAY DYING @38
+	SAY HURT @39
+	SAY AREA_CITY @40
+	SAY AREA_DUNGEON @41
+	SAY AREA_FOREST @42
+	SAY AREA_DAY @43
+	SAY AREA_NIGHT @44
+	SAY SELECT_COMMON1 @45
+	SAY SELECT_COMMON2 @46
+	SAY SELECT_COMMON3 @47
+	SAY SELECT_COMMON4 @48
+	SAY SELECT_COMMON5 @49
+	SAY SELECT_ACTION1 @50
+	SAY SELECT_ACTION2 @51
+	SAY SELECT_ACTION3 @52
+	SAY SELECT_ACTION4 @53
+	SAY SELECT_ACTION5 @54
+	SAY SELECT_ACTION6 @55
+	SAY SELECT_ACTION7 @56
+	SAY REACT_TO_DIE_GENERAL @57
+	SAY SELECT_RARE1 @58
+	SAY SELECT_RARE2 @59
+	SAY CRITICAL_HIT @60
+	SAY CRITICAL_MISS @61
+	SAY TARGET_IMMUNE @62
+	SAY INVENTORY_FULL @63
+	SAY SPELL_DISRUPTED @64
+	SAY EXISTANCE1 @65
+	SAY BIO @66
+	
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~TS_Sime/audio/ss_new~
+    oggdec_path = ~TS_Sime/audio~
+    sox_path = ~TS_Sime/audio~
+END
+
+END ELSE ACTION_IF (~%soundset%~ = 2) THEN BEGIN
+	PRINT ~Installing Soundset: Legacy Soundset by Domi~
+	COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
+		 ~TS_Sime/cre/vpsime25.cre~ ~override/vpsime25.cre~
+	SAY NAME1 @29
+	SAY NAME2 @29
+	SAY 0xa8 @2272 
+	SAY 0xac @2273 
+	SAY 0xb0 @2274 
+	SAY 0xb4 @2275 
+	SAY 0xb8 @2276 
+	SAY LEADER @2277 
+	SAY BATTLE_CRY1 @2278 
+	SAY BATTLE_CRY2 @2279 
+	SAY BATTLE_CRY3 @2280 
+	SAY TIRED @2281 
+	SAY 0xc4 @2282 
+	SAY DYING @2283 
+	SAY HURT @2284 
+	SAY AREA_CITY @2285  
+	SAY AREA_DUNGEON @2286 
+	SAY AREA_FOREST @2287 
+	SAY AREA_DAY @2288 
+	SAY AREA_NIGHT @2289 
+	SAY SELECT_COMMON1 @2290 
+	SAY SELECT_COMMON2 @2291
+	SAY SELECT_COMMON3 @2292 
+	SAY SELECT_COMMON4 @2293 
+	SAY SELECT_COMMON5 @2294 
+	SAY SELECT_COMMON6 @2295
+	SAY SELECT_ACTION1 @2296 
+	SAY SELECT_ACTION2 @2297 
+	SAY SELECT_ACTION3 @2298 
+	SAY SELECT_ACTION4 @2299 
+	SAY SELECT_ACTION5 @2300 
+	SAY SELECT_ACTION6 @2301 
+	SAY 0x1a0 @2302 
+	SAY 0x1a4 @2303 
+	SAY CRITICAL_HIT @2304 
+	SAY CRITICAL_MISS @2305 
+	SAY TARGET_IMMUNE @2306 
+	SAY INVENTORY_FULL @2307
+	SAY SPELL_DISRUPTED @2308 
+	SAY BIO @66
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~TS_Sime/audio/ss_legacy~
+    oggdec_path = ~TS_Sime/audio~
+    sox_path = ~TS_Sime/audio~
+END
+END
+
+///////////////////////////////
 //Legacy Voicelines
 //////////////////////////////
 
@@ -417,11 +496,3 @@ LAF HANDLE_AUDIO
     oggdec_path = ~TS_Sime/audio~
     sox_path = ~TS_Sime/audio~
 END
-
-///////////////////////////////
-//Alternate portrait
-//////////////////////////////
-
-BEGIN @73
-
-COPY ~TS_Sime/altportraits~ ~override~

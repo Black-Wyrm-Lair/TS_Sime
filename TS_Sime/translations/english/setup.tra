@@ -225,11 +225,52 @@ Weight: 0~
 @63   = ~This is ridiculous. Make somebody else carry this.~ [CSIME36]
 @64   = ~All right, that didn't work!~ [CSIME37]
 @65   = ~Huh, sometimes I even scare myself.~ [CSIME03]
+
+@2272 = ~I... I will return!~ [CSIME01]
+@2273 = ~This company is brave and just. I am proud to call you my friend.~ [CSIME02]
+@2274 = ~Now, that's not going good at all.~ [CSIME03]
+@2275 = ~How are we better than thugs? I will not stay long if we go on like this.~ [CSIME04]
+@2276 = ~Ciao! I am better off on my own, than with a wretch like you!~ [CSIME05]
+@2277 = ~Wait for me! I am your leader! Wait for me! How I am supposed to lead you if you won't wait for me?~ [CSIME06]
+@2278 = ~For Mielikki!~ [CSIME09]
+@2279 = ~Look out, here I come!~ [CSIME10]
+@2280 = ~(*Laughs*) You can cross the Shadow Thieves, but do not cross Sime!~ [CSIME11]
+@2281 = ~I can go on, but is your need that pressing? Give us some rest, will you?~ [CSIME07]
+@2282 = ~(*Mumbles some tune*) Can we go now?~ [CSIME08]
+@2283 = ~My weapons are at the ready, but my life is over.~ [CSIME13]
+@2284 = ~Zut! Another scratch!~ [CSIME12]
+@2285 = ~It is lively; I'd give it that.~ [CSIME15]
+@2286 = ~Dark and dirty. No wonder it's full of madmen and slime.~ [CSIME16]
+@2287 = ~I wish I could set my camp and stay here for a few days.~ [CSIME14]
+@2288 = ~I greet you Sun.~ [CSIME17]
+@2289 = ~I can see my mother smiling at me in the moonlight.~ [CSIME18]
+@2290 = ~Yes? I am all ears.~ [CSIME019]
+@2291 = ~Let's see what you have come up with?~ [CSIME20]
+@2292 = ~Something new every day.~ [CSIME21]
+@2293 = ~You called?~ [CSIME22]
+@2294 = ~I am still here, friend.~ [CSIME23]
+@2295 = ~I will humor you this time.~ [CSIME24]
+@2296 = ~I'll see what I can do.~ [CSIME25]
+@2297 = ~Immediately!~ [CSIME26]
+@2298 = ~Your wish is granted.~ [CSIME27]
+@2299 = ~And you wanted it done when? Yesterday?~ [CSIME28]
+@2300 = ~It shall be accomplished.~ [CSIME29]
+@2301 = ~I'd rather be hunting. But if you insist...~ [CSIME30]
+@2302 = ~You remind me my father sometimes, same persistence.~ [CSIME31]
+@2303 = ~I will not fail you.~ [CSIME32]
+@2304 = ~If only every hit was that perfect!~ [CSIME33]
+@2305 = ~Sometimes we hit, sometimes we miss. That's life.~ [CSIME34]
+@2306 = ~I need a better weapon and quick!~ [CSIME35]
+@2307 = ~Really, we need to get rid off some junk!~ [CSIME36]
+@2308 = ~Ahem... here goes my spell. I am sorry, I could not concentrate!~ [CSIME37]
+
 @66   = ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla's Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran's dealings and Sime flees the city vowing never to come back.~
+
 @67   = ~Darriel~
 @68   = ~Veter~
 @69   = ~Sol~
 @70   = ~Sola~
 @71   = ~Solauf~
 @72   = ~Legacy Voiceover~
-@73   = ~Alternate Portrait (Enkida)~
+
+@74  = ~SIME~
