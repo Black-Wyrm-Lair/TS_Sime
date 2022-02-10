@@ -44,5 +44,6 @@ CHAIN PPARAN2 VPSailOffSime
 == PPSAEM @5
 == PPARAN2 @6
 == PPSAEM @7
-DO ~StartCutSceneMode() StartCutScene("vpcut41d")~
-EXIT
+END
+  IF ~InParty("vpkachi")~ THEN EXTERN VPKACHIJ sailoff1
+  IF ~!InParty("vpkachi")~ THEN DO ~StartCutSceneMode() StartCutScene("vpcut41d")~ EXIT
