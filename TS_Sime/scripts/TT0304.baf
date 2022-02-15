@@ -3,6 +3,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("VP_Sime_Dragon","GLOBAL",2)
+		ActionOverride("vpchrdr1",DestroySelf())
 		CreateCreature("vpchrdra",[852.709],0)
 		CreateCreature("vpmaid1",[1019.249],0)
 		CreateCreature("vpmaid2",[1190.835],1)

@@ -27,13 +27,26 @@ StartCutSceneMode()
 StartCutScene("Movie03b")~ JOURNAL #47839 EXIT
 END
 
-REPLACE ~PPSAEM~
-
-IF ~~ THEN BEGIN 48
-  SAY @0
-  IF ~!InParty("vpsime")~ THEN EXTERN ~PPARAN2~ 5 // both cases: Sime has been already and has not been yet in party ---> original sequence of dialogues
-  IF ~InParty("vpsime")~ THEN EXTERN ~PPARAN2~ VPSailOffSime // Sime is in party
+ALTER_TRANS PPSAEM // file name
+BEGIN 52 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "TRIGGER" ~!InParty("vpkachi") Global("Sime_Meet","GLOBAL",0)~
 END
+
+EXTEND_TOP PPSAEM 52
+  IF ~!InParty("vpkachi") !InParty("vpsime") Global("Sime_Meet","GLOBAL",1)~ THEN DO ~StartCutSceneMode() StartCutScene("vp41dsm")~ EXIT
+END
+
+ALTER_TRANS PPSAEM // file name
+BEGIN 48 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "TRIGGER" ~!InParty("vpsime")~
+END
+
+EXTEND_BOTTOM PPSAEM 48
+  IF ~InParty("vpsime") !InParty("vpkachi")~ THEN EXTERN ~PPARAN2~ VPSailOffSime
 END
 
 CHAIN PPARAN2 VPSailOffSime
@@ -43,7 +56,5 @@ CHAIN PPARAN2 VPSailOffSime
 == VPSIMEJ @4
 == PPSAEM @5
 == PPARAN2 @6
-== PPSAEM @7
-END
-  IF ~InParty("vpkachi")~ THEN EXTERN VPKACHIJ sailoff1
-  IF ~!InParty("vpkachi")~ THEN DO ~StartCutSceneMode() StartCutScene("vpcut41d")~ EXIT
+== PPSAEM @7 DO ~StartCutSceneMode() StartCutScene("vp41dsp")~
+EXIT

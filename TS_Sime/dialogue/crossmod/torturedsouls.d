@@ -1,6 +1,5 @@
-// Kachiko
+// Kachiko Banters
 
-/*
 CHAIN
 IF ~InParty("vpkachi")
 See("vpkachi")
@@ -10,12 +9,12 @@ CombatCounter(0)
 !See([ENEMY])
 RealGlobalTimerExpired("VPSimeKachikoTimer","GLOBAL")
 Global("VPSimeKachiko1","GLOBAL",0)~ THEN VPSIMEB SimeKachiko1
-~The world is a small place, Kachiko! Could I imagine that I would be talking to a Kara-Turian one day?~ [SIMEKA01]
-DO ~SetGlobal("VPSimeKachiko1","GLOBAL",1) RealSetGlobalTimer("VPSimeKachikoTimer","GLOBAL",2000)~
-== VPKACHIB ~The world is a small place for those who travel, Sime. I know people for whom their house is an entire world.~
-== VPSIMEB ~You are right, of course there are plenty of those for whom stepping over the threshold is an adventure. Not the sort of adventure I dream of.~
-== VPKACHIB ~The mind has no boundaries, Sime. A philosopher may never leave his straw mat but his mind will travel the highest mountains and the deepest gorges and see the things clearer than the one who has climbed to the top.~
-== VPSIMEB ~I do not think I would derive satisfaction from a road walked only in my mind.~
+@0
+DO ~SetGlobal("VPSimeKachiko1","GLOBAL",1)~
+== VPKACHIB @1
+== VPSIMEB @2
+== VPKACHIB @3
+== VPSIMEB @4
 EXIT
 
 CHAIN
@@ -27,15 +26,56 @@ CombatCounter(0)
 !See([ENEMY])
 RealGlobalTimerExpired("VPSimeKachikoTimer","GLOBAL")
 Global("VPSimeKachiko2","GLOBAL",0)~ THEN VPSIMEB SimeKachiko2
-~You grew up in a large family, did you not, Kachiko?~ [SIMEKA02]
-DO ~SetGlobal("VPSimeKachiko2","GLOBAL",1) RealSetGlobalTimer("VPSimeKachikoTimer","GLOBAL",2000)~
-== VPKACHIB ~I have four brothers and a sister.~
-== VPSIMEB ~I am an only child. I always wanted to have a sibling.~
-== VPKACHIB ~It is a joy to have relations, yes. Your father does not have any other children?~
-== VPSIMEB ~My father has been befriending only one certain type of women ever since my mother’s death. The sort which do not stay with one man for long and who would not carry a child.~
-== VPKACHIB ~You sound bitter, Sime.~
-== VPSIMEB ~I am not bitter, I just. . .I think that Aran believes that it will save him from pain.~ [SIMEKA03]
-== VPKACHIB ~And you do not believe so?~
-== VPSIMEB ~No, I do not. He is wedging the knife deeper in his wound and twisting it, causing himself more pain and more sorrow. I told him that many times, but he would not listen. He will understand one day, but it will be too late.~
+@5
+DO ~SetGlobal("VPSimeKachiko2","GLOBAL",1)~
+== VPKACHIB @6
+== VPSIMEB @7
+== VPKACHIB @8
+== VPSIMEB @9
+== VPKACHIB @10
+== VPSIMEB @11
+== VPKACHIB @12
+== VPSIMEB @13
 EXIT
-*/
+
+//TS Island Interjections
+
+EXTEND_TOP PPSAEM %vpsimeppsaemext%
+  IF ~InParty("vpsime") Global("ThiefGroup","GLOBAL",1)~ THEN REPLY @4 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN VPSIMEJ 4
+END
+
+CHAIN VPSIMEJ vpsimetsl0
+@14
+END
+  IF ~~ THEN REPLY @15 EXTERN VPSIMEJ vpsimetsl1
+  IF ~~ THEN REPLY @16 EXTERN VPSIMEJ vpsimetsl2
+
+CHAIN VPSIMEJ vpsimetsl1
+@17
+DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ChangeAIScript("",DEFAULT)
+SetLeavePartyDialogFile()
+LeaveParty()~
+EXIT
+
+CHAIN VPSIMEJ vpsimetsl2
+@18 DO ~SetGlobal("Kicked_Out","LOCALS",0)~
+EXIT
+
+
+//Sailoff Dialogue
+
+EXTEND_BOTTOM PPSAEM 48
+  IF ~InParty("vpsime") InParty("vpkachi")~ THEN EXTERN ~PPARAN2~ VPSailOffSime_TSL
+END
+
+CHAIN PPARAN2 VPSailOffSime_TSL
+@20
+= @21
+== PPSAEM @22
+== VPSIMEJ @23
+== PPSAEM @24
+== PPARAN2 @25
+== PPSAEM @26
+END
+IF ~~ THEN EXTERN VPKACHIJ %vpkachisailoff1%

@@ -1,44 +1,39 @@
-//______________________________________//
-//                                      //
-//        Tortured Souls - Sime         //
-//______________________________________//
-//                                      //
+////////////////////////////
+//Tortured Souls - Sime
+////////////////////////////
 
 BACKUP ~TS_Sime\backup~
 AUTHOR ~Vladislav Papper (vladp6@gmail.com)~
-VERSION ~0.5~
+VERSION ~0.6~
 
 ALWAYS
-  ACTION_IF (GAME_IS ~eet~) BEGIN
-    OUTER_SET bg2_chapter = 12
-  END ELSE BEGIN
-    OUTER_SET bg2_chapter = 0
-  END
-  OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
-    OUTER_SET bg2_chapter = bg2_chapter + 1
-    OUTER_SPRINT name_source ~bg2_chapter_%i%~
-    OUTER_SET EVAL ~%name_source%~ = bg2_chapter
-  END
+ ACTION_IF (GAME_IS ~eet~) BEGIN
+ OUTER_SET bg2_chapter = 12
+ END ELSE BEGIN
+ OUTER_SET bg2_chapter = 0
+ END
+ OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+ OUTER_SET bg2_chapter = bg2_chapter + 1
+ OUTER_SPRINT name_source ~bg2_chapter_%i%~
+ OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+ END
 END
 
 AUTO_TRA ~TS_Sime/translations/%s~
 
 LANGUAGE ~English~
-         ~english~
-         ~TS_Sime/translations/english/setup.tra~
+ ~english~
+ ~TS_Sime/translations/english/setup.tra~
 
 LANGUAGE ~Russian~
-         ~russian~
-         ~TS_Sime/translations/russian/setup.tra~
+ ~russian~
+ ~TS_Sime/translations/russian/setup.tra~
 
 BEGIN ~Vlad's Sime NPC~
+DESIGNATED 0 LABEL ~TS-Sime_MainComponent~
 
 /* -------------------------------------------------------------------------------------------------- *
- *     Adds CamDawg's custom IsValidForPartyDialogue state used throughout yeslicknpc. Thanks Cam!    *
- * -------------------------------------------------------------------------------------------------- *
- *  covers STATE_CONFUSED, STATE_FEEBLEMINDED, STATE_SILENCED, STATE_DEAD, STATE_ACID_DEATH,          *
- *  STATE_FLAME_DEATH, STATE_EXPLODING_DEATH, STATE_STONE_DEATH, STATE_FROZEN_DEATH, STATE_HELPLESS,  *
- *  STATE_STUNNED, STATE_PANIC, STATE_BERSERK, STATE_SLEEPING                                         *
+ * Adds CamDawg's custom IsValidForPartyDialogue state used throughout yeslicknpc. Thanks Cam! *
  * -------------------------------------------------------------------------------------------------- */
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 
@@ -69,9 +64,9 @@ COPY ~TS_Sime/bam~ ~override~
 
 LAF HANDLE_AUDIO
 STR_VAR
-    audio_path = ~TS_Sime/audio/music~
-    oggdec_path = ~TS_Sime/audio~
-    sox_path = ~TS_Sime/audio~
+ audio_path = ~TS_Sime/audio/music~
+ oggdec_path = ~TS_Sime/audio~
+ sox_path = ~TS_Sime/audio~
 END
 
 ///////////////////////////
@@ -100,9 +95,9 @@ COMPILE ~TS_Sime/dialogue/vparan.d~
 COMPILE ~TS_Sime/scripts/tt0304.baf~
 ~TS_Sime/scripts/vparan.baf~
 ~TS_Sime/scripts/vpchrdra.baf~
-~TS_Sime/scripts/vpcut41b.baf~
+/*~TS_Sime/scripts/vpcut41b.baf~
 ~TS_Sime/scripts/vpcut41d.baf~
-~TS_Sime/scripts/vpcut41e.baf~
+~TS_Sime/scripts/vpcut41e.baf~*/
 ~TS_Sime/scripts/vpcutamb.baf~
 ~TS_Sime/scripts/vpcuts01.baf~
 ~TS_Sime/scripts/vpcuts02.baf~
@@ -112,8 +107,8 @@ COMPILE ~TS_Sime/scripts/tt0304.baf~
 ~TS_Sime/scripts/vpcutwra.baf~
 ~TS_Sime/scripts/vpkorsim.baf~
 ~TS_Sime/scripts/vpmaid.baf~
-~TS_Sime/scripts/vpmov3b.baf~
-~TS_Sime/scripts/vpmov3d.baf~
+/*~TS_Sime/scripts/vpmov3b.baf~
+~TS_Sime/scripts/vpmov3d.baf~*/
 
 COMPILE EVAL ~TS_Sime/scripts/vpsime.baf~
 
@@ -136,22 +131,59 @@ EXTEND_BOTTOM ~CUT218G.bcs~ ~TS_Sime/scripts/CUT218G.baf~
 EXTEND_TOP ~VAMPAMB.bcs~ ~TS_Sime/scripts/VAMPAMB.baf~
 EXTEND_TOP ~VLUVINFO.bcs~ ~TS_Sime/scripts/VLUVINF.baf~
 
+COPY_EXISTING ~cut41b.bcs~ ~override/vp41b.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[3070.3076],S)~ ~~
+END
+	BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~cut41d.bcs~ ~override/vp41dsp.bcs~
+DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
+    REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
+END
+	BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~cut41d.bcs~ ~override/vp41dsm.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
+END
+	BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~cut41e.bcs~ ~override/vp41e.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+	REPLACE_TEXTUALLY ~\("ppsime"\)~ ~"vpsime"~
+END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~movie03b.bcs~ ~override/vpmov03b.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+	REPLACE_TEXTUALLY ~\("Movie03d"\)~ ~"vpmov03d"~
+END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~movie03d.bcs~ ~override/vpmov03d.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+	REPLACE_TEXTUALLY ~\("Cut41b"\)~ ~"vp41b"~
+END
+BUT_ONLY_IF_IT_CHANGES
+
 ACTION_IF GAME_IS ~EET~ BEGIN
-  INCLUDE ~EET/other/EET_functions.tph~ // functions from EET mod
-  LAF ~EET_NPC_TRANSITION~
-    INT_VAR
-      type = 2 // NPC is summonable if met before
-    STR_VAR
-      dv = "vpsime" // death variable of your NPC
-      override_SoA = "vpsime" // override script of your NPC (SoA)
-      override_ToB = "vpsime25" // override script of your NPC (ToB)
-      dialog_ToB = "VPSIME25" // joining dialogue for ToB
-	  traFile = EVAL "TS_Sime/translations/%LANGUAGE%/vpsime25.tra"
-      string = "@100"
-      stringPosDV = "Skie"
-  END
+ INCLUDE ~EET/other/EET_functions.tph~ // functions from EET mod
+ LAF ~EET_NPC_TRANSITION~
+ INT_VAR
+ type = 2 // NPC is summonable if met before
+ STR_VAR
+ dv = "vpsime" // death variable of your NPC
+ override_SoA = "vpsime" // override script of your NPC (SoA)
+ override_ToB = "vpsime25" // override script of your NPC (ToB)
+ dialog_ToB = "VPSIME25" // joining dialogue for ToB
+ traFile = EVAL "TS_Sime/translations/%LANGUAGE%/vpsime25.tra"
+ string = "@100"
+ stringPosDV = "Skie"
+ END
 END ELSE BEGIN
-  COMPILE ~TS_Sime/dialogue/FATESP.d~
+ COMPILE ~TS_Sime/dialogue/FATESP.d~
 END
 
 //////////////////////////////
@@ -168,8 +200,11 @@ END
 
 COPY_EXISTING ~MASTAREA.2DA~ ~override~
 APPEND ~MASTAREA.2DA~
-~TT0010  value
-TT0304  value~ UNLESS ~TT0010~
+~TT0010 value~ UNLESS ~TT0010~
+
+COPY_EXISTING ~MASTAREA.2DA~ ~override~
+APPEND ~MASTAREA.2DA~
+~TT0304 value~ UNLESS ~TT0304~
 
 //////////////////////////////////////////////
 // Spells
@@ -181,9 +216,10 @@ COPY ~TS_Sime/spl~ ~override~
 //Items
 /////////////////////////////////////////////
 
-APPEND ~item_use.2da~ ~vpsleat      vpsime       9382   2	99999
-vpshelm      vpsime       9382   2	99999
-vpsmace1     vpsime       9382   2	99999~
+APPEND ~item_use.2da~
+~vpsleat vpsime 9382 2 99999
+vpshelm vpsime 9382 2 99999
+vpsmace1 vpsime 9382 2 99999~
 UNLESS ~vpsleat~
 
 COPY_EXISTING ~item_use.2da~ ~override~
@@ -210,7 +246,7 @@ COPY ~TS_Sime/itm/vpbela.itm~ ~override/vpbela.itm~
  SAY UNIDENTIFIED_DESC @8
  SAY DESC @8
 
-COPY ~TS_Sime/itm/vpshelm.itm~        ~override/vpshelm.itm~
+COPY ~TS_Sime/itm/vpshelm.itm~ ~override/vpshelm.itm~
 SAY NAME2 @9
 SAY DESC @10
 
@@ -231,7 +267,7 @@ SAY DESC @16
 COPY ~TS_Sime/itm/vpsleat.itm~ ~override/vpsleat.itm~
 SAY NAME2 @17
 SAY DESC @18
-    
+ 
 COPY ~TS_Sime/itm/vpsmace1.itm~ ~override/vpsmace1.itm~
 SAY NAME2 @19
 SAY DESC @20
@@ -250,18 +286,18 @@ SAY NAME2 @25
 SAY UNIDENTIFIED_DESC @26
 SAY DESC @26
  
-COPY ~TS_Sime/itm/vpwbelt.itm~ ~override/vpwbelt.itm~              
-COPY ~TS_Sime/itm/vpwring.itm~ ~override/vpwring.itm~              
+COPY ~TS_Sime/itm/vpwbelt.itm~ ~override/vpwbelt.itm~ 
+COPY ~TS_Sime/itm/vpwring.itm~ ~override/vpwring.itm~ 
 COPY ~TS_Sime/itm/vpwwi1.itm~ ~override/vpwwi1.itm~
 COPY ~TS_Sime/itm/vpwwi2.itm~ ~override/vpwwi2.itm~
 
 APPEND ~TOOLTIP.2DA~
-~vpsmace2	99998921	99998922	99998923
-vpfmace	77777772	-1	-1
-vpfstaff	77777772	-1	-1
-vpfstar	77777772	-1	-1
-vpfswor1	77777772	-1	-1
-vpfswor2	77777772	-1	-1~
+~vpsmace2 99998921 99998922 99998923
+vpfmace 77777772 -1 -1
+vpfstaff 77777772 -1 -1
+vpfstar 77777772 -1 -1
+vpfswor1 77777772 -1 -1
+vpfswor2 77777772 -1 -1~
 
 COPY_EXISTING ~TOOLTIP.2DA~ ~override~
  REPLACE ~99998921~ #8786
@@ -333,155 +369,142 @@ COPY ~TS_Sime/cre/vpsolauf.cre~ ~override/vpsolauf.cre~
 SAY NAME1 @71
 SAY NAME2 @71
 
+COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
+~TS_Sime/cre/vpsime25.cre~ ~override/vpsime25.cre~
+	SAY NAME1 @29
+	SAY NAME2 @29
+	SAY BIO @66
+
 ///////////////////////////////
 //Portraits
 //////////////////////////////
 
-PRINT ~Choose a portrait for Sime:~
-PRINT ~Please choose one of the following:
-[1] Default Portrait
-[2] Alternate Portrait by Enkida~
+BEGIN ~Sime Default Portrait~
+DESIGNATED 10 LABEL ~TS-Sime_Portrait_Default~
+SUBCOMPONENT ~Sime Portrait~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
-ACTION_READLN ~portrait~
-OUTER_WHILE (!(IS_AN_INT ~portrait~) OR (~%portrait%~ > 2) OR (~%portrait%~ < 1)) BEGIN
-  PRINT ~Please choose one of the following:
-[1] Default Portrait
-[2] Alternate Portrait by Enkida~ // repeat prompt until valid answer
-  ACTION_READLN ~portrait~
-END
+COPY ~TS_Sime/portraits/vpsime1L.bmp~ ~override/vpsimeL.bmp~
+COPY ~TS_Sime/portraits/vpsime1M.bmp~ ~override/vpsimeM.bmp~
+COPY ~TS_Sime/portraits/vpsime1S.bmp~ ~override/vpsimeS.bmp~
 
-ACTION_IF (~%portrait%~ = 1) THEN BEGIN
-  PRINT ~Installing Portrait: Default Portrait~
-		COPY ~TS_Sime/portraits/vpsime1L.bmp~ ~override/vpsimeL.bmp~
-		COPY ~TS_Sime/portraits/vpsime1M.bmp~ ~override/vpsimeM.bmp~
-		COPY ~TS_Sime/portraits/vpsime1S.bmp~ ~override/vpsimeS.bmp~
-END ELSE ACTION_IF (~%portrait%~ = 2) THEN BEGIN
-  PRINT ~Installing Portrait: Alternate Portrait by Enkida~
-		COPY ~TS_Sime/portraits/vpsime2L.bmp~ ~override/vpsimeL.bmp~
-		COPY ~TS_Sime/portraits/vpsime2M.bmp~ ~override/vpsimeM.bmp~
-		COPY ~TS_Sime/portraits/vpsime2S.bmp~ ~override/vpsimeS.bmp~
-END
+BEGIN ~Sime Alternate Portrait (Enkida)~
+DESIGNATED 11 LABEL ~TS-Sime_Portrait_Enkida~
+SUBCOMPONENT ~Sime Portrait~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
+
+COPY ~TS_Sime/portraits/vpsime2L.bmp~ ~override/vpsimeL.bmp~
+COPY ~TS_Sime/portraits/vpsime2M.bmp~ ~override/vpsimeM.bmp~
+COPY ~TS_Sime/portraits/vpsime2S.bmp~ ~override/vpsimeS.bmp~
 
 ///////////////////////////////
 //Soundsets
 //////////////////////////////
 
-PRINT ~Choose a Soundset for Sime:~
-PRINT ~Please choose one of the following:
-[1] Default Soundset
-[2] Legacy Soundset by Domi~
+BEGIN ~Sime Default Soundset~
+DESIGNATED 20 LABEL ~TS-Sime_Soundset_Default~
+SUBCOMPONENT ~Sime Soundset~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
-ACTION_READLN ~soundset~
-OUTER_WHILE (!(IS_AN_INT ~soundset~) OR (~%soundset%~ > 2) OR (~%soundset%~ < 1)) BEGIN
-  PRINT ~Please choose one of the following:
-[1] Default Soundset
-[2] Legacy Soundset by Domi~ // repeat prompt until valid answer
-  ACTION_READLN ~soundset~
-END
-
-ACTION_IF (~%soundset%~ = 1) THEN BEGIN
-
-  PRINT ~Installing Soundset: Default Soundset~
-	COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
-		 ~TS_Sime/cre/vpsime25.cre~ ~override/vpsime25.cre~
-	SAY NAME1 @29
-	SAY NAME2 @29
-	SAY INITIAL_MEETING ~~
-	SAY LEADER @31
-	SAY BATTLE_CRY1 @32
-	SAY BATTLE_CRY2 @33
-	SAY BATTLE_CRY3 @34
-	SAY TIRED @35
-	SAY BORED @36
-	SAY DAMAGE @37
-	SAY DYING @38
-	SAY HURT @39
-	SAY AREA_CITY @40
-	SAY AREA_DUNGEON @41
-	SAY AREA_FOREST @42
-	SAY AREA_DAY @43
-	SAY AREA_NIGHT @44
-	SAY SELECT_COMMON1 @45
-	SAY SELECT_COMMON2 @46
-	SAY SELECT_COMMON3 @47
-	SAY SELECT_COMMON4 @48
-	SAY SELECT_COMMON5 @49
-	SAY SELECT_ACTION1 @50
-	SAY SELECT_ACTION2 @51
-	SAY SELECT_ACTION3 @52
-	SAY SELECT_ACTION4 @53
-	SAY SELECT_ACTION5 @54
-	SAY SELECT_ACTION6 @55
-	SAY SELECT_ACTION7 @56
-	SAY REACT_TO_DIE_GENERAL @57
-	SAY SELECT_RARE1 @58
-	SAY SELECT_RARE2 @59
-	SAY CRITICAL_HIT @60
-	SAY CRITICAL_MISS @61
-	SAY TARGET_IMMUNE @62
-	SAY INVENTORY_FULL @63
-	SAY SPELL_DISRUPTED @64
-	SAY EXISTANCE1 @65
-	SAY BIO @66
-	
-LAF HANDLE_AUDIO
-  STR_VAR
-    audio_path = ~TS_Sime/audio/ss_new~
-    oggdec_path = ~TS_Sime/audio~
-    sox_path = ~TS_Sime/audio~
-END
-
-END ELSE ACTION_IF (~%soundset%~ = 2) THEN BEGIN
-	PRINT ~Installing Soundset: Legacy Soundset by Domi~
-	COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
-		 ~TS_Sime/cre/vpsime25.cre~ ~override/vpsime25.cre~
-	SAY NAME1 @29
-	SAY NAME2 @29
-	SAY 0xa8 @2272 
-	SAY 0xac @2273 
-	SAY 0xb0 @2274 
-	SAY 0xb4 @2275 
-	SAY 0xb8 @2276 
-	SAY LEADER @2277 
-	SAY BATTLE_CRY1 @2278 
-	SAY BATTLE_CRY2 @2279 
-	SAY BATTLE_CRY3 @2280 
-	SAY TIRED @2281 
-	SAY 0xc4 @2282 
-	SAY DYING @2283 
-	SAY HURT @2284 
-	SAY AREA_CITY @2285  
-	SAY AREA_DUNGEON @2286 
-	SAY AREA_FOREST @2287 
-	SAY AREA_DAY @2288 
-	SAY AREA_NIGHT @2289 
-	SAY SELECT_COMMON1 @2290 
-	SAY SELECT_COMMON2 @2291
-	SAY SELECT_COMMON3 @2292 
-	SAY SELECT_COMMON4 @2293 
-	SAY SELECT_COMMON5 @2294 
-	SAY SELECT_COMMON6 @2295
-	SAY SELECT_ACTION1 @2296 
-	SAY SELECT_ACTION2 @2297 
-	SAY SELECT_ACTION3 @2298 
-	SAY SELECT_ACTION4 @2299 
-	SAY SELECT_ACTION5 @2300 
-	SAY SELECT_ACTION6 @2301 
-	SAY 0x1a0 @2302 
-	SAY 0x1a4 @2303 
-	SAY CRITICAL_HIT @2304 
-	SAY CRITICAL_MISS @2305 
-	SAY TARGET_IMMUNE @2306 
-	SAY INVENTORY_FULL @2307
-	SAY SPELL_DISRUPTED @2308 
-	SAY BIO @66
+COPY_EXISTING ~vpsime.cre~ ~override/vpsime.cre~
+~vpsime25.cre~ ~override/vpsime25.cre~
+SAY NAME1 @29
+SAY NAME2 @29
+SAY INITIAL_MEETING ~~
+SAY LEADER @31
+SAY BATTLE_CRY1 @32
+SAY BATTLE_CRY2 @33
+SAY BATTLE_CRY3 @34
+SAY TIRED @35
+SAY BORED @36
+SAY DAMAGE @37
+SAY DYING @38
+SAY HURT @39
+SAY AREA_CITY @40
+SAY AREA_DUNGEON @41
+SAY AREA_FOREST @42
+SAY AREA_DAY @43
+SAY AREA_NIGHT @44
+SAY SELECT_COMMON1 @45
+SAY SELECT_COMMON2 @46
+SAY SELECT_COMMON3 @47
+SAY SELECT_COMMON4 @48
+SAY SELECT_COMMON5 @49
+SAY SELECT_ACTION1 @50
+SAY SELECT_ACTION2 @51
+SAY SELECT_ACTION3 @52
+SAY SELECT_ACTION4 @53
+SAY SELECT_ACTION5 @54
+SAY SELECT_ACTION6 @55
+SAY SELECT_ACTION7 @56
+SAY REACT_TO_DIE_GENERAL @57
+SAY SELECT_RARE1 @58
+SAY SELECT_RARE2 @59
+SAY CRITICAL_HIT @60
+SAY CRITICAL_MISS @61
+SAY TARGET_IMMUNE @62
+SAY INVENTORY_FULL @63
+SAY SPELL_DISRUPTED @64
+SAY EXISTANCE1 @65
+SAY BIO @66
 
 LAF HANDLE_AUDIO
-  STR_VAR
-    audio_path = ~TS_Sime/audio/ss_legacy~
-    oggdec_path = ~TS_Sime/audio~
-    sox_path = ~TS_Sime/audio~
+ STR_VAR
+ audio_path = ~TS_Sime/audio/ss_new~
+ oggdec_path = ~TS_Sime/audio~
+ sox_path = ~TS_Sime/audio~
 END
+
+BEGIN ~Sime Legacy Soundset~
+DESIGNATED 21 LABEL ~TS-Sime_Soundset_Legacy~
+SUBCOMPONENT ~Sime Soundset~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
+
+COPY_EXISTING ~vpsime.cre~ ~override/vpsime.cre~
+~vpsime25.cre~ ~override/vpsime25.cre~
+SAY 0xa8 @2272 
+SAY 0xac @2273 
+SAY 0xb0 @2274 
+SAY 0xb4 @2275 
+SAY 0xb8 @2276 
+SAY LEADER @2277 
+SAY BATTLE_CRY1 @2278 
+SAY BATTLE_CRY2 @2279 
+SAY BATTLE_CRY3 @2280 
+SAY TIRED @2281 
+SAY 0xc4 @2282 
+SAY DYING @2283 
+SAY HURT @2284 
+SAY AREA_CITY @2285 
+SAY AREA_DUNGEON @2286 
+SAY AREA_FOREST @2287 
+SAY AREA_DAY @2288 
+SAY AREA_NIGHT @2289 
+SAY SELECT_COMMON1 @2290 
+SAY SELECT_COMMON2 @2291
+SAY SELECT_COMMON3 @2292 
+SAY SELECT_COMMON4 @2293 
+SAY SELECT_COMMON5 @2294 
+SAY SELECT_COMMON6 @2295
+SAY SELECT_ACTION1 @2296 
+SAY SELECT_ACTION2 @2297 
+SAY SELECT_ACTION3 @2298 
+SAY SELECT_ACTION4 @2299 
+SAY SELECT_ACTION5 @2300 
+SAY SELECT_ACTION6 @2301 
+SAY 0x1a0 @2302 
+SAY 0x1a4 @2303 
+SAY CRITICAL_HIT @2304 
+SAY CRITICAL_MISS @2305 
+SAY TARGET_IMMUNE @2306 
+SAY INVENTORY_FULL @2307
+SAY SPELL_DISRUPTED @2308 
+
+LAF HANDLE_AUDIO
+ STR_VAR
+ audio_path = ~TS_Sime/audio/ss_legacy~
+ oggdec_path = ~TS_Sime/audio~
+ sox_path = ~TS_Sime/audio~
 END
 
 ///////////////////////////////
@@ -489,10 +512,54 @@ END
 //////////////////////////////
 
 BEGIN @72
+DESIGNATED 30 LABEL ~TS-Sime_Voiceset~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
 LAF HANDLE_AUDIO
-  STR_VAR
-    audio_path = ~TS_Sime/audio/vo_legacy~
-    oggdec_path = ~TS_Sime/audio~
-    sox_path = ~TS_Sime/audio~
+ STR_VAR
+ audio_path = ~TS_Sime/audio/vo_legacy~
+ oggdec_path = ~TS_Sime/audio~
+ sox_path = ~TS_Sime/audio~
+END
+
+// Crossmod
+BEGIN ~Sime Crossmod~
+DESIGNATED 40 LABEL ~TS-Sime_Crossmod~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
+
+// Sime - TSL
+ACTION_IF FILE_EXISTS_IN_GAME ~vpkachi.cre~ BEGIN
+PRINT ~Adding Tortured Souls Lite Compatability...~
+
+OUTER_SET vpsimeppsaemext = STATE_WHICH_SAYS 3 IN ~TorturedSoulsLite/tra/%s/vpppsaem.tra~ FROM ~PPSAEM~
+OUTER_SET vpkachisailoff1 = STATE_WHICH_SAYS 1 IN ~TorturedSoulsLite/tra/%s/vpsailoff.tra~ FROM ~VPKACHIJ~
+
+COMPILE EVAL ~TS_Sime/dialogue/crossmod/torturedsouls.d~ USING ~TS_Sime/translations/%LANGUAGE%/crossmod.tra~
+
+COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsm.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
+END
+	BUT_ONLY_IF_IT_CHANGES
+
+	COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsp.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
+		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
+END
+	BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~vp41disc.bcs~ ~override/vp41dism.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
+	END
+	BUT_ONLY_IF_IT_CHANGES
+	
+COPY_EXISTING ~vp41disc.bcs~ ~override/vp41disp.bcs~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
+		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
+	END
+	BUT_ONLY_IF_IT_CHANGES
+
 END

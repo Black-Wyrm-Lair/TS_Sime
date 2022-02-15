@@ -55,5 +55,5 @@ EXIT
 CHAIN VPARAN 7
 @21
 == VPSIMEJ @22
-DO ~SetGlobal("VP_Aran_Ring","GLOBAL",1) SetGlobal("VP_Sime_Aran","GLOBAL",2) SetGlobal("VP_AranLeaves","GLOBAL",1) GiveItemCreate("VPArRing",Player1,3,0,0)~
+DO ~SetGlobal("VP_Aran_Ring","GLOBAL",1) SetGlobal("VP_Sime_Aran","GLOBAL",2) SetGlobal("VP_AranLeaves","GLOBAL",1) GiveItemCreate("vparring",Player1,3,0,0)~
 EXIT
