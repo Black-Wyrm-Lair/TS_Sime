@@ -4,7 +4,7 @@
 
 BACKUP ~TS_Sime\backup~
 AUTHOR ~Vladislav Papper (vladp6@gmail.com)~
-VERSION ~0.6~
+VERSION ~0.7~
 
 ALWAYS
  ACTION_IF (GAME_IS ~eet~) BEGIN
