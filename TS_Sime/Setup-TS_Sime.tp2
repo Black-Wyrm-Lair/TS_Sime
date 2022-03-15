@@ -4,7 +4,7 @@
 
 BACKUP ~TS_Sime\backup~
 AUTHOR ~Vladislav Papper (vladp6@gmail.com)~
-VERSION ~0.7~
+VERSION ~0.8~
 
 ALWAYS
  ACTION_IF (GAME_IS ~eet~) BEGIN
@@ -75,7 +75,6 @@ END
 
 COMPILE ~TS_Sime/dialogue/vparan.d~
 ~TS_Sime/dialogue/vpchrdra.d~
-~TS_Sime/dialogue/vpsailoff.d~
 ~TS_Sime/dialogue/vpsime.d~
 ~TS_Sime/dialogue/vpsime25.d~
 ~TS_Sime/dialogue/vpsimeb.d~
@@ -95,9 +94,6 @@ COMPILE ~TS_Sime/dialogue/vparan.d~
 COMPILE ~TS_Sime/scripts/tt0304.baf~
 ~TS_Sime/scripts/vparan.baf~
 ~TS_Sime/scripts/vpchrdra.baf~
-/*~TS_Sime/scripts/vpcut41b.baf~
-~TS_Sime/scripts/vpcut41d.baf~
-~TS_Sime/scripts/vpcut41e.baf~*/
 ~TS_Sime/scripts/vpcutamb.baf~
 ~TS_Sime/scripts/vpcuts01.baf~
 ~TS_Sime/scripts/vpcuts02.baf~
@@ -107,12 +103,7 @@ COMPILE ~TS_Sime/scripts/tt0304.baf~
 ~TS_Sime/scripts/vpcutwra.baf~
 ~TS_Sime/scripts/vpkorsim.baf~
 ~TS_Sime/scripts/vpmaid.baf~
-/*~TS_Sime/scripts/vpmov3b.baf~
-~TS_Sime/scripts/vpmov3d.baf~*/
-
-COMPILE EVAL ~TS_Sime/scripts/vpsime.baf~
-
-COMPILE ~TS_Sime/scripts/vpsime25.baf~
+~TS_Sime/scripts/vpsime25.baf~
 ~TS_Sime/scripts/vpsimed.baf~
 ~TS_Sime/scripts/vpsimedr.baf~
 ~TS_Sime/scripts/vpsimesl.baf~
@@ -122,6 +113,8 @@ COMPILE ~TS_Sime/scripts/vpsime25.baf~
 ~TS_Sime/scripts/vpsol.baf~
 ~TS_Sime/scripts/vpveter.baf~
 
+COMPILE EVAL ~TS_Sime/scripts/vpsime.baf~
+
 EXTEND_TOP ~AR0307.bcs~ ~TS_Sime/scripts/AR0307.baf~
 EXTEND_TOP ~AR0809.bcs~ ~TS_Sime/scripts/AR0809.baf~
 EXTEND_TOP ~AR6200.bcs~ ~TS_Sime/scripts/AR6200.baf~
@@ -130,43 +123,6 @@ EXTEND_TOP ~CLEANSE.bcs~ ~TS_Sime/scripts/CLEANSE.baf~
 EXTEND_BOTTOM ~CUT218G.bcs~ ~TS_Sime/scripts/CUT218G.baf~
 EXTEND_TOP ~VAMPAMB.bcs~ ~TS_Sime/scripts/VAMPAMB.baf~
 EXTEND_TOP ~VLUVINFO.bcs~ ~TS_Sime/scripts/VLUVINF.baf~
-
-COPY_EXISTING ~cut41b.bcs~ ~override/vp41b.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[3070.3076],S)~ ~~
-END
-	BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~cut41d.bcs~ ~override/vp41dsp.bcs~
-DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
-    REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
-END
-	BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~cut41d.bcs~ ~override/vp41dsm.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
-END
-	BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~cut41e.bcs~ ~override/vp41e.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-	REPLACE_TEXTUALLY ~\("ppsime"\)~ ~"vpsime"~
-END
-BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~movie03b.bcs~ ~override/vpmov03b.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-	REPLACE_TEXTUALLY ~\("Movie03d"\)~ ~"vpmov03d"~
-END
-BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~movie03d.bcs~ ~override/vpmov03d.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-	REPLACE_TEXTUALLY ~\("Cut41b"\)~ ~"vp41b"~
-END
-BUT_ONLY_IF_IT_CHANGES
 
 ACTION_IF GAME_IS ~EET~ BEGIN
  INCLUDE ~EET/other/EET_functions.tph~ // functions from EET mod
@@ -225,71 +181,71 @@ UNLESS ~vpsleat~
 COPY_EXISTING ~item_use.2da~ ~override~
 REPLACE ~99999~ @74
 
-COPY ~TS_Sime/itm/vpfmace.itm~ ~override/vpfmace.itm~
-COPY ~TS_Sime/itm/vpfpotn1.itm~ ~override/vpfpotn1.itm~
-COPY ~TS_Sime/itm/vpfpotn2.itm~ ~override/vpfpotn2.itm~
-COPY ~TS_Sime/itm/vpfpotn3.itm~ ~override/vpfpotn3.itm~
-COPY ~TS_Sime/itm/vpfring.itm~ ~override/vpfring.itm~
-COPY ~TS_Sime/itm/vpfrobe.itm~ ~override/vpfrobe.itm~
-COPY ~TS_Sime/itm/vpfstaff.itm~ ~override/vpfstaff.itm~
-COPY ~TS_Sime/itm/vpfstar.itm~ ~override/vpfstar.itm~
-COPY ~TS_Sime/itm/vpfswor1.itm~ ~override/vpfswor1.itm~
-COPY ~TS_Sime/itm/vpfswor2.itm~ ~override/vpfswor2.itm~
+COPY ~TS_Sime/itm/vpfmace.itm~ ~override~
+COPY ~TS_Sime/itm/vpfpotn1.itm~ ~override~
+COPY ~TS_Sime/itm/vpfpotn2.itm~ ~override~
+COPY ~TS_Sime/itm/vpfpotn3.itm~ ~override~
+COPY ~TS_Sime/itm/vpfring.itm~ ~override~
+COPY ~TS_Sime/itm/vpfrobe.itm~ ~override~
+COPY ~TS_Sime/itm/vpfstaff.itm~ ~override~
+COPY ~TS_Sime/itm/vpfstar.itm~ ~override~
+COPY ~TS_Sime/itm/vpfswor1.itm~ ~override~
+COPY ~TS_Sime/itm/vpfswor2.itm~ ~override~
 
-COPY ~TS_Sime/itm/vparring.itm~ ~override/vparring.itm~
+COPY ~TS_Sime/itm/vparring.itm~ ~override~
 SAY NAME2 @5 
 SAY DESC @6
 
-COPY ~TS_Sime/itm/vpbela.itm~ ~override/vpbela.itm~
+COPY ~TS_Sime/itm/vpbela.itm~ ~override~
  SAY NAME1 @7
  SAY NAME2 @7
  SAY UNIDENTIFIED_DESC @8
  SAY DESC @8
 
-COPY ~TS_Sime/itm/vpshelm.itm~ ~override/vpshelm.itm~
+COPY ~TS_Sime/itm/vpshelm.itm~ ~override~
 SAY NAME2 @9
 SAY DESC @10
 
-COPY ~TS_Sime/itm/vpsbody.itm~ ~override/vpsbody.itm~
+COPY ~TS_Sime/itm/vpsbody.itm~ ~override~
 SAY NAME1 @11
 SAY NAME2 @11
 SAY UNIDENTIFIED_DESC @12
 SAY DESC @12
 
-COPY ~TS_Sime/itm/vpsamul.itm~ ~override/vpsamul.itm~
+COPY ~TS_Sime/itm/vpsamul.itm~ ~override~
 SAY NAME2 @13
 SAY DESC @14
 
-COPY ~TS_Sime/itm/vpscloak.itm~ ~override/vpscloak.itm~
+COPY ~TS_Sime/itm/vpscloak.itm~ ~override~
 SAY NAME2 @15
 SAY DESC @16
 
-COPY ~TS_Sime/itm/vpsleat.itm~ ~override/vpsleat.itm~
+COPY ~TS_Sime/itm/vpsleat.itm~ ~override~
 SAY NAME2 @17
 SAY DESC @18
  
-COPY ~TS_Sime/itm/vpsmace1.itm~ ~override/vpsmace1.itm~
+COPY ~TS_Sime/itm/vpsmace1.itm~ ~override~
 SAY NAME2 @19
 SAY DESC @20
  
-COPY ~TS_Sime/itm/vpsmace2.itm~ ~override/vpsmace2.itm~
+COPY ~TS_Sime/itm/vpsmace2.itm~ ~override~
 SAY NAME2 @21
 SAY DESC @22
 
-COPY ~TS_Sime/itm/vpssling.itm~ ~override/vpssling.itm~
+COPY ~TS_Sime/itm/vpssling.itm~ ~override~
 SAY NAME2 @23
 SAY DESC @24
 
-COPY ~TS_Sime/itm/vpwfig.itm~ ~override/vpwfig.itm~
+COPY ~TS_Sime/itm/vpwfig.itm~ ~override~
 SAY NAME1 @25
 SAY NAME2 @25
 SAY UNIDENTIFIED_DESC @26
 SAY DESC @26
  
-COPY ~TS_Sime/itm/vpwbelt.itm~ ~override/vpwbelt.itm~ 
-COPY ~TS_Sime/itm/vpwring.itm~ ~override/vpwring.itm~ 
-COPY ~TS_Sime/itm/vpwwi1.itm~ ~override/vpwwi1.itm~
-COPY ~TS_Sime/itm/vpwwi2.itm~ ~override/vpwwi2.itm~
+COPY ~TS_Sime/itm/vpwbelt.itm~ ~override~ 
+COPY ~TS_Sime/itm/vpwring.itm~ ~override~ 
+COPY ~TS_Sime/itm/vpwwi1.itm~ ~override~
+COPY ~TS_Sime/itm/vpwwi2.itm~ ~override~
 
 APPEND ~TOOLTIP.2DA~
 ~vpsmace2 99998921 99998922 99998923
@@ -309,78 +265,138 @@ COPY_EXISTING ~TOOLTIP.2DA~ ~override~
 //Creatures
 //////////////////////////////
 
-COPY ~TS_Sime/cre/vpmaid1.cre~ ~override/vpmaid1.cre~
+COPY ~TS_Sime/cre/vparan.cre~ ~override~
+COPY ~TS_Sime/cre/vprthief.cre~ ~override~
+
+COPY ~TS_Sime/cre/vpmaid1.cre~ ~override~
+~TS_Sime/cre/vpmaid2.cre~ ~override~
+~TS_Sime/cre/vpmaid3.cre~ ~override~
+~TS_Sime/cre/vpmaid4.cre~ ~override~
+~TS_Sime/cre/vpmaid5.cre~ ~override~
 SAY NAME1 @27
 SAY NAME2 @27
 
-COPY ~TS_Sime/cre/vpmaid2.cre~ ~override/vpmaid2.cre~
-SAY NAME1 @27
-SAY NAME2 @27
-
-COPY ~TS_Sime/cre/vpmaid3.cre~ ~override/vpmaid3.cre~
-SAY NAME1 @27
-SAY NAME2 @27
-
-COPY ~TS_Sime/cre/vpmaid4.cre~ ~override/vpmaid4.cre~
-SAY NAME1 @27
-SAY NAME2 @27
-
-COPY ~TS_Sime/cre/vpmaid5.cre~ ~override/vpmaid5.cre~
-SAY NAME1 @27
-SAY NAME2 @27
-
-COPY ~TS_Sime/cre/vprthief.cre~ ~override/vprthief.cre~
-
-COPY ~TS_Sime/cre/vpchrdra.cre~ ~override/vpchrdra.cre~
+COPY ~TS_Sime/cre/vpchrdra.cre~ ~override~
 SAY NAME1 @28
 SAY NAME2 @28
 
-COPY ~TS_Sime/cre/vpsimedr.cre~ ~override/vpsimedr.cre~
-SAY NAME1 @29
-SAY NAME2 @29
-
-COPY ~TS_Sime/cre/vpsimesl.cre~ ~override/vpsimesl.cre~
-SAY NAME1 @29
-SAY NAME2 @29
-
-COPY ~TS_Sime/cre/vpsimeva.cre~ ~override/vpsimeva.cre~
-SAY NAME1 @29
-SAY NAME2 @29
-
-COPY ~TS_Sime/cre/vpexlove.cre~ ~override/vpexlove.cre~
+COPY ~TS_Sime/cre/vpexlove.cre~ ~override~
 SAY NAME1 @67
 SAY NAME2 @67
 
-COPY~TS_Sime/cre/vparan.cre~ ~override/vparan.cre~
-
-COPY~TS_Sime/cre/vpwolf.cre~ ~override/vpwolf.cre~
+COPY ~TS_Sime/cre/vpwolf.cre~ ~override~
 SAY NAME1 @68
 SAY NAME2 @68
 
-COPY ~TS_Sime/cre/vpsol.cre~ ~override/vpsol.cre~
+COPY ~TS_Sime/cre/vpsol.cre~ ~override~
 SAY NAME1 @69
 SAY NAME2 @69
 
-COPY ~TS_Sime/cre/vpsola.cre~ ~override/vpsola.cre~
+COPY ~TS_Sime/cre/vpsola.cre~ ~override~
 SAY NAME1 @70
 SAY NAME2 @70
 
-COPY ~TS_Sime/cre/vpsolauf.cre~ ~override/vpsolauf.cre~
+COPY ~TS_Sime/cre/vpsolauf.cre~ ~override~
 SAY NAME1 @71
 SAY NAME2 @71
 
-COPY ~TS_Sime/cre/vpsime.cre~ ~override/vpsime.cre~
-~TS_Sime/cre/vpsime25.cre~ ~override/vpsime25.cre~
-	SAY NAME1 @29
-	SAY NAME2 @29
-	SAY BIO @66
+COPY ~TS_Sime/cre/vpsime.cre~ ~override~
+~TS_Sime/cre/vpsime25.cre~ ~override~
+~TS_Sime/cre/vpsimesl.cre~ ~override~
+~TS_Sime/cre/vpsimedr.cre~ ~override~
+~TS_Sime/cre/vpsimeva.cre~ ~override~
+ SAY NAME1 @29
+ SAY NAME2 @29
+ SAY BIO @66
+
+//////////////////////////
+//Sime in Brynnlaw
+//////////////////////////
+
+BEGIN ~TS Sime replaces original Sime in Brynnlaw~
+DESIGNATED 10 LABEL ~TS-Sime_Brynnlaw~
+
+COMPILE ~TS_Sime/dialogue/vpbrynn.d~
+
+COPY_EXISTING ~cut41b.bcs~ ~override/vp41b.bcs~
+DECOMPILE_AND_PATCH BEGIN
+ REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[3070.3076],S)~ ~~
+END
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~cut41d.bcs~ ~override/vp41dsp.bcs~
+DECOMPILE_AND_PATCH BEGIN
+ REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
+ REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
+END
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~cut41d.bcs~ ~override/vp41dsm.bcs~
+DECOMPILE_AND_PATCH BEGIN
+ REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
+END
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~cut41e.bcs~ ~override/vp41e.bcs~
+DECOMPILE_AND_PATCH BEGIN
+ REPLACE_TEXTUALLY ~\("ppsime"\)~ ~"vpsime"~
+END
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~movie03b.bcs~ ~override/vpmov03b.bcs~
+DECOMPILE_AND_PATCH BEGIN
+ REPLACE_TEXTUALLY ~\("Movie03d"\)~ ~"vpmov03d"~
+END
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~movie03d.bcs~ ~override/vpmov03d.bcs~
+DECOMPILE_AND_PATCH BEGIN
+ REPLACE_TEXTUALLY ~\("Cut41b"\)~ ~"vp41b"~
+END
+ BUT_ONLY_IF_IT_CHANGES
+
+// TSL Crossmod
+ACTION_IF FILE_EXISTS_IN_GAME ~vpkachi.cre~ BEGIN
+ PRINT ~Adding Tortured Souls Lite Compatability...~
+ 
+ OUTER_SET vpsimeppsaemext = STATE_WHICH_SAYS 3 IN ~TorturedSoulsLite/tra/%s/vpppsaem.tra~ FROM ~PPSAEM~
+ OUTER_SET vpkachisailoff1 = STATE_WHICH_SAYS 1 IN ~TorturedSoulsLite/tra/%s/vpsailoff.tra~ FROM ~VPKACHIJ~
+ 
+ COMPILE EVAL ~TS_Sime/dialogue/crossmod/tsl.d~ USING ~TS_Sime/translations/%LANGUAGE%/crossmod.tra~
+ 
+ COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsm.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+   REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
+ END
+  BUT_ONLY_IF_IT_CHANGES
+ 
+  COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsp.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+   REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
+   REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
+ END
+  BUT_ONLY_IF_IT_CHANGES
+ 
+ COPY_EXISTING ~vp41disc.bcs~ ~override/vp41dism.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+   REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+  
+ COPY_EXISTING ~vp41disc.bcs~ ~override/vp41disp.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+   REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
+   REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
 
 ///////////////////////////////
 //Portraits
-//////////////////////////////
+///////////////////////////////
 
 BEGIN ~Sime Default Portrait~
-DESIGNATED 10 LABEL ~TS-Sime_Portrait_Default~
+DESIGNATED 20 LABEL ~TS-Sime_Portrait_Default~
 SUBCOMPONENT ~Sime Portrait~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
@@ -389,7 +405,7 @@ COPY ~TS_Sime/portraits/vpsime1M.bmp~ ~override/vpsimeM.bmp~
 COPY ~TS_Sime/portraits/vpsime1S.bmp~ ~override/vpsimeS.bmp~
 
 BEGIN ~Sime Alternate Portrait (Enkida)~
-DESIGNATED 11 LABEL ~TS-Sime_Portrait_Enkida~
+DESIGNATED 21 LABEL ~TS-Sime_Portrait_Enkida~
 SUBCOMPONENT ~Sime Portrait~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
@@ -402,7 +418,7 @@ COPY ~TS_Sime/portraits/vpsime2S.bmp~ ~override/vpsimeS.bmp~
 //////////////////////////////
 
 BEGIN ~Sime Default Soundset~
-DESIGNATED 20 LABEL ~TS-Sime_Soundset_Default~
+DESIGNATED 30 LABEL ~TS-Sime_Soundset_Default~
 SUBCOMPONENT ~Sime Soundset~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
@@ -456,7 +472,7 @@ LAF HANDLE_AUDIO
 END
 
 BEGIN ~Sime Legacy Soundset~
-DESIGNATED 21 LABEL ~TS-Sime_Soundset_Legacy~
+DESIGNATED 31 LABEL ~TS-Sime_Soundset_Legacy~
 SUBCOMPONENT ~Sime Soundset~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
@@ -512,7 +528,7 @@ END
 //////////////////////////////
 
 BEGIN @72
-DESIGNATED 30 LABEL ~TS-Sime_Voiceset~
+DESIGNATED 40 LABEL ~TS-Sime_Voiceset~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
 LAF HANDLE_AUDIO
@@ -522,44 +538,18 @@ LAF HANDLE_AUDIO
  sox_path = ~TS_Sime/audio~
 END
 
+///////////////////////
 // Crossmod
+///////////////////////
+
 BEGIN ~Sime Crossmod~
-DESIGNATED 40 LABEL ~TS-Sime_Crossmod~
+DESIGNATED 50 LABEL ~TS-Sime_Crossmod~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TS_Sime.tp2~ ~0~) ~Please, install Tortured Souls' Sime Main Component~
 
-// Sime - TSL
 ACTION_IF FILE_EXISTS_IN_GAME ~vpkachi.cre~ BEGIN
-PRINT ~Adding Tortured Souls Lite Compatability...~
+	PRINT ~Adding Sime - Tortured Souls' Kachiko Banters...~
+	COMPILE ~TS_Sime/dialogue/crossmod/tsl-kachiko.d~ USING ~TS_Sime/translations/%LANGUAGE%/crossmod.tra~
 
-OUTER_SET vpsimeppsaemext = STATE_WHICH_SAYS 3 IN ~TorturedSoulsLite/tra/%s/vpppsaem.tra~ FROM ~PPSAEM~
-OUTER_SET vpkachisailoff1 = STATE_WHICH_SAYS 1 IN ~TorturedSoulsLite/tra/%s/vpsailoff.tra~ FROM ~VPKACHIJ~
-
-COMPILE EVAL ~TS_Sime/dialogue/crossmod/torturedsouls.d~ USING ~TS_Sime/translations/%LANGUAGE%/crossmod.tra~
-
-COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsm.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
-END
-	BUT_ONLY_IF_IT_CHANGES
-
-	COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsp.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
-		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
-END
-	BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~vp41disc.bcs~ ~override/vp41dism.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
-	END
-	BUT_ONLY_IF_IT_CHANGES
-	
-COPY_EXISTING ~vp41disc.bcs~ ~override/vp41disp.bcs~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
-		REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
-	END
-	BUT_ONLY_IF_IT_CHANGES
-
+//  PRINT ~Adding Sime - Tortured Souls' Island Interactions...~
+//  COMPILE ~TS_Sime/dialogue/crossmod/tsl.d~ USING ~TS_Sime/translations/%LANGUAGE%/crossmod.tra~
 END
